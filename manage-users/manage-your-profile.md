@@ -46,7 +46,7 @@ description: Edit your account details and set up notification preferences
 
 5\. If you did not receive an OTP, you can click on **Send again** to get a new OTP. **Send again** will only be enabled after 1 minute has passed every-time an OTP is sent. You can also click on **Skip and verify later** to verify the _Mobile Number_ later
 
-![](<../.gitbook/assets/manage\_account\_13 (1).png>)
+![](<../.gitbook/assets/manage\_account\_13 (2).png>)
 
 ### Mobile Number Verification <a href="#mobile-number-verification" id="mobile-number-verification"></a>
 
@@ -62,8 +62,7 @@ description: Edit your account details and set up notification preferences
 
 1. In order to receive Phone and SMS notifications, ensure a valid Mobile Number is entered
 2. Phone and SMS notifications will be disabled if the Mobile Number is not verified
-3. Everytime you change your Mobile Number, you have to verify the new Mobile Number to continue receiving Phone and SMS notifications\
-
+3. Everytime you change your Mobile Number, you have to verify the new Mobile Number to continue receiving Phone and SMS notifications\\
 {% endhint %}
 
 ### While Onboarding <a href="#while-onboarding" id="while-onboarding"></a>
@@ -76,7 +75,7 @@ description: Edit your account details and set up notification preferences
 
 1. Fill in the OTP and click on **Verify** to verify your _Mobile Number_
 2. If you did not receive an OTP, you can click on **Send again** to get a new OTP. **Send again** will only be enabled after 1 minute has passed every-time an OTP is sent
-3. If you want to verify your _Mobile Number_ later, you can select **Skip and verify later**. _Mobile Number_ can be verified in the [**Profile page**](broken-reference)
+3. If you want to verify your _Mobile Number_ later, you can select **Skip and verify later**. _Mobile Number_ can be verified in the [**Profile page**](broken-reference/)
 4. You will then be logged in, irrespective of whether you choose to verify instantly or at a later point in time
 
 ![](../.gitbook/assets/manage\_account\_5.png)
@@ -95,7 +94,7 @@ To verify _Mobile Number_
 
 3\. If you did not receive an OTP, you can click on **Send again** to get a new OTP. **Send again** will only be enabled after 1 minute has passed every-time an OTP is sent. You can also click on **Skip and verify later** to verify the _Mobile Number_ later
 
-![](<../.gitbook/assets/manage\_account\_13 (2).png>)
+![](<../.gitbook/assets/manage\_account\_13 (1).png>)
 
 4\. After verification is complete, the warning message will disappear and you will receive Phone & SMS notifications for incidents
 
@@ -108,11 +107,11 @@ If the Mobile Number is not verified via OTP, the same will be indicated in the 
 
 **In the web app:**
 
-****![](../.gitbook/assets/manage\_account\_14.png)****
+![](../.gitbook/assets/manage\_account\_14.png)
 
 **In the mobile app:**
 
 Navigate to **My Profile**:
 
-![](../.gitbook/assets/manage\_account\_15.png)
+<img src="../.gitbook/assets/manage_account_15.png" alt="" data-size="original">
 {% endhint %}

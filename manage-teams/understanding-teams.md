@@ -25,11 +25,11 @@ This, as the name suggests, is the <mark style="color:red;">`default`</mark> tea
 
 1. Click on **Settings** on the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (4).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
 
 2\. Click on **Teams** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3) (1) (1).png>)
 
 3\. Click on **Default Team**
 
@@ -39,7 +39,7 @@ Here, you will be able to view:
 
 * All the [`Members`](https://support.squadcast.com/docs/add-and-delete-users) of this Team (your entire Organization)
 * The [`Roles`](https://support.squadcast.com/docs/user-permissions-access-controls) of these `Members`
-* The associated [`Entities`](broken-reference)
+* The associated [`Entities`](broken-reference/)
 * Any defined [`Squads`](https://support.squadcast.com/docs/squads)
 * Team-specific `Settings`
 

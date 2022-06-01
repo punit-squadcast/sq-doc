@@ -10,11 +10,11 @@ Add users to your Organization by following the steps below:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_2 (2).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1) (4).png>)
 
 3\. Click on **Add Users** on the top right corner
 
@@ -60,11 +60,11 @@ Remove/delete users added to your Organization by following the steps below:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (5).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_2 (2) (1) (2).png>)
 
 3\. Click on the <mark style="color:red;">`More Options`</mark> icon and select **Delete** to delete the user
 
@@ -72,6 +72,6 @@ Remove/delete users added to your Organization by following the steps below:
 
 4\. If the user is part of any Team, a modal listing all the Teams that the user is a part of, appears as shown below
 
-![](../.gitbook/assets/add\_and\_delete\_users\_team\_list.png)
+![](<../.gitbook/assets/add\_and\_delete\_users\_team\_list (1).png>)
 
 Users who are part of some team can’t be deleted. You’ll have to remove them from the team before deleting them.

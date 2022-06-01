@@ -10,11 +10,11 @@ You can import multiple users to your Organization without having to add them ma
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (5).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (2).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_2 (2) (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1) (3).png>)
 
 3\. Click on **Add Users** on the top right corner
 
