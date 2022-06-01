@@ -1,7 +1,3 @@
-# Kapacitor Reminder Rules
-[Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) is a real-time streaming data processing engine in the TICK stack. It can process both stream and batch data from InfluxDB, acting on this data in real-time via its programming language TICKscript.
-Route detailed alerts from Kapacitor to the right users in Squadcast.
-
 ## How to integrate Kapacitor with Squadcast
 
 ### In Squadcast: Using Kapacitor as an Alert Source
