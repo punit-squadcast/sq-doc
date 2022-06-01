@@ -54,7 +54,7 @@ headers = { Content-Type = "application/json" }
 **(2)** Go to your TICKscript, within *alert* context, set up a [post call to the above configured endpoint](https://docs.influxdata.com/kapacitor/v1.5/event_handlers/post/#example-tickscript-using-a-pre-configured-endpoint)
 
 {% hint style="warning" %}
-<br/><b>Pro Tip:</b>
+<b>Pro Tip:</b>
 <p>In Mac OS, Kapacitor's configuration file is generally in <code class="highlighter-rouge" style="color: #c7254e; background-color: #f9f2f4 !important;">/usr/local/etc/kapacitor.conf</code> and in Linux machines, it generally is in <code class="highlighter-rouge" style="color: #c7254e; background-color: #f9f2f4 !important;">/etc/kapacitor.conf</code></p>
 {% endhint %}
 
