@@ -25,7 +25,7 @@ This, as the name suggests, is the <mark style="color:red;">`default`</mark> tea
 
 1. Click on **Settings** on the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (2) (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (4).png>)
 
 2\. Click on **Teams** from the secondary navigation menu
 

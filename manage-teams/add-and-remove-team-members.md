@@ -10,11 +10,11 @@ description: >-
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (2) (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (4).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team to which a new member needs to be added
 
-![](../.gitbook/assets/add\_and\_delete\_teams\_1.png)
+![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3).png>)
 
 3\. Click on **Members** from the horizontal menu and scroll down to the bottom of the page
 
@@ -28,11 +28,11 @@ description: >-
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (3).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team from which the Team member has to be removed
 
-![](../.gitbook/assets/add\_and\_delete\_teams\_1.png)
+![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3).png>)
 
 3\. Click on **Members** from the horizontal menu and hover over the name of the Team member that needs to be removed
 

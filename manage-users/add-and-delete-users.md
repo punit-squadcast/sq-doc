@@ -10,11 +10,11 @@ Add users to your Organization by following the steps below:
 
 1. Click on **Settings** in the sidebar
 
-![](../.gitbook/assets/add\_and\_delete\_users\_1.png)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 
-![](../.gitbook/assets/add\_and\_delete\_users\_2.png)
+![](<../.gitbook/assets/add\_and\_delete\_users\_2 (2).png>)
 
 3\. Click on **Add Users** on the top right corner
 
@@ -60,7 +60,7 @@ Remove/delete users added to your Organization by following the steps below:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 

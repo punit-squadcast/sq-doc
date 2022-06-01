@@ -74,11 +74,11 @@ Follow the steps below manage Roles for a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (3).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team you want to manage _Roles and Access Controls_ for
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3).png>)
+![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3) (1).png>)
 
 3\. Click on **Roles** from the horizontal menu and you will have the option to <mark style="color:red;">`edit`</mark> or <mark style="color:red;">`delete`</mark> the Roles and Access Controls via the <mark style="color:red;">`More Option`</mark>
 
@@ -102,11 +102,11 @@ Follow the steps below to create a Custom Role for a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (2) (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (4).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team for which you want to add the **Custom Role**
 
-![](../.gitbook/assets/add\_and\_delete\_teams\_1.png)
+![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3).png>)
 
 3\. Click on **Roles** from the horizontal menu and scroll down to the bottom of the page
 

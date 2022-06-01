@@ -18,11 +18,11 @@ Follow the steps below to create a Squad in a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (3).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the **Team** that you want to create a Squad in
 
-![](../.gitbook/assets/add\_and\_delete\_teams\_1.png)
+![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3).png>)
 
 3\. Click on **Squads** from the horizontal menu
 
@@ -38,7 +38,7 @@ Follow the steps below to create a Squad in a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (2) (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (4).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the **Team** that you want to create a Squad in
 
