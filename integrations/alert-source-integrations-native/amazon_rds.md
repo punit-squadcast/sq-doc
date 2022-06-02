@@ -53,9 +53,9 @@ Route detailed alerts from Amazon RDS to the right users in Squadcast.
 
 ![](../../.gitbook/assets/event_rules_4.png)
 
-{% hint style="info" %} 
+{% hint style="warning" %} 
 <b>Important:</b>
-<br/><br/><p>The <b>Subscription ID</b> for the subscription should immediately change to <b>Confirmed</b> from <b>PendingConfirmation</b>. Click on the refresh button to verify the same.</p>
+<p>The <b>Subscription ID</b> for the subscription should immediately change to <b>Confirmed</b> from <b>PendingConfirmation</b>. Click on the refresh button to verify the same.</p>
 {% endhint %}
 
 ### In AWS: Configure Amazon RDS
