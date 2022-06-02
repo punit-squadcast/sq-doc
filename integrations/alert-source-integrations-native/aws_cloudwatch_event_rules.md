@@ -52,7 +52,7 @@ Route detailed alerts from AWS CloudWatch Event Rules to the right users in Squa
 
 ![](../../.gitbook/assets/event\_rules\_4.png)
 
-{% hint style="info" %} 
+{% hint style="warning" %} 
 <b>Important:</b>
 <br/><br/><p>The <b>Subscription ID</b> for the subscription should immediately change to <b>Confirmed</b> from <b>PendingConfirmation</b>. Click on the refresh button to verify the same.</p>
 {% endhint %}
@@ -85,7 +85,7 @@ In this example, we're selecting ` Topic: Instance-state-change`
 
 That's it, you are good to go! Your AWS CloudWatch Event Rules integration is complete. Now, whenever an event is triggered that matches your Event Rules, an incident will be created in Squadcast for it.
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>FAQ:</b>
 <br/><br/><p>Q: If an alert gets resolved in AWS CloudWatch Event Rules, does it send auto-resolve signals to Squadcast?<br/><br/>
 A: No, AWS CloudWatch Event Rules does not send auto-resolve signals to Squadcast. Hence, Squadcast incidents from AWS CloudWatch Event Rules should be resolved manually.</p>
