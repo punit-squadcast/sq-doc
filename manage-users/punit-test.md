@@ -1,4 +1,4 @@
-## How to integrate Kapacitor with Squadcast
+## How to integrate Kapacitor with Squadcast Rashmi
 
 ### In Squadcast: Using Kapacitor as an Alert Source
 
