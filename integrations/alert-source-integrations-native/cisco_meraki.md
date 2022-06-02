@@ -54,7 +54,7 @@ Route detailed alerts from Cisco Meraki to the right users in Squadcast.
 
 That's it, you are good to go! Your Cisco Meraki integration is now complete. Whenever Cisco Meraki fires an alert, an incident will be created in Squadcast for it.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 **Note**:
 
 Incidents will be triggered in Squadcast for the alerts that come in from Cisco Meraki with the key `alertLevel` having values `critical`, `warning` and `informational`.
