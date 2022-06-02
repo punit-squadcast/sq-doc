@@ -62,7 +62,7 @@ In this screenshot, we have checked to include both **AI Alerts** and **Manual A
 
 Now when an event is triggered in Conviva, an incident will be created automatically in Squadcast.
 
-{{site.data.alerts.red-note}}
+{% hint style="info" %} 
 <b>Auto-resolve</b>
-<br/><br/><p>Today, Conviva does not support the auto-resolve functionality due to which, it is unavailable in Squadcast.</p>
+<p>Today, Conviva does not support the auto-resolve functionality due to which, it is unavailable in Squadcast.</p>
 {% endhint %}
