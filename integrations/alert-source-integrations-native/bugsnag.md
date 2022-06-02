@@ -56,9 +56,9 @@ Route detailed error alerts from Bugsnag to the right users in Squadcast.
 
 **(6)** Click on the Webhook to configure when you should be notified for errors by enabling different options in the **Notify me when** section. Here is [Bugsnag's documentation](https://docs.bugsnag.com/product/integrations/data-forwarding/webhook/) to understand what each of these settings mean and when you would be notified
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>Note:</b>
-<br/><br/><p>Except for "This project has a spike in errors" and "This project has a new release", every other "Notify me when" type is supported.</p>
+<p>Except for "This project has a spike in errors" and "This project has a new release", every other "Notify me when" type is supported.</p>
 {% endhint %}
 
 ![](../../.gitbook/assets/bugsnag\_7.png)
