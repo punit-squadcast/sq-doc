@@ -63,7 +63,7 @@ Route detailed alerts from Grafana to the right users in Squadcast.
 <ul><li><a href="https://grafana.com/docs/grafana/latest/installation/configuration/#external-image-storage" target="_blank">Configuring External Image Storage in Grafana</a></li><li><a href="https://grafana.com/docs/grafana/latest/alerting/notifications/#external-image-store" target="_blank">Sending Images to your Incident Alerting Tool</a></li></ul></p>
 {% endhint %}
 
-{% hint style="info" %} 
+{% hint style="warning" %} 
 <b>Important: Auto Resolve</b>
 <p>If you would like to enable <b>Auto-Resolve</b> in Squadcast, then make sure the <b>Disable Resolve Message</b> is unchecked.</p>
 {% endhint %}
