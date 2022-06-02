@@ -33,9 +33,9 @@ Head over to the platform from where you want to route alerts into Squadcast. Na
 
 That's it, your Email integration is now good to go!
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>Note</b>
-<br/><br/><p>The Incident Message will be the subject of the Email and the Incident Description will contain the body of the Email</p>
+<p>The Incident Message will be the subject of the Email and the Incident Description will contain the body of the Email</p>
 {% endhint %}
 
 ## How-to: Configure the Email Prefix for a new Service
@@ -80,12 +80,12 @@ That's it, your Email integration is now good to go!
 
 Now, whenever an Email is sent to the Email address of the Service, Squadcast will trigger an incident for it.
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>Note</b>
-<br/><br/><p>This integration does not support <b>auto-resolution</b> of incidents. If the platform you are using resolves an alert, you will have to manually resolve the corresponding incident in Squadcast via the <a href="https://www.app.squadcast.com">web app</a> or the <a href="using-the-mobile-app">Squadcast mobile app</a></p>
+<p>This integration does not support <b>auto-resolution</b> of incidents. If the platform you are using resolves an alert, you will have to manually resolve the corresponding incident in Squadcast via the <a href="https://www.app.squadcast.com">web app</a> or the <a href="using-the-mobile-app">Squadcast mobile app</a></p>
 {% endhint %}
 
-{{site.data.alerts.blue-note-md}}
+{% hint style="warning" %} 
 **Important**
 
 - If you are sending regular emails - emails in the `text/html` format, URLs for images will appear as URLs only. If the image is added inline, only the name of the file will appear and not the image. However, please note that if the image is added as an attachment, it will not show up in the payload (and hence, the Incident Description).

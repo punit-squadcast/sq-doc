@@ -9,9 +9,9 @@ last_updated:
 folder: mydoc
 ---
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>Note: </b>
-<br/><br/><p>We'll be using Watcher (formerly known as X-Pack Alerting) for getting alerts from Elastic.
+<p>We'll be using Watcher (formerly known as X-Pack Alerting) for getting alerts from Elastic.
 You need to setup watcher for your elastic cluster. For more information on that, visit <a href="https://www.elastic.co/guide/en/elasticsearch/reference/6.3/watcher-getting-started.html" target=_blank>Getting Started with Watcher</a></p>
 {% endhint %}
 
