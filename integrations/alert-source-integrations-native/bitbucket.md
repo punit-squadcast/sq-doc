@@ -55,8 +55,8 @@ Click on **Save**
 
 ![](../../.gitbook/assets/bitbucket\_5.png)
 
-{{site.data.alerts.yellow-note-i-md}}
-**NOTE:** 
+{% hint style="info" %}
+**Note:** 
 
 This integration supports the below events:
 - `Repository push`

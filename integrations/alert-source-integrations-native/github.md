@@ -60,8 +60,8 @@ You can configure a webhook for a group or a project.
 
 ![](../../.gitbook/assets/github\_6.png)
 
-{{site.data.alerts.yellow-note-i-md}}
-**NOTE:** 
+{% hint style="info" %}
+**Note:** 
 
 This integration supports the below GitHub events:
  + `Issues` (Supports auto-resolution)

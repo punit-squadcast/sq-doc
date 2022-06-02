@@ -13,7 +13,7 @@ This document will help you configure Incident Webhook to route alerts from moni
 
 Route detailed monitoring alerts coming in via Incident Webhook to the right users in Squadcast.
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 We also support outgoing webhooks. You can find detailed information on how to configure them [here](https://support.squadcast.com/docs/outgoing-webhooks).

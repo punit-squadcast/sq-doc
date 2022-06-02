@@ -35,7 +35,7 @@ Route detailed events from Sysdig Monitor to the right users in Squadcast.
 
 ### In Sysdig Monitor: Add a Notification Channel for Squadcast
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 You can add a Notification Channel in Sysdig Monitor only if your user has the right permissions. More information on this is available [here](https://docs.sysdig.com/en/set-up-notification-channels.html).
@@ -75,7 +75,7 @@ You can add a Notification Channel in Sysdig Monitor only if your user has the r
 
 ![](../../.gitbook/assets/sysdig\_6.png)
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 When you **save** the Webhook, a **test alert** is sent to Squadcast for which Squadcast creates a **test incident**. This will verify that the Webhook is working as expected.

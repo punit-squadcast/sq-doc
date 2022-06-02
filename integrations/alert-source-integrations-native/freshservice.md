@@ -100,7 +100,7 @@ ticket_requester_phone
 
 ![](../../.gitbook/assets/freshservice\_8.png)
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 The **Test Webhook** option sends empty data on the configured **Callback URL**. As a result, since no data is available in the alert payload, no incident is created in Squadcast for it. **Please create a test ticket post configuring this webhook as indicated in this document to see a test incident created for it in Squadcast**, to ensure that the configuration is working as expected.
@@ -134,7 +134,7 @@ The **Test Webhook** option sends empty data on the configured **Callback URL**.
 - **Status** `Resolved` -> **to resolve incident at Squadcast**
 - **Status** `Closed` -> **to resolve incident at Squadcast**
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 If you have configured [Custom Statuses](https://support.freshservice.com/support/solutions/articles/156452-customizing-helpdesk-statuses) in Freshservice and want to use one of the configured Custom Statuses for ticket creation/resolution (in turn, triggering/resolving corresponding incidents in Squadcast), kindly reach out to <a href="mailto:support@squadcast.com">support@squadcast.com</a> for further details on this.

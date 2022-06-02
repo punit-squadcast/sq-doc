@@ -110,7 +110,7 @@ Find more details on Rule creation [here](https://support.freshdesk.com/support/
 
 That is it, you are now good to go! Whenever a ticket is `created` or `updated`, an incident will be created in Squadcast. When the ticket is either `resolved` or `closed` in Freshdesk, the corresponding incident will automatically get resolved in Squadcast as well.
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 Please ensure you are not sending the **<** character or any **HTML Tag** within the ticket description that would come in the **Description** ticket variable. This will cause the content of the description to break and the entire information will not be displayed.

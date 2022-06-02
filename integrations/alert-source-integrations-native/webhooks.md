@@ -17,7 +17,7 @@ Setting up a webhook on Squadcast enables you to receive information (referred t
 
 The rest of this document will explain how you can set up these webhooks, as well as list the events that can be sent to your webhook destinations.
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 This new feature is currently in `Beta` and is accessible in all of our [plans](https://squadcast.com/pricing). We will be enhancing the feature from time to time and the documentation around it is hence, subject to change. 
@@ -26,7 +26,7 @@ If you have queries or suggestions, please feel free to reach out to our [Suppor
 
 {% endhint %}
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 We also support generic incoming webhooks for incident creation. You can find detailed information on how to use those [here](https://support.squadcast.com/docs/apiv2).
@@ -77,7 +77,7 @@ A webhook call is made using the `HTTP POST` method to the URL(s) that were adde
 
 Squadcast expects that the server that responds to the webhook to return a `2xx` response code upon success. If a non-2xx response is received, **Squadcast will retry the request for a maximum of 3 times**. 
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 The exact details of the retry policy are currently not being tracked. This is subject to change during the Beta period.
@@ -124,7 +124,7 @@ They are:
 - Triggering internal notification systems to alert people when incidents are created/resolved
 - Building your own automation plug-ins and tools
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 We will be coming up with *Webhook Connectors* soon, to show how our webhooks can be easily connected to other well known third party applications. 

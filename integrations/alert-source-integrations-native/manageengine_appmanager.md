@@ -36,7 +36,7 @@ Route detailed alerts from ManageEngine Application Manager to the right users i
 
 ![](../../.gitbook/assets/manageengine\_appmanager\_1.png)
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="info" %}
 **Note:**
 
 You can configure a webhook for either a Group or a Project.

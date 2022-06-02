@@ -52,8 +52,8 @@ You can configure a Webhook for a group or a project.
 
 ![](../../.gitbook/assets/gitlab\_4.png)
 
-{{site.data.alerts.yellow-note-i-md}}
-**NOTE:** 
+{% hint style="info" %}
+**Note:** 
 
 This integration supports the below GitLab events: 
  + `Issues` (Supports auto-resolution)
