@@ -54,7 +54,7 @@ Route detailed alerts from AWS CloudWatch Event Rules to the right users in Squa
 
 {% hint style="warning" %} 
 <b>Important:</b>
-<br/><br/><p>The <b>Subscription ID</b> for the subscription should immediately change to <b>Confirmed</b> from <b>PendingConfirmation</b>. Click on the refresh button to verify the same.</p>
+<p>The <b>Subscription ID</b> for the subscription should immediately change to <b>Confirmed</b> from <b>PendingConfirmation</b>. Click on the refresh button to verify the same.</p>
 {% endhint %}
 
 ### In AWS: Configure CloudWatch Event Rules
