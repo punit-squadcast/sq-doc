@@ -56,6 +56,7 @@ That's it, you are good to go! Your Cisco Meraki integration is now complete. Wh
 
 {% hint style="warning" %}
 **Note**:
+
 Incidents will be triggered in Squadcast for the alerts that come in from Cisco Meraki with the key `alertLevel` having values `critical`, `warning` and `informational`.
 {% endhint %}
 
