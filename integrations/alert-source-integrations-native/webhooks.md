@@ -40,17 +40,17 @@ If you do not have access to this feature, please contact your administrator to 
 
 Navigate to **Settings** > **Permissions** and enable the checkbox under **Webhooks** for the desired users.
 
-![](../.gitbook/assets/webhooks\_0.png)
+![](../../.gitbook/assets/webhooks\_0.png)
 
 ## Setup a Webhook
 
 **(1)** Navigate to **Settings > Webhooks**. Click on the **+** icon
 
-![](../.gitbook/assets/webhooks\_1.png)
+![](../../.gitbook/assets/webhooks\_1.png)
 
 **(2)** Enter a suitable name and click on **Create**
 
-![](../.gitbook/assets/webhooks\_2.png)
+![](../../.gitbook/assets/webhooks\_2.png)
 
 You can now proceed to configuring the newly created webhook.
 
@@ -63,7 +63,7 @@ The webhook that you have configured can be triggered for certain events occurri
 - [Incident `acknowledged`](outgoing-webhooks#incident-acknowledged)
 - [Incident `resolved`](outgoing-webhooks#incident-resolved)
 
-![](../.gitbook/assets/webhooks\_3.png)
+![](../../.gitbook/assets/webhooks\_3.png)
 
 You can choose multiple triggers for a webhook. Information is sent to the provided URLs if any of the triggers match.
 
@@ -88,29 +88,29 @@ The exact details of the retry policy are currently not being tracked. This is s
 
 We support the addition of multiple URL endpoints, with `POST`, `PUT` and `PATCH` methods. Incident payloads will be sent to all the URL endpoints that are added. You can also configure *additional headers*. These headers will get attached to all the webhook calls that will be made based on this configuration. 
 
-![](../.gitbook/assets/webhooks\_4.png)
+![](../../.gitbook/assets/webhooks\_4.png)
 
 ## Filters
 
 You can filter on top of events from the **Services** and **Alert Sources** drop-downs, either by having an individual expression or a combination of expressions/expression groups.
 
-![](../.gitbook/assets/webhooks\_5.png)
+![](../../.gitbook/assets/webhooks\_5.png)
 
 ## Logs
 
 Once the webhook call has been made, you can view the logs for it in the **Logs** tab.
 
-![](../.gitbook/assets/webhooks\_6.png)
+![](../../.gitbook/assets/webhooks\_6.png)
 
 Click on the expand icon on any of the individual logs to view the payload that has been sent across.
 
-![](../.gitbook/assets/webhooks\_7.png)
+![](../../.gitbook/assets/webhooks\_7.png)
 
 ## Additional Settings
 
 Configure the **Name**, **Description** and **Failure Notification email** in the **Settings** tab. This is particularly helpful when you (or an administrator) would want to be notified for webhook-related failures.
 
-![](../.gitbook/assets/webhooks\_8.png)
+![](../../.gitbook/assets/webhooks\_8.png)
 
 ## Use-cases for Webhooks
 

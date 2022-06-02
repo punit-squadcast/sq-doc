@@ -19,7 +19,7 @@ In the Slack channel from which you want to create an incident in Squadcast, per
 
 **(1)** Invoke the *Squadcast Bot* by calling out `@squadcast`
 
-![](../.gitbook/assets/slack_1.png)
+![](../../.gitbook/assets/slack_1.png)
 
 **(2)** Once the bot is added, you will be able to take actions with respect to incidents directly from Slack
 
@@ -30,7 +30,7 @@ In the Slack channel from which you want to create an incident in Squadcast, per
 
 You can call out `/create_incident help` to walk you through the process within your Slack channel to guide you through the process.
 
-![](../.gitbook/assets/slack_2.png)
+![](../../.gitbook/assets/slack_2.png)
 {{site.data.alerts.end}}
 
 The command that is used to create an incident from Slack is:
@@ -43,18 +43,18 @@ The command that is used to create an incident from Slack is:
 You can call the `/create_incident` or `/create_incident <Incident Message Text>` command to create an incident from Slack.
 {{site.data.alerts.end}}
 
-![](../.gitbook/assets/slack_3.png)
+![](../../.gitbook/assets/slack_3.png)
 
 This will then prompt a UI pop-up where you can fill in additional information such as:
 - Impacted **Service**
 - **Incident Message**
 - **Incident Description**
 
-![](../.gitbook/assets/slack_4.png)
+![](../../.gitbook/assets/slack_4.png)
 
 This newly created incident will now show up immediately in the Slack channel and in Squadcast as well. In Squadcast, you can navigate to either [Incident Dashboard](https://support.squadcast.com/docs/incident-dashboard) or [Incident List](https://support.squadcast.com/docs/incident-list-table-view) to view the newly triggered incident.
 
-![](../.gitbook/assets/slack_create_incident_success_2.png)
+![](../../.gitbook/assets/slack_create_incident_success_2.png)
 
 ### Using Message Actions in Slack
 
@@ -62,19 +62,19 @@ You can also choose to create an incident from an existing message in the Slack 
 
 **(1)** Click on the **More Actions** icon for the chosen message
 
-![](../.gitbook/assets/slack_6.png)
+![](../../.gitbook/assets/slack_6.png)
 
 **(2)** Choose the **Create Incident** option from the dropdown shown
 
-![](../.gitbook/assets/slack_7.png)
+![](../../.gitbook/assets/slack_7.png)
 
 **(3)** In the UI pop-up, fill in all the relevant information needed to create the incident
 
-![](../.gitbook/assets/slack_8.png)
+![](../../.gitbook/assets/slack_8.png)
 
 The incident has now been created successfully.
 
-![](../.gitbook/assets/slack_message_action_create_incident_success.png)
+![](../../.gitbook/assets/slack_message_action_create_incident_success.png)
 
 
 {{site.data.alerts.note-md}}

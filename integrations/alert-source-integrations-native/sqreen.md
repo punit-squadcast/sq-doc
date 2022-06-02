@@ -17,11 +17,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Sqreen** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/sqreen\_1.png)
+![](../../.gitbook/assets/sqreen\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -35,14 +35,14 @@ Squadcast will then process this information to create incidents for this servic
 
 2.And click the **settings** button 
 
-![](../.gitbook/assets/sqreen\_2.png)
+![](../../.gitbook/assets/sqreen\_2.png)
 
 3.Click on the **Integrations** tab.
 
 Come to down to the Webhook page and paste the **Webhook URL** in the URL text box and click on 
 the **Save Webhook** button.
 
-![](../.gitbook/assets/sqreen\_3.png)
+![](../../.gitbook/assets/sqreen\_3.png)
 
 
 Now you're all set & good to go.

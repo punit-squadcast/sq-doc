@@ -21,11 +21,11 @@ Route detailed events from Pingdom to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Pingdom** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/pingdom_1.png)
+![](../../.gitbook/assets/pingdom_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,11 +37,11 @@ Route detailed events from Pingdom to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Settings** and select **Integrations**
 
-![](../.gitbook/assets/pingdom_2.png)
+![](../../.gitbook/assets/pingdom_2.png)
 
 **(2)** Click on **Add integration** on the top right
 
-![](../.gitbook/assets/pingdom_3.png)
+![](../../.gitbook/assets/pingdom_3.png)
 
 **(3)** Here:
 
@@ -55,17 +55,17 @@ Route detailed events from Pingdom to the right users in Squadcast.
 
 - Finally, click on **Save integration**
 
-![](../.gitbook/assets/pingdom_4.png)
+![](../../.gitbook/assets/pingdom_4.png)
 
 **(4)** Back in your **Integrations** page, you should now be able to see the newly added Webhook for Squadcast
 
-![](../.gitbook/assets/pingdom_5.png)
+![](../../.gitbook/assets/pingdom_5.png)
 
 **(5)** Now, associate this integration to any of yours checks on Pingdom
 
 Here, we have simply associated this Webhook integration with one of Pingdom's Uptime Checks.
 
-![](../.gitbook/assets/pingdom_6.png)
+![](../../.gitbook/assets/pingdom_6.png)
 
 **Note**: Please check the **Alert when back up** checkbox. If this is not done, when an alert recovers in Pingdom, the corresponding incident for in Squadcast will not get **auto-resolved**.
 
@@ -75,7 +75,7 @@ Here, we have simply associated this Webhook integration with one of Pingdom's U
 
 To check if the configured Webhook integration is functioning as expected, within your **Checks**, you have an option to do so. Against the configured Squadcast Webhook, click on **Test**. This generates a test alert to Squadcast. In Squadcast, you will be able to see the test incident created by this alert from Pingdom in the Incident Dashboard or the Incident List. This will confirm that the integration is working fine. You will have to **manually resolve** this incident in Squadcast.
 
-![](../.gitbook/assets/pingdom_7.png)
+![](../../.gitbook/assets/pingdom_7.png)
 {{site.data.alerts.end}}
 
 

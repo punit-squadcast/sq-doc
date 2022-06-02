@@ -17,7 +17,7 @@ The below Organization-level entities can be managed by enabling the checkboxes 
 5. Postmortem Templates
 6. Billing
 
-![](../.gitbook/assets/user\_permissions\_access\_controls\_1.png)
+![](../../.gitbook/assets/user\_permissions\_access\_controls\_1.png)
 
 ### Understanding Organization-level Permissions <a href="#understanding-organization-level-permissions" id="understanding-organization-level-permissions"></a>
 

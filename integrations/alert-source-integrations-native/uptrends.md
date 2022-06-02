@@ -20,11 +20,11 @@ Route detailed alerts from Uptrends to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Uptrends** from the **Alert Source** drop-down menu and copy the Webhook
 
-![](../.gitbook/assets/uptrends\_1.png)
+![](../../.gitbook/assets/uptrends\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,31 +36,31 @@ Route detailed alerts from Uptrends to the right users in Squadcast.
 
 **(1)** Click the **+** button next to **Integrations** under the **Alerting** drop-down menu
 
-![](../.gitbook/assets/uptrends\_2.png)
+![](../../.gitbook/assets/uptrends\_2.png)
 
 **(2)** Select **Uptrends integration** under **Custom integrations** and click on **Choose**
 
-![](../.gitbook/assets/uptrends\_3.png)
+![](../../.gitbook/assets/uptrends\_3.png)
 
 **(3)** Fill the form as shown in the below screenshot and click on **Save**. 
 
-![](../.gitbook/assets/uptrends\_4.png)
+![](../../.gitbook/assets/uptrends\_4.png)
 
 **(4)** You can send a test alert by clicking the **Start test** button
 
-![](../.gitbook/assets/uptrends\_7.png)
+![](../../.gitbook/assets/uptrends\_7.png)
 
 You should get a response like in the screenshot below
 
-![](../.gitbook/assets/uptrends\_8.png)
+![](../../.gitbook/assets/uptrends\_8.png)
 
 **(5)** Click the **+** button next to **Alert definitions** under the **Alerting** drop-down menu
 
-![](../.gitbook/assets/uptrends\_5.png)
+![](../../.gitbook/assets/uptrends\_5.png)
 
 **(6)** Provide any suitable Name, check **Active** and **All monitors** checkbox and click on **Save**
 
-![](../.gitbook/assets/uptrends\_6.png)
+![](../../.gitbook/assets/uptrends\_6.png)
 
 You can find more information on setting this up [here](https://www.uptrends.com/support/kb/integrations/custom-integrations).
 

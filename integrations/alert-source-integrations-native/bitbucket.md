@@ -20,11 +20,11 @@ Route detailed alerts from Bitbucket to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Bitbucket** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/bitbucket\_1.png)
+![](../../.gitbook/assets/bitbucket\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,15 +36,15 @@ Route detailed alerts from Bitbucket to the right users in Squadcast.
 
 **(1)** Open the repository where you want to add the Webhook for Squadcast and click on **Repository settings**
 
-![](../.gitbook/assets/bitbucket\_2.png)
+![](../../.gitbook/assets/bitbucket\_2.png)
 
 **(2)** From the links on the **Settings** page, click the **Webhooks** link
 
-![](../.gitbook/assets/bitbucket\_3.png)
+![](../../.gitbook/assets/bitbucket\_3.png)
 
 **(3)** Select the **Add webhook** button to create a Webhook for the repository
 
-![](../.gitbook/assets/bitbucket\_4.png)
+![](../../.gitbook/assets/bitbucket\_4.png)
 
 **(4)** In the **Add new webhook** page, enter a **Title**, paste the previously copied Webhook URL from Squadcast and select the below in the **Triggers** field:
 - `Repository push`
@@ -53,7 +53,7 @@ Route detailed alerts from Bitbucket to the right users in Squadcast.
 
 Click on **Save**
 
-![](../.gitbook/assets/bitbucket\_5.png)
+![](../../.gitbook/assets/bitbucket\_5.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **NOTE:** 

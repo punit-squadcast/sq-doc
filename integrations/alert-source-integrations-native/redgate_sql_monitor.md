@@ -16,11 +16,11 @@ Route detailed alerts from Redgate SQL Monitor to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Redgate SQL Monitor** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/redgate_sql_monitor_1.png)
+![](../../.gitbook/assets/redgate_sql_monitor_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -32,17 +32,17 @@ Route detailed alerts from Redgate SQL Monitor to the right users in Squadcast.
 
 **(1)** Login to your Redgate SQL Monitor dashboard. Head over to the **Configuration** tab. Then under **Alerts and Metrics**, select **Notification settings**
 
-![](../.gitbook/assets/redgate_sql_monitor_2.png)
+![](../../.gitbook/assets/redgate_sql_monitor_2.png)
 
 **(2)** Scroll to the **Webhook notifications** section, and choose when a SQL Monitor should send messages to your Webhook
 
-![](../.gitbook/assets/redgate_sql_monitor_3.png)
+![](../../.gitbook/assets/redgate_sql_monitor_3.png)
 
 **(3)** You can choose to send the **Default message** itself by selecting the radio button. Paste the previously copied Squadcast Webhook URL in the placeholder for **URL**. 
 
 You can also click on **Preview and test** to test the alert. This will create a test incident in Squadcast.
 
-![](../.gitbook/assets/redgate_sql_monitor_4.png)
+![](../../.gitbook/assets/redgate_sql_monitor_4.png)
 
 
 That's it, you are good to go! Your Redgate SQL Monitor integration is now complete. Whenever Redgate SQL Monitor fires an alert with **Status : Raised** or **Escalated**, an incident will be created in Squadcast for it. Also, when an alert status has changed to **Ended** in Redgate SQL Monitor, the corresponding incident gets **auto-resolved** in Squadcast.

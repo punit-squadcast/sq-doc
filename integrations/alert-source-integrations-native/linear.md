@@ -16,11 +16,11 @@ Route detailed alerts from Linear to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Linear** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/linear\_1.png)
+![](../../.gitbook/assets/linear\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -32,15 +32,15 @@ Route detailed alerts from Linear to the right users in Squadcast.
 
 **(1)** Login to your Linear dashboard. Head over to the **Workspace** tab. Click on the **Workspace** name, then select **Workspace settings**
 
-![](../.gitbook/assets/linear\_2.png)
+![](../../.gitbook/assets/linear\_2.png)
 
 **(2)** Under the **Settings** menu, scroll to the **Account** section and choose **API**. Then under **Webhooks**, click on **New webhook**
 
-![](../.gitbook/assets/linear\_3.png)
+![](../../.gitbook/assets/linear\_3.png)
 
 **(3)** Set a **Label** for the webhook. Paste the previously copied Squadcast Webhook URL in the placeholder for **URL**. Select **Event types** and the **Teams** for which the webhook should send alerts. Then click on **Create webhook**
 
-![](../.gitbook/assets/linear\_4.png)
+![](../../.gitbook/assets/linear\_4.png)
 
 
 That's it, you are good to go! Your Linear integration is now complete. Whenever Linear fires an alert for an issue created in the integrated workspace, an incident will be created in Squadcast for it. Also, when the issue status has changed to **Done** in Linear, the corresponding incident gets **auto-resolved** in Squadcast.

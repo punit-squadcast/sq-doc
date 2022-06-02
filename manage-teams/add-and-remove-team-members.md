@@ -10,11 +10,11 @@ description: >-
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team to which a new member needs to be added
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1).png>)
 
 3\. Click on **Members** from the horizontal menu and scroll down to the bottom of the page
 
@@ -22,23 +22,23 @@ description: >-
 
 5\. Click on **Add Members** and confirm their addition into the Team
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_5 (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_teams\_5 (1).png>)
 
 ### Remove a Member from a Team <a href="#remove-a-member-from-a-team" id="remove-a-member-from-a-team"></a>
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (4).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (4).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team from which the Team member has to be removed
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1).png>)
 
 3\. Click on **Members** from the horizontal menu and hover over the name of the Team member that needs to be removed
 
 4\. Click on **Remove** via <mark style="color:red;">`More Options`</mark> corresponding to the concerned Team member & confirm **Remove** in the pop-up window to remove the member from the Team
 
-![](../.gitbook/assets/add\_and\_delete\_teams\_6.png)
+![](../../.gitbook/assets/add\_and\_delete\_teams\_6.png)
 
 1. If the Team member to be removed is a part of any of the entities (Incidents, Escalation Policies, Schedules) that belong to the Team, a modal displaying those details will appear
 2. Now, select the Team member who will replace the one who is being removed using the available drop-down

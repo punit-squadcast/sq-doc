@@ -20,11 +20,11 @@ Route detailed events from Threat Stack to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Threat Stack** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/threat\_stack\_1.png)
+![](../../.gitbook/assets/threat\_stack\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,15 +36,15 @@ Route detailed events from Threat Stack to the right users in Squadcast.
 
 **(1)** From the Home Page, go to **Settings**
 
-![](../.gitbook/assets/threat\_stack\_2.png)
+![](../../.gitbook/assets/threat\_stack\_2.png)
 
 **(2)** Select the **Integrations** tab
 
-![](../.gitbook/assets/threat\_stack\_3.png)
+![](../../.gitbook/assets/threat\_stack\_3.png)
 
 **(3)** Scroll below to **Webhook API**. Give it a **Name**, paste the Webhook URL copied from Squadcast under **URL** and pick **Alert Severity** from the drop down to suit your needs. Click on **Save**
 
-![](../.gitbook/assets/threat\_stack\_4.png)
+![](../../.gitbook/assets/threat\_stack\_4.png)
 
 {{site.data.alerts.blue-note}}
 <b>Pro Tip:</b>

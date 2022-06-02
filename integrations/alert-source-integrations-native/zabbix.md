@@ -20,11 +20,11 @@ Route detailed monitoring alerts from Zabbix to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Zabbix** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/zabbix\_1.png)
+![](../../.gitbook/assets/zabbix\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -68,7 +68,7 @@ Script Parameters:
 
 Additionally, ensure **Enabled** checkbox is selected and then click on **Add**
 
-![](../.gitbook/assets/zabbix\_2.png)
+![](../../.gitbook/assets/zabbix\_2.png)
 
 **(4)** Now you can add this Media Type to any User/s of Zabbix. To do so, navigate to **Administration** tab and select **Users** from the drop-down. Here, select **Media** tab and click on **Add**
 
@@ -78,19 +78,19 @@ Additionally, ensure **Enabled** checkbox is selected and then click on **Add**
 - *Use if severity*: Select appropriate checkboxes
 - Click on **Add** to save the Media for the User
 
-![](../.gitbook/assets/zabbix\_3.png)
+![](../../.gitbook/assets/zabbix\_3.png)
 
 **(5)** Make sure you click on **Update** button in the **Media** page to save these details
 
-![](../.gitbook/assets/zabbix\_4.png)
+![](../../.gitbook/assets/zabbix\_4.png)
 
 **(6)** Navigate to the **Configuration** tab and click on **Actions**. Click on **Create Action** and enter a meaningful name, such as **Squadcast Notifications**
 
-![](../.gitbook/assets/zabbix\_5.png)
+![](../../.gitbook/assets/zabbix\_5.png)
 
 **(7)** Switch to **Operations**" tab on the same page and configure the parameters as per your requirements 
 
-![](../.gitbook/assets/zabbix\_6.png)
+![](../../.gitbook/assets/zabbix\_6.png)
 
 Copy-paste the following in the ‘Default Message’ field: 
 
@@ -106,7 +106,7 @@ severity:{TRIGGER.SEVERITY}
 url:{TRIGGER.URL}
 ```
 
-![](../.gitbook/assets/zabbix\_7.png)
+![](../../.gitbook/assets/zabbix\_7.png)
 
 **(8)** Similarly, switch to **Recovery operations** tab and configure the following: 
 Copy-paste the following in the ‘Default Message’ field:
@@ -123,7 +123,7 @@ severity:{TRIGGER.SEVERITY}
 url:{TRIGGER.URL}
 ```
 
-![](../.gitbook/assets/zabbix\_8.png)
+![](../../.gitbook/assets/zabbix\_8.png)
 
 **(9)** Finally click on **Add** to save **Squadcast Notifications**
 

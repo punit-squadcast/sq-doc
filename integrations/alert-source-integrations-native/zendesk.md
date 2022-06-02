@@ -20,11 +20,11 @@ Route detailed ticket alerts from Zendesk to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Zendesk** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/zendesk\_1.png)
+![](../../.gitbook/assets/zendesk\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,19 +36,19 @@ Route detailed ticket alerts from Zendesk to the right users in Squadcast.
 
 **(1)** In the app, click the **Zendesk Products** icon in the top bar, and then click on **Admin Center**
 
-![](../.gitbook/assets/zendesk\_2.png)
+![](../../.gitbook/assets/zendesk\_2.png)
 
 **(2)** Click on **Integration settings**
 
-![](../.gitbook/assets/zendesk\_3.png)
+![](../../.gitbook/assets/zendesk\_3.png)
 
 **(3)** Click on **Webhooks**
 
-![](../.gitbook/assets/zendesk\_4.png)
+![](../../.gitbook/assets/zendesk\_4.png)
 
 **(4)** Click on **Actions** and then, select **Create webhook**
 
-![](../.gitbook/assets/zendesk\_5.png)
+![](../../.gitbook/assets/zendesk\_5.png)
 
 **(5)** Fill in the details as indicated below
 
@@ -59,7 +59,7 @@ Route detailed ticket alerts from Zendesk to the right users in Squadcast.
 
 Then, click on **Create**
 
-![](../.gitbook/assets/zendesk\_6.png)
+![](../../.gitbook/assets/zendesk\_6.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **Testing the configured Squadcast Webhook:**
@@ -86,25 +86,25 @@ Then, click on **Create**
 
 Back in Squadcast, you will now be able to see a test incident created for this test alert, thus concluding that the integration is working as expected.
 
-![](../.gitbook/assets/zendesk\_13.png)
+![](../../.gitbook/assets/zendesk\_13.png)
 {{site.data.alerts.end}}
 
 **(6)** In the Zendesk Support interface, click on the **Admin** icon in the sidebar, then select **Business Rules > Triggers**
 
-![](../.gitbook/assets/zendesk\_7.png)
+![](../../.gitbook/assets/zendesk\_7.png)
 
 **(7)** [Create a new trigger](https://support.zendesk.com/hc/en-us/articles/203662106) by clicking on **Add trigger**
 
-![](../.gitbook/assets/zendesk\_8.png)
+![](../../.gitbook/assets/zendesk\_8.png)
 
 **(8)** Fill form as shown in screenshot (you can put your own checks):
 
-![](../.gitbook/assets/zendesk\_9.png)
+![](../../.gitbook/assets/zendesk\_9.png)
 
 
 **(9)** Under **Actions**, click on **Add action**. Select **Notify active webhook** and then select your webhook and paste the below json in the placeholder for **JSON body**
 
-![](../.gitbook/assets/zendesk\_10.png)
+![](../../.gitbook/assets/zendesk\_10.png)
 
 {% raw %}
 ```json
@@ -147,7 +147,7 @@ Find more details on _Rule Creation_ [here](https://support.zendesk.com/hc/en-us
 
 **(a)** Click on **Add > Ticket** or,
 
-![](../.gitbook/assets/zendesk\_11.png)
+![](../../.gitbook/assets/zendesk\_11.png)
 
 **(b)** Fill in the fields as shown below:
 
@@ -158,6 +158,6 @@ Find more details on _Rule Creation_ [here](https://support.zendesk.com/hc/en-us
 
 Then, click on **Create**
 
-![](../.gitbook/assets/zendesk\_12.png)
+![](../../.gitbook/assets/zendesk\_12.png)
 
 That is it, you are now good to go! Whenever a ticket is created with `New` or `Open` status, an incident will be created in Squadcast for it. When the ticket is either `Solved` or `Closed` in Zendesk, the corresponding incident will automatically get resolved in Squadcast as well.

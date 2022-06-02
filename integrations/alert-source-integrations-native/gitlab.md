@@ -20,11 +20,11 @@ Route detailed events from GitLab to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **GitLab** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/gitlab\_1.png)
+![](../../.gitbook/assets/gitlab\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,11 +38,11 @@ You can configure a Webhook for a group or a project.
 
 **(1)** In your project or group, on the left sidebar, select **Settings > Webhooks**
 
-![](../.gitbook/assets/gitlab\_2.png)
+![](../../.gitbook/assets/gitlab\_2.png)
 
 **(2)** In the placeholder for **URL**, paste the previously copied Webhook from Squadcast
 
-![](../.gitbook/assets/gitlab\_3.png)
+![](../../.gitbook/assets/gitlab\_3.png)
 
 **(3)** In the **Trigger** section, select the **below events** to trigger the Webhook. Then, select **Add webhook**
  + `Issues`
@@ -50,7 +50,7 @@ You can configure a Webhook for a group or a project.
  + `Merge Requests`
  + `Releases`
 
-![](../.gitbook/assets/gitlab\_4.png)
+![](../../.gitbook/assets/gitlab\_4.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **NOTE:** 

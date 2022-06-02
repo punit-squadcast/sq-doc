@@ -16,11 +16,11 @@ Route detailed alerts from Domotz to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Domotz** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/domotz\_1.png)
+![](../../.gitbook/assets/domotz\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -32,35 +32,35 @@ Route detailed alerts from Domotz to the right users in Squadcast.
 
 **(1)** Login to your Domotz dashboard. Head over to the **Alerts Settings** tab and click on **Shared Alerts & Ticketing Systems**
 
-![](../.gitbook/assets/domotz\_2.png)
+![](../../.gitbook/assets/domotz\_2.png)
 
 **(2)** Scroll to the bottom of the **Contact Channels** list, and click on **Add webhook** under **Webhooks**
 
-![](../.gitbook/assets/domotz\_3.png)
+![](../../.gitbook/assets/domotz\_3.png)
 
 **(3)** Here, fill in the **Description**. Paste the previously copied Squadcast Webhook URL in the placeholder for **Webhook address**. Then, click on **Add**
 
-![](../.gitbook/assets/domotz\_4.png)
+![](../../.gitbook/assets/domotz\_4.png)
 
 **(4)** Scroll to the top of the **Alerts Settings** page and click on **Create a Shared Alert**
 
-![](../.gitbook/assets/domotz\_5.png)
+![](../../.gitbook/assets/domotz\_5.png)
 
 **(5)** Enable the toggle and specify the name of the Shared Alert under **Alert Name**. Select the events for the Shared Alert under the **Events Lists**. Then, click on **Select Contact Channels**. Select the Squadcast webhook and click on **Add**.
 
 Finally, click on **Create**.
 
-![](../.gitbook/assets/domotz\_6.png)
+![](../../.gitbook/assets/domotz\_6.png)
 
-![](../.gitbook/assets/domotz\_7.png)
+![](../../.gitbook/assets/domotz\_7.png)
 
 **(6)** Navigate to Device/Network Details and click on **Alerts**. Then, click on **Add Shared Alerts** and select your newly created Shared Alert under **Available Shared Alerts**.
 
-![](../.gitbook/assets/domotz\_8.png)
+![](../../.gitbook/assets/domotz\_8.png)
 
-![](../.gitbook/assets/domotz\_9.png)
+![](../../.gitbook/assets/domotz\_9.png)
 
-![](../.gitbook/assets/domotz\_10.png)
+![](../../.gitbook/assets/domotz\_10.png)
 
 That's it, you are good to go! Your Domotz integration is now complete. Whenever Domotz fires an alert, an incident will be created in Squadcast for it. Also, when an alert is resolved in Domotz, the corresponding incident gets **auto-resolved** in Squadcast.
 

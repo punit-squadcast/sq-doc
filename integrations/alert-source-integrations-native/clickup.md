@@ -20,11 +20,11 @@ Route detailed ticket alerts from ClickUp to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **ClickUp** from the **Alert Source** drop-down menu and copy the Webhook
 
-![](../.gitbook/assets/clickup\_1.png)
+![](../../.gitbook/assets/clickup\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,20 +36,20 @@ Route detailed ticket alerts from ClickUp to the right users in Squadcast.
 
 **(1)** Navigate to **Space** and select **New Space** to create new a Space
 
-![](../.gitbook/assets/clickup\_2.png)
+![](../../.gitbook/assets/clickup\_2.png)
 
 **(2)** Click on the newly created **Space** and then, click on **Automate > Add automation** on the top right corner
 
-![](../.gitbook/assets/clickup\_3.png)
+![](../../.gitbook/assets/clickup\_3.png)
 
-![](../.gitbook/assets/clickup\_4.png)
+![](../../.gitbook/assets/clickup\_4.png)
 
 **(3)** Select **Condition** as per your choice (that is, in which case you want to trigger the Webhook for Squadcast). Then, select **Call Webhook**
 
-![](../.gitbook/assets/clickup\_5.png)
+![](../../.gitbook/assets/clickup\_5.png)
 
 **(4)** Paste the previously copied Webhook from Squadcast in the **URL** field and click on **Create**
 
-![](../.gitbook/assets/clickup\_6.png)
+![](../../.gitbook/assets/clickup\_6.png)
 
 That is it, you are now good to go! Whenever a Case (ticket) is created with an `Open` status in ClickUp, an incident will be created for it in Squadcast. When it is moved to the `Closed` status in ClickUp, the corresponding incident will automatically get resolved in Squadcast as well.

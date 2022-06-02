@@ -12,7 +12,7 @@ Having Teams is a way for customers to represent their organizational structure.
 
 This, as the name suggests, is the <mark style="color:red;">`default`</mark> team in an Organization. Every and all users in the Organization will be a part of the **Default Team**.
 
-![](../.gitbook/assets/understanding\_teams\_1.png)
+![](../../.gitbook/assets/understanding\_teams\_1.png)
 
 {% hint style="warning" %}
 **Important:**
@@ -25,15 +25,15 @@ This, as the name suggests, is the <mark style="color:red;">`default`</mark> tea
 
 1. Click on **Settings** on the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
 
 2\. Click on **Teams** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3) (1) (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_teams\_1 (3) (1) (1).png>)
 
 3\. Click on **Default Team**
 
-![](../.gitbook/assets/understanding\_teams\_2.png)
+![](../../.gitbook/assets/understanding\_teams\_2.png)
 
 Here, you will be able to view:
 

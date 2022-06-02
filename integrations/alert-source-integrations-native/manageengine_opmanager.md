@@ -20,11 +20,11 @@ Route detailed alerts from ManageEngine OpManager to the right users in Squadcas
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **ManageEnginer OpManager** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/opmanager\_1.png)
+![](../../.gitbook/assets/opmanager\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -48,11 +48,11 @@ sudo chmod +x sq-opmanager-script.py
 
 **(3)** To add a **Notification Profile**, go to **Settings** tab > **Notifications** > **Add Profile**
 
-![](../.gitbook/assets/opmanager\_2.png)
+![](../../.gitbook/assets/opmanager\_2.png)
 
 **(4)** Select **Run Program**. 
 
-![](../.gitbook/assets/opmanager\_3.png)
+![](../../.gitbook/assets/opmanager\_3.png)
 
 **(5)** (a) In **Command Name**, paste the following
 
@@ -70,19 +70,19 @@ sudo chmod +x sq-opmanager-script.py
 
 **(6)** Choose the appropriate criteria for which alerts should be generated and click on **Next**
 
-![](../.gitbook/assets/opmanager\_4.png)
+![](../../.gitbook/assets/opmanager\_4.png)
 
 **(7)** Select the devices for which this particular **Notification Profile** should be applied and click on **Next**
 
-![](../.gitbook/assets/opmanager\_5.png)
+![](../../.gitbook/assets/opmanager\_5.png)
 
 **(8)** Define additional custom settings for this profile as per your preferences and click on **Next**
 
-![](../.gitbook/assets/opmanager\_6.png)
+![](../../.gitbook/assets/opmanager\_6.png)
 
 **(9)** Give the profile a name, click on **Test Action** to generate a test alert. Verify that a test incident was created in Squadcast for the same
 
-![](../.gitbook/assets/opmanager\_7.png)
+![](../../.gitbook/assets/opmanager\_7.png)
 
 **(10)** Once you have verified this, click on **Save** to save this profile
 
@@ -109,11 +109,11 @@ https://raw.githubusercontent.com/squadcastHub/squadcast-opmanager-script/master
 
 **(3)** To add a **Notification Profile**, go to **Settings** tab > **Notifications** > **Add Profile**
 
-![](../.gitbook/assets/opmanager\_2.png)
+![](../../.gitbook/assets/opmanager\_2.png)
 
 **(4)** Select **Run Program**. 
 
-![](../.gitbook/assets/opmanager\_3.png)
+![](../../.gitbook/assets/opmanager\_3.png)
 
 **(5)** (a) In **Command Name**, paste the absolute path to python.exe
 
@@ -125,25 +125,25 @@ https://raw.githubusercontent.com/squadcastHub/squadcast-opmanager-script/master
 
 **(5)** (c) Click on **Next**
 
-![](../.gitbook/assets/opmanager\_8.png)
+![](../../.gitbook/assets/opmanager\_8.png)
 
 **(6)** Choose the appropriate criteria for which alerts should be generated and click on **Next**
 
-![](../.gitbook/assets/opmanager\_4.png)
+![](../../.gitbook/assets/opmanager\_4.png)
 
 **(7)** Select the devices for which this particular **Notification Profile** should be applied and click on **Next**
 
-![](../.gitbook/assets/opmanager\_5.png)
+![](../../.gitbook/assets/opmanager\_5.png)
 
 **(8)** Define additional custom settings for this profile as per your preferences and click on **Next**
 
-![](../.gitbook/assets/opmanager\_6.png)
+![](../../.gitbook/assets/opmanager\_6.png)
 
 **(9)** Give the profile a name, click on **Test Action** to generate a test alert. Verify that a test incident was created in Squadcast for the same
 
 **(10)** Once you have verified this, click on **Save** to save this profile
 
-![](../.gitbook/assets/opmanager\_7.png)
+![](../../.gitbook/assets/opmanager\_7.png)
 
 That is it, you are now good to go!
 

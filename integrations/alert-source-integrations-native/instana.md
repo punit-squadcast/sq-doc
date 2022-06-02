@@ -18,11 +18,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Instana** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/instana\_1.png)
+![](../../.gitbook/assets/instana\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -40,45 +40,45 @@ Squadcast will then process this information to create incidents for this servic
 
 1.Login to your Instana web dashboard and click on **Settings** button on the sidebar.
 
-![](../.gitbook/assets/instana\_2.png)
+![](../../.gitbook/assets/instana\_2.png)
 
 2.Select the **Team Settings** tab. 
 
-![](../.gitbook/assets/instana\_3.png)
+![](../../.gitbook/assets/instana\_3.png)
 
 3.Go to **Alert Channels**  in **EVENTS & ALERTS** section. 
 
-![](../.gitbook/assets/instana\_4.png){: style="max-width: 30%;" }
+![](../../.gitbook/assets/instana\_4.png){: style="max-width: 30%;" }
 
 4. Click on **Add Alert Channel**.
 
-![](../.gitbook/assets/instana\_5.png)
+![](../../.gitbook/assets/instana\_5.png)
 
 5.Select **Webhooks** option.
 
 6.Enter a suitable Name for the webhook and paste the webhook URL copied from the Squadcast dashboard in the **Webhook URLs** field. Then click on **Create**. 
 
-![](../.gitbook/assets/instana\_6.png)
+![](../../.gitbook/assets/instana\_6.png)
 
 7.Now, go to **Alerts**.
 
-![](../.gitbook/assets/instana\_7.png){: style="max-width: 30%;" }
+![](../../.gitbook/assets/instana\_7.png){: style="max-width: 30%;" }
 
 8.If you have't set up any alerts, refer to the Instana documentation to for [Alerting](https://docs.instana.io/quick_start/alerting/). Once you have an alert setup, click on it.
 
-![](../.gitbook/assets/instana\_8.png)
+![](../../.gitbook/assets/instana\_8.png)
 
 9.Scroll down to **4. Alerting** section and click on **Add Alert Channels**. 
 
-![](../.gitbook/assets/instana\_9.png)
+![](../../.gitbook/assets/instana\_9.png)
 
 10.Tick the Squadcast webhook alert channel that you had set up in the earlier steps, and click on **Add Channel**. 
 
-![](../.gitbook/assets/instana\_10.png)
+![](../../.gitbook/assets/instana\_10.png)
 
 11.Finally, click on the **Save** button.
 
-![](../.gitbook/assets/instana\_11.png)
+![](../../.gitbook/assets/instana\_11.png)
 
 Now, whenever Instana sends an alert with status **OPENED** on the Squadcast webhook, an Incident gets created in Squadcast.
 Similarly, when Instana sends an alert with status **CLOSED** on the Squadcast webhook, the corresponding triggered incident in Squadcast gets resolved.

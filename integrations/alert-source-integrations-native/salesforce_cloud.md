@@ -20,11 +20,11 @@ Route detailed ticket alerts from Salesforce Cloud to the right users in Squadca
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Salesforce Cloud** from the **Alert Source** drop-down menu and copy the Webhook
 
-![](../.gitbook/assets/salesforce_1.png)
+![](../../.gitbook/assets/salesforce_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,22 +38,22 @@ Route detailed ticket alerts from Salesforce Cloud to the right users in Squadca
 
 **(2)** In Salesforce Service Cloud, click on the **Settings** icon and then, click on the **Developer Console**
 
-![](../.gitbook/assets/salesforce_2.png)
+![](../../.gitbook/assets/salesforce_2.png)
 
 **(3)** In **Developer Console** page, select **File**. Then, click on **New -> Apex Class** and copy squadcastClass.apxc. Next, click on **Save**
 
-![](../.gitbook/assets/salesforce_3.png)
+![](../../.gitbook/assets/salesforce_3.png)
 
 **(4)** Download the [squadcastTrigger.apxt](https://github.com/SquadcastHub/squadcast-salesforce-cloud-integration/blob/master/squadcastTrigger.apxt) file
 
 **(5)** On the Developer Console page, select **File**. Click **New -> Apex Trigger** and paste the downloaded/copied file from the previous step. Then, paste the Webhook URL copied previously into the **endpoint field** in the **trigger function** and Click **Save**
 
-![](../.gitbook/assets/salesforce_4.png)
+![](../../.gitbook/assets/salesforce_4.png)
 
 **(6)** Go back to the Salesforce Cloud page and select **Setup** from Settings. Here, navigate to the **Setup -> Security -> Remote Site Settings** page
 
 **(7)** Add a **new remote site**: name it **Squadcast** and then paste the URL copied previously to the **Remote Site URL** field. Click on **Save**
 
-![](../.gitbook/assets/salesforce_5.png)
+![](../../.gitbook/assets/salesforce_5.png)
 
 That is it, you are now good to go! Whenever a case is created with `New`, `Working` or `Escalated` status, an incident will be created in Squadcast for it. When the ticket is moved to `Closed` status in Salesforce Cloud, the corresponding incident will automatically get resolved in Squadcast as well.

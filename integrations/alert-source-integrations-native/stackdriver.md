@@ -21,11 +21,11 @@ Route detailed events from Stackdriver to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Stackdriver** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/stackdriver_0_new.png)
+![](../../.gitbook/assets/stackdriver_0_new.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,21 +37,21 @@ Route detailed events from Stackdriver to the right users in Squadcast.
 
 Login to your Google Cloud console. From the sidebar on the left, scroll to find **Operations** and select **Monitoring**
 
-![](../.gitbook/assets/stackdriver_1_new.png)
+![](../../.gitbook/assets/stackdriver_1_new.png)
 
 ### Adding a Notification Channel - Webhooks
 
 **(1)** From the left sidebar, select **Alerting**
 
-![](../.gitbook/assets/stackdriver_2_new.png)
+![](../../.gitbook/assets/stackdriver_2_new.png)
 
 **(2)** Select **Edit Notification Channels**
 
-![](../.gitbook/assets/stackdriver_3_new.png)
+![](../../.gitbook/assets/stackdriver_3_new.png)
 
 **(3)** Scroll until you find **Webhooks**. Here, click on **Add New** to add the Squadcast Webhook
 
-![](../.gitbook/assets/stackdriver_4_new.png)
+![](../../.gitbook/assets/stackdriver_4_new.png)
 
 **(4)** Here, paste the previously copied Webhook from Squadcast under **Endpoint URL**. Give the Webhook a meaningful **Displaye Name**. 
 
@@ -61,7 +61,7 @@ Login to your Google Cloud console. From the sidebar on the left, scroll to find
 
 **(5)** Click on **Test Connection** and check to see if an incident has been created for the incident in Squadcast 
 
-![](../.gitbook/assets/stackdriver_5_new.png)
+![](../../.gitbook/assets/stackdriver_5_new.png)
 
 **(6)** Finally, click on **Save**
 
@@ -69,31 +69,31 @@ Login to your Google Cloud console. From the sidebar on the left, scroll to find
 
 **(1)** Within the **Alerting** page, to add a **Policy**, click on either **+ Create Policy** on the top or **Add Policy** in the bottom
 
-![](../.gitbook/assets/stackdriver_8_new.png)
+![](../../.gitbook/assets/stackdriver_8_new.png)
 
 **(2)** Now, **Add Condition** for your **Policy**. In that page, you can set up the metrics that you would wish to monitor and their thresholds, along with the resources
 
-![](../.gitbook/assets/stackdriver_9_new.png)
+![](../../.gitbook/assets/stackdriver_9_new.png)
 
 **(3)** Once that is done, select **Next**
 
-![](../.gitbook/assets/stackdriver_10_new.png)
+![](../../.gitbook/assets/stackdriver_10_new.png)
 
 **(4)** In the **Notification Channels** dropdown, select the Webhook previously configured for Squadcast and select **OK**
 
-![](../.gitbook/assets/stackdriver_11_new.png)
+![](../../.gitbook/assets/stackdriver_11_new.png)
 
 **(5)** Enable the checkbox as shown in the screenshot to receive **Incident Resolutions signals** as well. Then, select **Next**
 
-![](../.gitbook/assets/stackdriver_12_new.png)
+![](../../.gitbook/assets/stackdriver_12_new.png)
 
 **(6)** Here, add a meaningul **Alert Name**, add **Optional Documentation** and click on **Save** to create your **Alerting Policy**
 
-![](../.gitbook/assets/stackdriver_13_new.png)
+![](../../.gitbook/assets/stackdriver_13_new.png)
 
 **(7)** Once everything is done, in the **Policies** page, you will be able to see the previously added **Alerting Policy**. Ensure that the **Alerting Policy** toggle is **Enabled** to `on`
 
-![](../.gitbook/assets/stackdriver_14_new.png)
+![](../../.gitbook/assets/stackdriver_14_new.png)
 
 That is it, you are now good to go! Whenever an alert is generated in Stackdriver, an incident will be created for the same in Squadcast.
 

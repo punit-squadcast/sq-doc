@@ -35,7 +35,7 @@
 <script src="js/customscripts.js"></script>
 
 
-<link rel="shortcut icon" href="../.gitbook/assets/favicon1.png">
+<link rel="shortcut icon" href="../../.gitbook/assets/favicon1.png">
 
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -183,7 +183,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="icon-bar"></span>
             </button>
             
-            <a class="navbar-brand" href="../">&nbsp;<span class="projectTitle"> <img src="../../.gitbook/assets/squadcast_logo_white.png" style="width: 80%; margin-top: -2%;"> </span></a>
+            <a class="navbar-brand" href="../">&nbsp;<span class="projectTitle"> <img src="../../../.gitbook/assets/squadcast_logo_white.png" style="width: 80%; margin-top: -2%;"> </span></a>
             
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -272,10 +272,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     rest1.innerHTML = rest1.innerHTML+'<a href="'+hits[i].url+'" style="text-decoration: none;">'+hits[i]._highlightResult.title.value+'<br/>'+hits[i]._highlightResult.content.value+'<br/><div style="border-bottom: 2px solid #e7e9ed"></div></a><br/>';
                                 }
                             }
-                            rest1.innerHTML = rest1.innerHTML+'<div style="display: flex; justify-content: flex-end; padding-right:10px; padding-bottom: 10px;"><img src="../../.gitbook/assets/algolia-blue-mark.svg" style="width: 15px;"></div>';
+                            rest1.innerHTML = rest1.innerHTML+'<div style="display: flex; justify-content: flex-end; padding-right:10px; padding-bottom: 10px;"><img src="../../../.gitbook/assets/algolia-blue-mark.svg" style="width: 15px;"></div>';
                         }else{
                             rest1.style.display = 'block';
-                            rest1.innerHTML = 'No Results to display'+'<div style="display: flex; justify-content: flex-end; padding-right:10px; padding-bottom: 10px;"><img src="../../.gitbook/assets/algolia-blue-mark.svg" style="width: 15px;"></div>';
+                            rest1.innerHTML = 'No Results to display'+'<div style="display: flex; justify-content: flex-end; padding-right:10px; padding-bottom: 10px;"><img src="../../../.gitbook/assets/algolia-blue-mark.svg" style="width: 15px;"></div>';
                         }
                         });
                         dataLayer.push({
@@ -1882,7 +1882,7 @@ li.sidebarTitle{
 
 <p><strong>(1)</strong> Invoke the <em>Squadcast Bot</em> by calling out <code class="language-plaintext highlighter-rouge">@squadcast</code></p>
 
-<p><img src="../.gitbook/assets/slack_1.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slack_1.png" alt="" /></p>
 
 <p><strong>(2)</strong> Once the bot is added, you will be able to take actions with respect to incidents directly from Slack</p>
 
@@ -1894,7 +1894,7 @@ li.sidebarTitle{
 
   <p>You can call out <code class="language-plaintext highlighter-rouge">/create_incident help</code> to walk you through the process within your Slack channel to guide you through the process.</p>
 
-  <p><img src="../.gitbook/assets/slack_2.png" alt="" /></p>
+  <p><img src="../../.gitbook/assets/slack_2.png" alt="" /></p>
 </div>
 
 <p>The command that is used to create an incident from Slack is:</p>
@@ -1908,7 +1908,7 @@ li.sidebarTitle{
   <p>You can call the <code class="language-plaintext highlighter-rouge">/create_incident</code> or <code class="language-plaintext highlighter-rouge">/create_incident &lt;Incident Message Text&gt;</code> command to create an incident from Slack.</p>
 </div>
 
-<p><img src="../.gitbook/assets/slack_3.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slack_3.png" alt="" /></p>
 
 <p>This will then prompt a UI pop-up where you can fill in additional information such as:</p>
 <ul>
@@ -1917,11 +1917,11 @@ li.sidebarTitle{
   <li><strong>Incident Description</strong></li>
 </ul>
 
-<p><img src="../.gitbook/assets/slack_4.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slack_4.png" alt="" /></p>
 
 <p>This newly created incident will now show up immediately in the Slack channel and in Squadcast as well. In Squadcast, you can navigate to either <a href="https://support.squadcast.com/docs/incident-dashboard">Incident Dashboard</a> or <a href="https://support.squadcast.com/docs/incident-list-table-view">Incident List</a> to view the newly triggered incident.</p>
 
-<p><img src="../.gitbook/assets/slack_create_incident_success_2.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slack_create_incident_success_2.png" alt="" /></p>
 
 <h3 id="using-message-actions-in-slack">Using Message Actions in Slack</h3>
 
@@ -1929,19 +1929,19 @@ li.sidebarTitle{
 
 <p><strong>(1)</strong> Click on the <strong>More Actions</strong> icon for the chosen message</p>
 
-<p><img src="../.gitbook/assets/slack_6.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slack_6.png" alt="" /></p>
 
 <p><strong>(2)</strong> Choose the <strong>Create Incident</strong> option from the dropdown shown</p>
 
-<p><img src="../.gitbook/assets/slack_7.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slack_7.png" alt="" /></p>
 
 <p><strong>(3)</strong> In the UI pop-up, fill in all the relevant information needed to create the incident</p>
 
-<p><img src="../.gitbook/assets/slack_8.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slack_8.png" alt="" /></p>
 
 <p>The incident has now been created successfully.</p>
 
-<p><img src="../.gitbook/assets/slack_message_action_create_incident_success.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slack_message_action_create_incident_success.png" alt="" /></p>
 
 <div class="alert alert-info" role="alert">
   <p><i class="fa fa-info-circle"></i> <b>Note: </b>
@@ -1956,15 +1956,15 @@ li.sidebarTitle{
 
 <p><strong>(1)</strong> Navigate to the Incident Details page, and click on the <strong>+</strong> icon or <strong>+ Add Link</strong> button</p>
 
-<p><img src="../.gitbook/assets/slackchannel_1.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slackchannel_1.png" alt="" /></p>
 
 <p><strong>(2)</strong> Click on the <strong>Create Slack Channel</strong> option from the menu</p>
 
-<p><img src="../.gitbook/assets/slackchannel_2.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slackchannel_2.png" alt="" /></p>
 
 <p><strong>(3)</strong> Type in the <strong>Channel Name</strong> for your Incident and click <strong>Save</strong></p>
 
-<p><img src="../.gitbook/assets/slackchannel_3.png" alt="" /></p>
+<p><img src="../../.gitbook/assets/slackchannel_3.png" alt="" /></p>
 
 <p>This will generate a dedicated Slack Channel for your Incident.</p>
 
@@ -1974,7 +1974,7 @@ li.sidebarTitle{
 <br />
 Once the Incident is resolved, you can archive the Slack Channel using the <strong>Archive</strong> button on the right.</p>
 
-  <p><img src="../.gitbook/assets/slackchannel_4.png" alt="" /></p>
+  <p><img src="../../.gitbook/assets/slackchannel_4.png" alt="" /></p>
 
 </div>
 
@@ -2179,7 +2179,7 @@ $('#toc').on('click', 'a', function() {
 <footer>
             <div class="row">
                 <div class="col-lg-12 footer">
-                    <p><img src="../.gitbook/assets/company_logo.png" alt="Company logo"/></p>
+                    <p><img src="../../.gitbook/assets/company_logo.png" alt="Company logo"/></p>
                Copyright &copy; Squadcast Inc. 2017 - 2022<br/> All rights reserved <br />
 <!--  Site last generated: May 24, 2022 <br /> -->
                 </div>

@@ -16,11 +16,11 @@ Route detailed alerts from Oh Dear to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Oh Dear** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/oh_dear_1.png)
+![](../../.gitbook/assets/oh_dear_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -32,19 +32,19 @@ Route detailed alerts from Oh Dear to the right users in Squadcast.
 
 **(1)** Login to your Oh Dear dashboard. Head over to the **Account** settings and click on **Team Notifications**
 
-![](../.gitbook/assets/oh_dear_2.png)
+![](../../.gitbook/assets/oh_dear_2.png)
 
 **(2)** Under **AVAILABLE CHANNELS**, choose **Webhooks**. Then click on **Configure notifications**
 
-![](../.gitbook/assets/oh_dear_3.png)
+![](../../.gitbook/assets/oh_dear_3.png)
 
 **(3)** Under **Configure notifications**, paste the previously copied Squadcast Webhook URL in the placeholder for **Webhook URL**. Select the alert triggers and click on **Update**
 
-![](../.gitbook/assets/oh_dear_4.png)
+![](../../.gitbook/assets/oh_dear_4.png)
 
 You can also click on **Send test** to test the alert. This will create a test incident in Squadcast.
 
-![](../.gitbook/assets/oh_dear_5.png)
+![](../../.gitbook/assets/oh_dear_5.png)
 
 
 That's it, you are good to go! Your Oh Dear integration is now complete. Whenever Oh Dear fires an alert, an incident will be created in Squadcast for it. Also, when an alert is resolved in Oh Dear, the corresponding incident gets **auto-resolved** in Squadcast.

@@ -20,11 +20,11 @@ Route detailed monitoring alerts from Graylog v4 to the right users in Squadcast
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Graylog v4** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/graylog-v4-1.png)
+![](../../.gitbook/assets/graylog-v4-1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,19 +36,19 @@ Route detailed monitoring alerts from Graylog v4 to the right users in Squadcast
 
 **(1)** After logging in, select **Alerts** from the navigation bar on the top
 
-![](../.gitbook/assets/graylog-v4-2.png)
+![](../../.gitbook/assets/graylog-v4-2.png)
 
 **(2)** Select **Notifications**
 
-![](../.gitbook/assets/graylog-v4-3.png)
+![](../../.gitbook/assets/graylog-v4-3.png)
 
 **(3)** If you do not have any existing Notifications set up, select **Get Started**. Else, select **Create Notification** 
 
-![](../.gitbook/assets/graylog-v4-4.png)
+![](../../.gitbook/assets/graylog-v4-4.png)
 
 **(4)** Fill in the details:
 
-![](../.gitbook/assets/graylog-v4-5.png)
+![](../../.gitbook/assets/graylog-v4-5.png)
 
 (a) A meaningful **Title**
 (b) An optional **Description**
@@ -59,7 +59,7 @@ Route detailed monitoring alerts from Graylog v4 to the right users in Squadcast
     - **URL**: Paste `api.squadcast.com`
     - **Type**: `Regex`
     - **Save** the configuration
-![](../.gitbook/assets/graylog-v4-6.png)
+![](../../.gitbook/assets/graylog-v4-6.png)
 
 (f) Now, click on **Execute Test Notification** to generate a test alert and trigger a test incident in Squadcast
 
@@ -67,11 +67,11 @@ Route detailed monitoring alerts from Graylog v4 to the right users in Squadcast
 
 **(5)** Within **Alerts**, head over to **Event Definitions**. If there are no existing Event Definitions, you can create one or pick an existing Event Definition
 
-![](../.gitbook/assets/graylog-v4-7.png)
+![](../../.gitbook/assets/graylog-v4-7.png)
 
 **(6)** Navigate to **Notifications** in the set-up flow and select **Add Notification** and select the *Squadcast notification* added previously and **Save** the entire configuration in the end
 
-![](../.gitbook/assets/graylog-v4-8.png)
+![](../../.gitbook/assets/graylog-v4-8.png)
 
 That is it, you are now good to go! Whenever an alert is triggered in Graylog v4, an incident will be created automatically in Squadcast.
 

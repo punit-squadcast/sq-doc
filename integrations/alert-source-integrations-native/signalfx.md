@@ -15,11 +15,11 @@ Follow the steps below to configure a service so as to extract its related alert
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **SignalFx** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/signalfx\_1.png)
+![](../../.gitbook/assets/signalfx\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -33,15 +33,15 @@ Go to your SignalFx dashboard and setup a detector for the metric for which you 
 
 Then create a **New Alert rule** for the detector and define Alert Signal, Alert condition, Alert settings and Alert message.
 
-![](../.gitbook/assets/signalfx\_2.png)
+![](../../.gitbook/assets/signalfx\_2.png)
 
 For **Alert recipients**, click on the **Add Recipient** button and then select **Webhook** and proceed to add a custom webhook.
 
-![](../.gitbook/assets/signalfx\_3.png)
+![](../../.gitbook/assets/signalfx\_3.png)
 
 In the custom **Webhook Notification**, under **URL**, add the SignalFx API URL that you have got from the previous step and click **Update** button and then click on **PROCEED TO ALERT ACTIVATION** button.
 
-![](../.gitbook/assets/signalfx\_4.png)
+![](../../.gitbook/assets/signalfx\_4.png)
 
 That's it! Now your SignalFx integration is good to go and whenever an alert is triggered in SignalFx, an incident will automatically get created in Squadcast.
 

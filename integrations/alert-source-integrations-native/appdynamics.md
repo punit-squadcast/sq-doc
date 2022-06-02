@@ -14,11 +14,11 @@ Follow the steps below to configure a service so as to extract its related alert
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **AppDynamics** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/appdynamics\_1.png)
+![](../../.gitbook/assets/appdynamics\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -29,13 +29,13 @@ Follow the steps below to configure a service so as to extract its related alert
 ## Create a HTTP Request Template in AppDynamics
 In AppDynamics dashboard, click on Alert & Respond menu, then select HTTP Request Templates and click the New button.
 
-![](../.gitbook/assets/appdynamics\_2.png)
+![](../../.gitbook/assets/appdynamics\_2.png)
 
 In the Create HTTP Request Template box, enter an appropriate Name such as Squadcast Integration Template and then add a Custom Templating Variable named `sc_event_type` and the default value as `triggered`. 
 
 In the Request URL section, select the Method as **POST** and paste the URL you have obtained from the previous section into Raw URL and URL Encoding as **UTF-8** and in the Authentication section, select the Type as **NONE**.
 
-![](../.gitbook/assets/appdynamics\_3.png)
+![](../../.gitbook/assets/appdynamics\_3.png)
 
 In the Payload section, select the MIME Type as `application/json` and Payload Encoding as `UTF-8` and in the payload body, paste the below JSON.
 
@@ -74,7 +74,7 @@ In the Payload section, select the MIME Type as `application/json` and Payload E
 }
 ```
 
-![](../.gitbook/assets/appdynamics\_4.png)
+![](../../.gitbook/assets/appdynamics\_4.png)
 
 In the Response Handling Criteria section, click on Add Success Criteria button and select the Status Code as 200 and check the Expect Payload checkbox and select the Content Type as `application / json `
 
@@ -83,21 +83,21 @@ In the Settings section, check the One Request Per Event checkbox and click the 
 ## Create Trigger and Resolve Actions in AppDynamics
 Go to Actions and then create a New Action,  and then in the Create Action box, select Make an HTTP Request radio button and select OK.
 
-![](../.gitbook/assets/appdynamics\_5.png)
+![](../../.gitbook/assets/appdynamics\_5.png)
 
 In the Create HTTP Action box, enter the name as **Squadcast - Triggered** and select the HTTP Request Template which we have saved earlier as Squadcast Integration Template and click the **Save** button.
 
-![](../.gitbook/assets/appdynamics\_6.png)
+![](../../.gitbook/assets/appdynamics\_6.png)
 
 Create one more action with name as **Squadcast - Resolved** and select the same HTTP Template and change the value of `sc_event_type` to `resolved` and click on the **Save** button.
 
-![](../.gitbook/assets/appdynamics\_7.png)
+![](../../.gitbook/assets/appdynamics\_7.png)
 
 ## Assign Actions to Policies
 Now you have to setup policies and assign actions to them such that when those alerts are fired, the corresponding action will be initiated.
 
 Ideally assign the Squadcast - Triggered action to all Critical or Warning events which has started and assign the Squadcast - Resolved action to all Critical or Warning events which was cancelled or ended, so that the incidents can be **Auto-Resolved** in Squadcast when those events end.
 
-![](../.gitbook/assets/appdynamics\_8.png)
+![](../../.gitbook/assets/appdynamics\_8.png)
 
 That's it! Now you AppDynamics integration is good to go and incidents will be created and resolved in Squadcast based on your AppDynamics policies.

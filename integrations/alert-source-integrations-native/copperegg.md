@@ -17,11 +17,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **CopperEgg** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/copperegg\_1.png)
+![](../../.gitbook/assets/copperegg\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -40,10 +40,10 @@ Name the profile as required and set state as “enabled”
 
 Under destinations select “Webhook” and enter the webhook url obtained earlier and click on “Add”. You can click on “Test Notification” to get a test alert on squadcast.  
 
-![](../.gitbook/assets/copperegg\_2.png)
+![](../../.gitbook/assets/copperegg\_2.png)
 
 Click on Save and now you can add this notification profile to any of yours alert configuration. Just while creating/editing the alert select squadcast (webhook) from the notification target drop down.
 
-![](../.gitbook/assets/copperegg\_3.png)
+![](../../.gitbook/assets/copperegg\_3.png)
 
 Alerts that are cleared within CopperEgg are reflected in the status of the related Squadcast Incident.

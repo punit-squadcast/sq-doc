@@ -21,11 +21,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Site24x7** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/site24x7\_1.png)
+![](../../.gitbook/assets/site24x7\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -35,7 +35,7 @@ Squadcast will then process this information to create incidents for this servic
 
 Next, head over to your Site24x7 dashboard and set up a Webhook based integration.
 
-![](../.gitbook/assets/site24x7\_2.png)
+![](../../.gitbook/assets/site24x7\_2.png)
 
 You will next be greeted by the Webhooks Integration configuration page.
 Paste the previously copied Webhook URL into the **Hook URL** field.
@@ -45,15 +45,15 @@ Paste the previously copied Webhook URL into the **Hook URL** field.
 <br/><br/><p>If you wish to send Custom Parameters in your payload, kindly prefix (this is an ABSOLUTE NECESSITY) every parameter-key with <b>CUSTOM_</b>. That way, we can point them out in the <b>Incident Description</b> in <b>Squadcast</b>.</p>
 {{site.data.alerts.end}}
 
-![](../.gitbook/assets/site24x7\_3.png)
+![](../../.gitbook/assets/site24x7\_3.png)
 
 Scroll down to configure all other necessary details.
 
-![](../.gitbook/assets/site24x7\_4.png)
+![](../../.gitbook/assets/site24x7\_4.png)
 
 Click on **Save** and you're pretty much done with the configuration. 
 
-![](../.gitbook/assets/site24x7\_5.png)
+![](../../.gitbook/assets/site24x7\_5.png)
 
 You can now start using this integration with Monitors that you might have set up in Site24x7.
 

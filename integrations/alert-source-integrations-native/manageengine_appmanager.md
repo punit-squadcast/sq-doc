@@ -20,11 +20,11 @@ Route detailed alerts from ManageEngine Application Manager to the right users i
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **ManageEngine Application Manager** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/manageengine\_appmanager\_1.png)
+![](../../.gitbook/assets/manageengine\_appmanager\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -34,7 +34,7 @@ Route detailed alerts from ManageEngine Application Manager to the right users i
 
 ### In ManageEngine Application Manager: Create a Squadcast Webhook
 
-![](../.gitbook/assets/manageengine\_appmanager\_1.png)
+![](../../.gitbook/assets/manageengine\_appmanager\_1.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **Note:**
@@ -44,15 +44,15 @@ You can configure a webhook for either a Group or a Project.
 
 **(1)** Navigate to **Admin > Alarm/Action > Actions** 
 
-![](../.gitbook/assets/manageengine\_appmanager\_2.png)
+![](../../.gitbook/assets/manageengine\_appmanager\_2.png)
 
 **(2)** Select the **RestAPI Action** option from the **Actions** menu
 
-![](../.gitbook/assets/manageengine\_appmanager\_3.png)
+![](../../.gitbook/assets/manageengine\_appmanager\_3.png)
 
 **(3)** Enter the **Display Name** for the action. Paste the previously copied Squadcast **Webhook URL** and choose the **Form Submission Method** as `POST`
 
-![](../.gitbook/assets/manageengine\_appmanager\_4.png)
+![](../../.gitbook/assets/manageengine\_appmanager\_4.png)
 
 **(4)** Choose the **PayLoad Type** to send data requests through as `JSON` and paste the below JSON in the placeholder for **Custom Parameters**
 
@@ -91,7 +91,7 @@ You can configure a webhook for either a Group or a Project.
 
 **(5)** Click the **Create Action** button to finish creating the **Webhook** action
 
-![](../.gitbook/assets/manageengine\_appmanager\_5.png)
+![](../../.gitbook/assets/manageengine\_appmanager\_5.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **Important:**

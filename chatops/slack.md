@@ -90,7 +90,7 @@ Click on **Create** to trigger the incident
 
 ### Using Slack as an Alert Source <a href="#using-slack-as-an-alert-source" id="using-slack-as-an-alert-source"></a>
 
-To create incidents automatically in Squadcast from Slack, check out [Slack as an alert source](<../.gitbook/assets/slack as an alert source>).
+To create incidents automatically in Squadcast from Slack, check out [Slack as an alert source](<../../.gitbook/assets/slack as an alert source>).
 
 ### FAQs <a href="#faqs" id="faqs"></a>
 

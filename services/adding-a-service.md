@@ -32,7 +32,7 @@ Here, add the following information:
 
 2\. Finally, click on **Save** to create the Service
 
-![](../.gitbook/assets/adding\_a\_service\_1.png)
+![](../../.gitbook/assets/adding\_a\_service\_1.png)
 
 ### Deleting a Service <a href="#deleting-a-service" id="deleting-a-service"></a>
 
@@ -75,4 +75,4 @@ We are working on improving the Services UI to show you the list of integrated A
 
 **Pro-tip:** We recommend adding the names of the integrated Alert Sources under the Service’s Description so as to easily keep a note of all the configured end-points.
 
-![](../.gitbook/assets/adding\_a\_service\_10.png)
+![](../../.gitbook/assets/adding\_a\_service\_10.png)

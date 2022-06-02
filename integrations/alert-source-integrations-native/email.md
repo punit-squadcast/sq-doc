@@ -15,11 +15,11 @@ Route alerts into Squadcast using Email endpoints of Services from platforms tha
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Email** from the Alert Source drop-down and copy the Email address
 
-![](../.gitbook/assets/email\_1.png)
+![](../../.gitbook/assets/email\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -42,41 +42,41 @@ That's it, your Email integration is now good to go!
 
 **(1)** On the **Sidebar**, click on **Services** 
 
-![](../.gitbook/assets/integration_1-1.png)
+![](../../.gitbook/assets/integration_1-1.png)
 
 **(2)** Select **Add service** 
 
-![](../.gitbook/assets/integration_1-2.png)
+![](../../.gitbook/assets/integration_1-2.png)
 
 **(3)** Add the details in the box as required along with configuring the **Email Prefix**
 
-![](../.gitbook/assets/email\_2.png)
+![](../../.gitbook/assets/email\_2.png)
 
 **(4)** Click on **Save** to create the new Service with an Email Prefix of your choice
 
-![](../.gitbook/assets/email\_3.png)
+![](../../.gitbook/assets/email\_3.png)
 
 ## How-to: Rename the Email Prefix for an existing Service
 
 **(1)** On the **Sidebar**, click on **Services** 
 
-![](../.gitbook/assets/integration_1-1.png)
+![](../../.gitbook/assets/integration_1-1.png)
 
 **(2)** For the Service for which you want to rename the Email prefix, click on the **Edit** option
 
-![](../.gitbook/assets/email\_4.png)
+![](../../.gitbook/assets/email\_4.png)
 
 **(3)** Select **Edit** in the drop-down
 
-![](../.gitbook/assets/email\_5.png)
+![](../../.gitbook/assets/email\_5.png)
 
 **(4)** Replace the existing prefix with the prefix of your choice in the placeholder for **Email Prefix**
 
-![](../.gitbook/assets/email\_6.png)
+![](../../.gitbook/assets/email\_6.png)
 
 **(5)** Click on **Save**
 
-![](../.gitbook/assets/email\_7.png)
+![](../../.gitbook/assets/email\_7.png)
 
 Now, whenever an Email is sent to the Email address of the Service, Squadcast will trigger an incident for it.
 

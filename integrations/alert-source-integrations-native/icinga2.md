@@ -18,11 +18,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Icinga2** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/icinga2\_1.png)
+![](../../.gitbook/assets/icinga2\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>

@@ -18,11 +18,11 @@ You can either choose to use existing service or [create a new service](adding-a
 
 Now, click on the corresponding **Alert Sources** button.
 
-![](../.gitbook/assets/integration\_1.png)
+![](../../.gitbook/assets/integration\_1.png)
 
 Select **Crashlytics** from  **Alert Source** drop down and copy the Webhook URL shown.
 
-![](../.gitbook/assets/crashlytics\_1.png)
+![](../../.gitbook/assets/crashlytics\_1.png)
 
 ## Create a Squadcast Webhook in Crashlytics 
 
@@ -32,6 +32,6 @@ Select an application for which you want to integrate crashlytics for.
 
 Under the **Service Hooks** tab, click on **WebHook**. Paste the URL that was generated earlier in the input box and click on the Verify button to check whether the service is validated.  
 
-![](../.gitbook/assets/crashlytics\_2.png)
+![](../../.gitbook/assets/crashlytics\_2.png)
 
 Once verified, the Crashlytics alerts will be sent to Squadcast automatically.

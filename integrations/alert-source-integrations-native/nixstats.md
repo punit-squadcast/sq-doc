@@ -21,11 +21,11 @@ Route detailed monitoring alerts from Nixstats to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Nixstats** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/nixstats\_1.png)
+![](../../.gitbook/assets/nixstats\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,33 +37,33 @@ Route detailed monitoring alerts from Nixstats to the right users in Squadcast.
 
 **(1)** From your home page, click on the *Alerts* tab on the top
 
-![](../.gitbook/assets/nixstats\_2.png)
+![](../../.gitbook/assets/nixstats\_2.png)
 
 **(2)** Switch to the *Contacts* tab and click on * +New Contact*
 
-![](../.gitbook/assets/nixstats\_3.png)
+![](../../.gitbook/assets/nixstats\_3.png)
 
 **(3)** Enter a name for the Contact in the *Name* field and scroll down a little. Under *Webhook URL*, paste the Nixstats webhook copied from Squadcast
 
-![](../.gitbook/assets/nixstats\_4.png)
+![](../../.gitbook/assets/nixstats\_4.png)
 
 **(4)** Scroll to the bottom of the page and click on *Save*
 
-![](../.gitbook/assets/nixstats\_5.png)
+![](../../.gitbook/assets/nixstats\_5.png)
 
 #### Configuring Alerts for Server Monitoring
 
 **(1)** Within the *Alerts* page, switch to the *Alerts* tab. Here, you can either create a new Alert or modify your existing Alerts to send notifications to Squadcast via the previously configured Webhook URL.
 
-![](../.gitbook/assets/nixstats\_6.png)
+![](../../.gitbook/assets/nixstats\_6.png)
 
 **(2)** Make sure to add the Squadcast Webhook under *Alert Recipients*. Repeat the same for all your other Alerts
 
-![](../.gitbook/assets/nixstats\_7.png)
+![](../../.gitbook/assets/nixstats\_7.png)
 
 **(3)** In the same window, click on *Show Advanced Options*. Here, enable both the `Alert Opens` and ` Alert Closes` checkboxes as shown in the screenshot below and click on `Save`
 
-![](../.gitbook/assets/nixstats\_8.png)
+![](../../.gitbook/assets/nixstats\_8.png)
 
 Now, every time there is an alert for your server in Nixstats, the alert will be sent to Squadcast and an incident will be triggered, notifying the right people. Similarly, if the alert gets resolved within Nixstats, it will get **auto-resolved** in Squadcast as well.
 
@@ -71,19 +71,19 @@ Now, every time there is an alert for your server in Nixstats, the alert will be
 
 **(1)** From your home page, click on the *Monitors* tab on the top
 
-![](../.gitbook/assets/nixstats\_9.png)
+![](../../.gitbook/assets/nixstats\_9.png)
 
 **(2)** In the *Overview* tab, you can either create a new Monitor by selecting *Add Monitor* or select an existing Monitor
 
-![](../.gitbook/assets/nixstats\_10.png)
+![](../../.gitbook/assets/nixstats\_10.png)
 
 **(3)** Click on the *Settings* tab
 
-![](../.gitbook/assets/nixstats\_11.png)
+![](../../.gitbook/assets/nixstats\_11.png)
 
 **(4)** In the *Recipients* tab, select Squadcast Webhook and select when the alert needs to be sent to Squadcast. Save/Update the set configuration
 
-![](../.gitbook/assets/nixstats\_12.png)
+![](../../.gitbook/assets/nixstats\_12.png)
 
 Now, every time there is an alert for your website in Nixstats, the alert will be sent to Squadcast and an incident will be triggered, notifying the right people. Similarly, if the alert gets resolved within Nixstats, it will get **auto-resolved** in Squadcast as well.
 

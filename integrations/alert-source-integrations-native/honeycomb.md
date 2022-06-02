@@ -16,11 +16,11 @@ Route detailed alerts from Honeycomb to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Honeycomb** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/honeycomb\_1.png)
+![](../../.gitbook/assets/honeycomb\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -32,33 +32,33 @@ Route detailed alerts from Honeycomb to the right users in Squadcast.
 
 **(1)** Login to your Honeycomb dashboard. Head over to the **Account** settings and click on **Team settings**
 
-![](../.gitbook/assets/honeycomb\_2.png)
+![](../../.gitbook/assets/honeycomb\_2.png)
 
 **(2)** Under the **Integrations** section, click on **Add Integration**
 
-![](../.gitbook/assets/honeycomb\_3.png)
+![](../../.gitbook/assets/honeycomb\_3.png)
 
 **(3)** Choose **Webhook** as **Provider**, fill in the **Name**. Paste the previously copied Squadcast Webhook URL in the placeholder for **Webhook URL**. Fill in the **Shared Secret**, then click on **Add**
 
-![](../.gitbook/assets/honeycomb\_4.png)
+![](../../.gitbook/assets/honeycomb\_4.png)
 
 **(4)** Under the **Triggers** tab, click on **New Trigger**. Choose the dataset of your choice and click on **Make Trigger**
 
-![](../.gitbook/assets/honeycomb\_5.png)
+![](../../.gitbook/assets/honeycomb\_5.png)
 
-![](../.gitbook/assets/honeycomb\_6.png)
+![](../../.gitbook/assets/honeycomb\_6.png)
 
 **(5)** Under the **Triggers** section, set the **Name** and **Description** of the trigger. Choose the **State** as **Enabled**. Set the query, frequency and duration for the trigger. Then click on **Add Recipient**
 
-![](../.gitbook/assets/honeycomb\_7.png)
+![](../../.gitbook/assets/honeycomb\_7.png)
 
-![](../.gitbook/assets/honeycomb\_8.png)
+![](../../.gitbook/assets/honeycomb\_8.png)
 
 **(5)** Choose the **Integration** created earlier as **Recipient** and click on **Add**. Finally, click on **Create Trigger**
 
-![](../.gitbook/assets/honeycomb\_9.png)
+![](../../.gitbook/assets/honeycomb\_9.png)
 
-![](../.gitbook/assets/honeycomb\_10.png)
+![](../../.gitbook/assets/honeycomb\_10.png)
 
 That's it, you are good to go! Your Honeycomb integration is now complete. Whenever Honeycomb fires an alert, an incident will be created in Squadcast for it. Also, when an alert is resolved in Honeycomb, the corresponding incident gets **auto-resolved** in Squadcast.
 

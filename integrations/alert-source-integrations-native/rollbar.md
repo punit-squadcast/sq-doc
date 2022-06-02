@@ -18,11 +18,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Rollbar** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/rollbar_1.png)
+![](../../.gitbook/assets/rollbar_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,13 +36,13 @@ Squadcast will then process this information to create incidents for this servic
  
 **(2)** Paste the webhook URL you copied from Squadcast. Click `Save Settings`.
 
-![](../.gitbook/assets/rollbar_2.png)
+![](../../.gitbook/assets/rollbar_2.png)
 
 **(3)** Under **Add Rule** select the rules you want to configure for creating incidents in Squadcast.
 
 You can select `New Item`,`Item Reopened`,`Item Reactivated` and `10^nth Occurence` for creating incidents in Squadcast and select `Item Resolved` for auto resolving incidents in Squadcast.
 
-![](../.gitbook/assets/rollbar_3.png)
+![](../../.gitbook/assets/rollbar_3.png)
 
 Your Rollbar Alert Source integration is good to go. Whenever an alert is triggered in Rollbar, an incident will be triggered in Squadcast as well.
 

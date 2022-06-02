@@ -15,11 +15,11 @@ Follow the steps below to configure a service so as to extract its related alert
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Uptime Robot** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/uptime\_robot\_1.png)
+![](../../.gitbook/assets/uptime\_robot\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -31,7 +31,7 @@ Follow the steps below to configure a service so as to extract its related alert
 
 Go to your Uptime Robot dashboard and select **My Settings** and click on **Add Alert Contact** button in the **Alert Contact** tab.
 
-![](../.gitbook/assets/uptime\_robot\_2.png)
+![](../../.gitbook/assets/uptime\_robot\_2.png)
 
 In the  **New Alert Contact** page, Add the contact information as below.
 
@@ -63,18 +63,18 @@ For **POST Value (JSON Format)**, please paste the below JSON and make sure the 
 }
 ```
 
-![](../.gitbook/assets/uptime\_robot\_3.png)
+![](../../.gitbook/assets/uptime\_robot\_3.png)
 
 Then click on the **Edit** icon on the newly created webhook contact.
 
-![](../.gitbook/assets/uptime\_robot\_4.png)
+![](../../.gitbook/assets/uptime\_robot\_4.png)
 
 In the **Edit Alert Contact** window, make sure the **Send as JSON** and **Send default variables as POST parameters** check boxes are ticked and the **Send default variables** as a query string checkbox is unchecked and click **Save** changes
 
-![](../.gitbook/assets/uptime\_robot\_5.png)
+![](../../.gitbook/assets/uptime\_robot\_5.png)
 
 Then you can add the Alert contact to any monitor and whenever an alert is fired, an incident will get triggered in Squadcast. This integration comes with an **Auto-Resolve** feature, meaning, when the alert get resolved in Uptime Robot, it gets resolved in Squadcast as well.
 
-![](../.gitbook/assets/uptime\_robot\_6.png)
+![](../../.gitbook/assets/uptime\_robot\_6.png)
 
 <style>.btttn:hover{box-shadow: 0 10px 20px 0 rgba(15,97,221,.25); transform: translate(0,-2px);}</style><div style="height: 100%;width: 100%;display: flex;margin-top: 40px;"><div style="margin: auto;"><div style="height: 100%;width: 100%;display: flex;padding: 20px;border: 1px solid #e7e9ed;border-radius: 8px;"><div style="margin: auto;"><div style="text-align: center;padding-bottom: 20px;font-size: 18px;line-height: 24px;font-family: Metropolis, sans-serif;color: #0d2149;">Ready to try Squadcast?</div><a href="https://app.squadcast.com/register" class="btttn" target="_blank" style="margin-right: 0;text-decoration: none;border-radius: 6px;background-color: #0f61dd;font-family: Metropolis,sans-serif;color: #fff;padding-top: 0;padding-bottom: 0;border-bottom: 1px solid transparent;-webkit-transition: all .1s ease-in-out;font-family: Metropolis,sans-serif;font-size: 13px;color: #0d2149;line-height: 22px;font-weight: 500;display: inline-block;color: #fff;padding: 15px;text-align: left;margin-left: auto;margin-right: auto;max-width: 1200px;transition: all .2s ease-in-out;" rel="noreferrer noopener">Start Now For Free!</a>   <a href="https://calendly.com/renuka-squadcast/30min" class="btttn" target="_blank" style="margin-right: 0;text-decoration: none;border-radius: 6px;background-color: #fff;font-family: Metropolis,sans-serif;color: #0f61dd;padding-top: 0;padding-bottom: 0;border-bottom: 1px solid transparent;-webkit-transition: all .1s ease-in-out;font-family: Metropolis,sans-serif;font-size: 13px;color: #0d2149;line-height: 22px;font-weight: 500;display: inline-block;color: #0f61dd;padding: 15px;text-align: left;margin-left: auto;margin-right: auto;max-width: 1200px;border: 1px solid #0f61dd;margin-left: 20px;transition: all .2s ease-in-out;" rel="noreferrer noopener">Schedule a Demo</a></div></div></div></div>

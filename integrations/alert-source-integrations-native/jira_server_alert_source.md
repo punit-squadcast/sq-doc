@@ -21,11 +21,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Jira Server** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/jira\_server\_1.png)
+![](../../.gitbook/assets/jira\_server\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,14 +37,14 @@ Squadcast will then process this information to create incidents for this servic
 
 1.Login to Jira Server and go to **Settings** then **Webhook**
 
-![](../.gitbook/assets/jira\_server\_2.png)
+![](../../.gitbook/assets/jira\_server\_2.png)
 
 2.Click on **Create a Webhook**. Paste the **Jira Server** Webhook URL you copied from Squadcast and check the  **created** And **updated** check boxes under issues.
 
-![](../.gitbook/assets/jira\_server\_3.png)
+![](../../.gitbook/assets/jira\_server\_3.png)
 
 3.Click **Create** .
 
-![](../.gitbook/assets/jira\_server\_4.png)
+![](../../.gitbook/assets/jira\_server\_4.png)
 
 Now whenever an issue goes to **To Do** status in Jira an incident will be triggered in Squadcast . Also when that issue goes to **Done** status in Jira it will be resolved in Squadcast.

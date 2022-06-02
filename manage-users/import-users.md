@@ -10,20 +10,20 @@ You can import multiple users to your Organization without having to add them ma
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (2).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (2).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1) (3).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_2 (1) (3).png>)
 
 3\. Click on **Add Users** on the top right corner
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_3 (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_3 (1).png>)
 
 * Now, simply import multiple users’ details into the fields using a <mark style="color:red;">`.csv`</mark> file
 * To import your <mark style="color:red;">`.csv`</mark> file, you can either drag and drop it on the page or click on the <mark style="color:red;">`select a file from your computer`</mark> on the top of the page
 
-![](../.gitbook/assets/add\_and\_delete\_users\_7.png)
+![](../../.gitbook/assets/add\_and\_delete\_users\_7.png)
 
 {% hint style="warning" %}
 **Important:**

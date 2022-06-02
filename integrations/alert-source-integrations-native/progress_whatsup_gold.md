@@ -19,11 +19,11 @@ Route detailed events from WhatsUp Gold to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Progress WhatsUp Gold** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/wug_1.png)
+![](../../.gitbook/assets/wug_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -35,19 +35,19 @@ Route detailed events from WhatsUp Gold to the right users in Squadcast.
 
 **(1)** From the Home Page, select **Settings**
 
-![](../.gitbook/assets/wug_2.png)
+![](../../.gitbook/assets/wug_2.png)
 
 **(2)** Select the **Actions & Alerts** and then, select **Actions and Policies**
 
-![](../.gitbook/assets/wug_3.png)
+![](../../.gitbook/assets/wug_3.png)
 
 **(3a)** Under **Action Library**, click on the **+** icon to add an _Action_
 
-![](../.gitbook/assets/wug_4.png)
+![](../../.gitbook/assets/wug_4.png)
 
 **(3b)** Select **Log to Text File**
 
-![](../.gitbook/assets/wug_5.png)
+![](../../.gitbook/assets/wug_5.png)
 
 **(3c)** Fill in the necessary details as below:
 + **Name**: Trigger Log
@@ -92,15 +92,15 @@ active_monitor_state::%ActiveMonitor.State;;
 ```
 + Click on **OK**
 
-![](../.gitbook/assets/wug_6.png)
+![](../../.gitbook/assets/wug_6.png)
 
 **(4a)** Once again, under **Action Library**, click on the **+** icon to add another _Action_
 
-![](../.gitbook/assets/wug_4.png)
+![](../../.gitbook/assets/wug_4.png)
 
 **(4b)** Select **Log to Text File**
 
-![](../.gitbook/assets/wug_5.png)
+![](../../.gitbook/assets/wug_5.png)
 
 **(4b)** Fill in the necessary details as below:
 + **Name**: Resolve Log
@@ -145,15 +145,15 @@ active_monitor_state::%ActiveMonitor.State;;
 ```
 + Click on **OK**
 
-![](../.gitbook/assets/wug_7.png)
+![](../../.gitbook/assets/wug_7.png)
 
 **(5a)** Now, under **Action Library**, click on the **+** icon to add another _Action_
 
-![](../.gitbook/assets/wug_4.png)
+![](../../.gitbook/assets/wug_4.png)
 
 **(5b)** Select **Active Script Action**
 
-![](../.gitbook/assets/wug_8.png)
+![](../../.gitbook/assets/wug_8.png)
 
 **(5c)** Fill in the necessary details as below:
 + **Name**: Squadcast Script
@@ -213,37 +213,37 @@ sendToSquadcast(SQUADCAST_URL, reqBody);
 ```
 + Click on **OK**
 
-![](../.gitbook/assets/wug_9.png)
+![](../../.gitbook/assets/wug_9.png)
 
 **(6a)** Next, under **Actions & Policies**, click on the **+** icon to add a _Policy for Trigger_
 
-![](../.gitbook/assets/wug_10.png)
+![](../../.gitbook/assets/wug_10.png)
 
 **(6b)** In **Policy Name**, enter a suitable name like _Squadcast Action Policy_, and click on **Add**
 
-![](../.gitbook/assets/wug_11.png)
+![](../../.gitbook/assets/wug_11.png)
 
 **(6c)** Here:
 + **Select an action from the Action Library**: Select **Trigger Log** from the dropdown
 + **Execute the action on the following state change**: Select **Down** from the dropdown
 + Click on **OK**
 
-![](../.gitbook/assets/wug_12.png)
+![](../../.gitbook/assets/wug_12.png)
 
 **(6d)** Click on the **+** icon to add a _Policy for calling the Action Script during Trigger_
 
-![](../.gitbook/assets/wug_13.png)
+![](../../.gitbook/assets/wug_13.png)
 
 **(6e)** Here:
 + **Select an action from the Action Library**: Select **Squadcast script** from the dropdown
 + **Execute the action on the following state change**: Select **Down** from the dropdown
 + Click on **OK**
 
-![](../.gitbook/assets/wug_14.png)
+![](../../.gitbook/assets/wug_14.png)
 
 **(6f)** Click on the **+** icon to add a _Policy for Resolve_
 
-![](../.gitbook/assets/wug_15.png)
+![](../../.gitbook/assets/wug_15.png)
 
 **(6g)** Here:
 + **Select an action from the Action Library**: Select **Resolve Log** from the dropdown
@@ -251,11 +251,11 @@ sendToSquadcast(SQUADCAST_URL, reqBody);
 + **Only if the following state was reached**: You can select whatever is most applicable to your requirement, here we have selected **0 minutes - (Down)**
 + Click on **OK**
 
-![](../.gitbook/assets/wug_16.png)
+![](../../.gitbook/assets/wug_16.png)
 
 **(6h)** Click on the **+** icon to add another _Policy for calling the Action Script during Resolve_
 
-![](../.gitbook/assets/wug_17.png)
+![](../../.gitbook/assets/wug_17.png)
 
 **(6i)** Here:
 + **Select an action from the Action Library**: Select **Squadcast script** from the dropdown
@@ -263,31 +263,31 @@ sendToSquadcast(SQUADCAST_URL, reqBody);
 **Only if the following state was reached**: You can select whatever is most applicable to your requirement, here we have selected **0 minutes - (Down)**
 + Click on **OK**
 
-![](../.gitbook/assets/wug_18.png)
+![](../../.gitbook/assets/wug_18.png)
 
 **(6j)** Finally, click on **OK** to save all the _Action Policies_ added previously
 
-![](../.gitbook/assets/wug_19.png)
+![](../../.gitbook/assets/wug_19.png)
 
 **(7)** From the navigation bar on the top, now select **My Network**
 
-![](../.gitbook/assets/wug_20.png)
+![](../../.gitbook/assets/wug_20.png)
 
 **(8)** Then, choose the device(s) for which you want to associate this Squadcast integration with and right click on the _Device Name_. Here, select **Device Properties**
 
-![](../.gitbook/assets/wug_21.png)
+![](../../.gitbook/assets/wug_21.png)
 
 **(9)** Select **Actions** from the options in the left sidebar, then select **Actions and Policies** on the right
 
-![](../.gitbook/assets/wug_22.png)
+![](../../.gitbook/assets/wug_22.png)
 
 **(10)** Now, select **Squadcast Action Policy** from the dropdown
 
-![](../.gitbook/assets/wug_23.png)
+![](../../.gitbook/assets/wug_23.png)
 
 Once that is selected, you will be able to see the previously configured and currently applied list of _Actions_ and _Action Policies_ to the _Device_.
 
-![](../.gitbook/assets/wug_24.png)
+![](../../.gitbook/assets/wug_24.png)
 
 Repeat the same for all the _Devices_ that you wish to receive alerts for its downtime in Squadcast.
 

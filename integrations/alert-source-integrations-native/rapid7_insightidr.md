@@ -21,11 +21,11 @@ Route detailed monitoring alerts from Rapid7 InsightIDR to the right users in Sq
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Rapid7 insightIDR** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/rapid7_1.png)
+![](../../.gitbook/assets/rapid7_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -52,7 +52,7 @@ The **Add Event Source** panel appears
 - Enable the checkbox option **Alerts** under **Data Export Types**
 - Click **Save**
 
-![](../.gitbook/assets/rapid7_2.png)
+![](../../.gitbook/assets/rapid7_2.png)
 
 That is it, you are good to go! Now, whenever there is an alert in the Rapid7 InsightIDR, an incident will be triggered in Squadcast for the same.
 

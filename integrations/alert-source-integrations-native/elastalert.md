@@ -27,11 +27,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **ElastAlert** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/elastalert\_1.png)
+![](../../.gitbook/assets/elastalert\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -58,7 +58,7 @@ http_post_all_values: true
 <br/><br/><p>You can make sure that the 'Incident Title Name' and 'ElastAlert Rule Name' be the same in order to help identify the rule that caused the alert easily. <br/><br/>However, this is not mandatory.</p>
 {{site.data.alerts.end}}
 
-![](../.gitbook/assets/elastalert\_2.png)
+![](../../.gitbook/assets/elastalert\_2.png)
 
 For more details on **post** alert type, refer [HTTP Post Alert Type - ElastAlert](https://elastalert.readthedocs.io/en/latest/ruletypes.html#http-post).
 

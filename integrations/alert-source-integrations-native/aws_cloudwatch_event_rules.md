@@ -20,11 +20,11 @@ Route detailed alerts from AWS CloudWatch Event Rules to the right users in Squa
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **AWS Cloudwatch Event Rules** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/event\_rules\_1.png)
+![](../../.gitbook/assets/event\_rules\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -40,17 +40,17 @@ Route detailed alerts from AWS CloudWatch Event Rules to the right users in Squa
 
 **(3)** Within the dialog box, fill in the details as per your requirements and then click on **Create topic**
 
-![](../.gitbook/assets/event\_rules\_2.png)
+![](../../.gitbook/assets/event\_rules\_2.png)
 
 **(4)** Inside the topic, click on **Create subscription**
 
-![](../.gitbook/assets/event\_rules\_3.png)
+![](../../.gitbook/assets/event\_rules\_3.png)
 
 **(5)** Select the protocol as **HTTPS** and in the endpoint enter the URL you obtained from previous step
 
 **(6)** Finally, click on **Create subscription** to create the subscription
 
-![](../.gitbook/assets/event\_rules\_4.png)
+![](../../.gitbook/assets/event\_rules\_4.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important:</b>
@@ -63,25 +63,25 @@ Route detailed alerts from AWS CloudWatch Event Rules to the right users in Squa
 
 **(2)** Click on **Create Rule**
 
-![](../.gitbook/assets/event\_rules\_5.png)
+![](../../.gitbook/assets/event\_rules\_5.png)
 
 **(3)** Select desired **Service Name**  and  **Event Type**
 In this example, we're selecting `Service Name: EC2` and `Event Type: All Events`
 
-![](../.gitbook/assets/event\_rules\_6.png)
+![](../../.gitbook/assets/event\_rules\_6.png)
 
 **(4)** Under **Targets** click on **Add Target**
 
 **(5)** Select **SNS Topic** and your topic name from the dropdown
 In this example, we're selecting ` Topic: Instance-state-change`
 
-![](../.gitbook/assets/event\_rules\_7.png)
+![](../../.gitbook/assets/event\_rules\_7.png)
 
 **(6)** Click on **Configure rule details**. Enter the name of your rule. Add a description as needed
 
 **(7)** Click on **Create rule** to save this configuration
 
-![](../.gitbook/assets/event\_rules\_8.png)
+![](../../.gitbook/assets/event\_rules\_8.png)
 
 That's it, you are good to go! Your AWS CloudWatch Event Rules integration is complete. Now, whenever an event is triggered that matches your Event Rules, an incident will be created in Squadcast for it.
 

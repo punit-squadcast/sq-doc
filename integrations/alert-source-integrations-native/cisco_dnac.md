@@ -16,11 +16,11 @@ You can integrate Cisco DNAC with Squadcast and get those alerts into Squadcast 
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Cisco DNAC** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/cisco\_1.png)
+![](../../.gitbook/assets/cisco\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -32,23 +32,23 @@ You can integrate Cisco DNAC with Squadcast and get those alerts into Squadcast 
 
 Login to your Cisco DNAC dashboard and go to the **Platform** tab and click on **Bundles**.
 
-![](../.gitbook/assets/cisco\_2.png)
+![](../../.gitbook/assets/cisco\_2.png)
 
 Browse the bundles and click on the **Configure** button next to **Network Events for REST API Endpoint** or **SWIM Events for REST API Endpoint** depending on which event that you would like to be sent to Squadcast or you can do both if required.
 
-![](../.gitbook/assets/cisco\_3.png)
+![](../../.gitbook/assets/cisco\_3.png)
 
-![](../.gitbook/assets/cisco\_4.png)
+![](../../.gitbook/assets/cisco\_4.png)
 
 Then click on **Rest Endpoint for Publishing Event **and select **Create a new instance**.
 
-![](../.gitbook/assets/cisco\_5.png)
+![](../../.gitbook/assets/cisco\_5.png)
 
-![](../.gitbook/assets/cisco\_6.png)
+![](../../.gitbook/assets/cisco\_6.png)
 
 Enter the **Instance Name** as **Squadcast** and paste the **Cisco DNAC Webhook URL** you got from the previous section inside **REST Endpoint** and use `admin` for both **Username** and **Password** and click the **Save** button.
 
-![](../.gitbook/assets/cisco\_7.png)
+![](../../.gitbook/assets/cisco\_7.png)
 
 That's it! The Cisco DNAC Integration is ready and you can Setup the Event sending frequency and subscribe to the relevant network events. For more information, please refer: [https://developer.cisco.com/docs/dna-center/#!getting-started-with-webhooks-on-the-cisco-dna-center-platform/event-schema-and-sample-response](https://developer.cisco.com/docs/dna-center/#!getting-started-with-webhooks-on-the-cisco-dna-center-platform/event-schema-and-sample-response)
 

@@ -20,11 +20,11 @@ Route detailed monitoring alerts from Checkly to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Checkly** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/checkly\_1.png)
+![](../../.gitbook/assets/checkly\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,15 +36,15 @@ Route detailed monitoring alerts from Checkly to the right users in Squadcast.
 
 **(1)** In the app, navigate to **Alert Settings** on the sidebar
 
-![](../.gitbook/assets/checkly\_2.png)
+![](../../.gitbook/assets/checkly\_2.png)
 
 **(2)** Click on **Add more channels** to add the Webhook. Additionally, configure other Alert Settings that are available on this page based on your requirements
 
-![](../.gitbook/assets/checkly\_3.png)
+![](../../.gitbook/assets/checkly\_3.png)
 
 **(3)** Select **Add channel** for **Webhook**
 
-![](../.gitbook/assets/checkly\_4.png)
+![](../../.gitbook/assets/checkly\_4.png)
 
 **(4)** Fill in the details as indicated below:
 
@@ -84,12 +84,12 @@ Route detailed monitoring alerts from Checkly to the right users in Squadcast.
 
 **(1)** Checkly auto-reformats the content copied from above that you paste which ruptures the template syntax, resulting in the failure of the **Test webhook** option and hence, alert propagation to Squadcast. Please ensure the copied content is edited to match the syntax in the screenshot below.
 
-![](../.gitbook/assets/checkly\_6.png)
+![](../../.gitbook/assets/checkly\_6.png)
 
 
 **(2)** It is recommended to add the **Header** `Content-Type` as `application/json`.
 
-![](../.gitbook/assets/checkly\_7.png)
+![](../../.gitbook/assets/checkly\_7.png)
 {{site.data.alerts.end}}
   
   **(d)** Now, you can verify if the integration works fine by clicking on **Test webhook** which will create an incident in Squadcast
@@ -100,6 +100,6 @@ Route detailed monitoring alerts from Checkly to the right users in Squadcast.
   
   **(g)** **Save webhook** configuration
 
-![](../.gitbook/assets/checkly\_5.png)
+![](../../.gitbook/assets/checkly\_5.png)
 
 That is it, you are now good to go! Whenever an alert is triggered in Checkly, an incident will be created automatically in Squadcast. When an alert is resolved in Checkly, the corresponding incident will get **auto-resolved in Squadcast.**

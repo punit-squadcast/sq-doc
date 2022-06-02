@@ -20,11 +20,11 @@ Route detailed alerts from PRTG Network Monitor to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **PRTG Network Monitor** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/prtg_1.png)
+![](../../.gitbook/assets/prtg_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,21 +36,21 @@ Route detailed alerts from PRTG Network Monitor to the right users in Squadcast.
 
 **(1)** Login to your PRTG Network Monitor dashboard. Go to **Setup** present in the top right corner of the screen. Select **Account Settings --> Notification Templates**
 
-![](../.gitbook/assets/prtg_2.png)
+![](../../.gitbook/assets/prtg_2.png)
 
 **(2)** Click on the **+** button on the right side of the screen to **Add Notification Template**
 
-![](../.gitbook/assets/prtg_3.png)
+![](../../.gitbook/assets/prtg_3.png)
 
 **(3)** Name it  **Squadcast Webhook**  for easy identification. Configure the remaining fields as per your requirements
 
-![](../.gitbook/assets/prtg_4.png)
+![](../../.gitbook/assets/prtg_4.png)
 
 **(4)** Scroll down and tick the **Execute HTTP Action** button. Paste the webhook URL copied from Squadcast platform in the **URL** field
 
 Select **HTTP Method** as POST and paste the snippet given below in the payload field.
 
-![](../.gitbook/assets/prtg_5.png)
+![](../../.gitbook/assets/prtg_5.png)
 
 ```
 colorofstate=%colorofstate&company=%company&comments=%comments&commentssensor=%commentssensor&commentsdevice=%commentsdevice&commentsgroup=%commentsgroup&commentsprobe=%commentsprobe&coverage=%coverage&cumsince=%cumsince&date=%date&datetime=%datetime&device=%device&deviceid=%deviceid&down=%down&downtime=%downtime&elapsed_lastcheck=%elapsed_lastcheck&elapsed_lastdown=%elapsed_lastdown&elapsed_lastup=%elapsed_lastup&group=%group&groupid=%groupid&history=%history&home=%home&host=%host&iconofstate=%iconofstate&lastcheck=%lastcheck&lastdown=%lastdown&lastmessage=%lastmessage&laststatus=%laststatus&lastup=%lastup&lastvalue=%lastvalue&linkprobe=%linkprobe&linkgroup=%linkgroup&linkdevice=%linkdevice&linksensor=%linksensor&location=%location&message=%message&name=%name&nodename=%nodename&objecttags=%objecttags&parenttags=%parenttags&prio=%prio&priority=%priority&probe=%probe&probeid=%probeid&programname=%programname&programversion=%programversion&sensor=%sensor&sensorid=%sensorid&server=%server&serviceurl=%serviceurl&settings=%settings&shortname=%shortname&since=%since&sitename=%sitename&statesince=%statesince&status=%status&systemdatetime=%systemdatetime&tags=%tags&time=%time&timezone=%timezone&uptime=%uptime
@@ -63,7 +63,7 @@ By default, the **SNI** field is set to **Do not send SNI (default)**. Ideally, 
 
 Then specify the **app.squadcast.com** as the **SNI Name**.
 
-![](../.gitbook/assets/prtg_note.png)
+![](../../.gitbook/assets/prtg_note.png)
 
 Doing so will solve for any SSL related errors that occur otherwise.
 {{site.data.alerts.end}}
@@ -74,6 +74,6 @@ Now, your Squadcast webhook is setup and ready to be consumed by sensors for sen
 
 Simply select the **Squadcast Webhook** as the Notification Template from the dropdown when configuring Notification Triggers in order to send notifications to Squadcast.
 
-![](../.gitbook/assets/prtg_6.png)
+![](../../.gitbook/assets/prtg_6.png)
 
 That is it, you are good to go! Everytime an alert is generated in PRTG Network Monitor, an incident for it would be triggered in Squadcast. When the alert is resolved in PRTG Network Monitor (when the system gets back online), the corresponding incident for it will be automatically resolved in Squadcast.

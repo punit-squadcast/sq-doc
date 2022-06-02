@@ -19,11 +19,11 @@ Splunk is used to search, analyze and visualize the machine-generated data gathe
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Splunk** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/splunk\_1.png)
+![](../../.gitbook/assets/splunk\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -35,11 +35,11 @@ Splunk is used to search, analyze and visualize the machine-generated data gathe
 
 **(1)** In the Splunk dashboard, click on **Search & Reporting** under **Apps**
 
-![](../.gitbook/assets/splunk\_2.png)
+![](../../.gitbook/assets/splunk\_2.png)
 
 **(2)** Run your desired search query in the logs (a) and then click on **Save As** and select **Alert** (b)
 
-![](../.gitbook/assets/splunk\_3.png)
+![](../../.gitbook/assets/splunk\_3.png)
 
 **(3)** In the **Save As Alert** box, enter the title, description and other Trigger Conditions. You can find more information on what each of these parameters mean in the [Splunk documentation](https://docs.splunk.com/Documentation/Splunk/8.1.0/Alert/Aboutalerts).
 
@@ -47,7 +47,7 @@ Splunk is used to search, analyze and visualize the machine-generated data gathe
 
 **(5)** Paste the copied webhook URL from Squadcast under **URL** and click on **Save**
 
-![](../.gitbook/assets/splunk\_4.png)
+![](../../.gitbook/assets/splunk\_4.png)
 
 That's it! Your Splunk Integration is now complete. Whenever an alert is fired for your search query, an incident will be created in Squadcast.
 

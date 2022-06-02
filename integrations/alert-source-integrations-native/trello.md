@@ -22,11 +22,11 @@ Route detailed events from Trello to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Trello** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/trello\_1.png)
+![](../../.gitbook/assets/trello\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -46,7 +46,7 @@ You can trigger the webhook by calling it from any application that interacts wi
 
 We have considered setting up the webhook by using Postman. Here:
 
-![](../.gitbook/assets/trello\_2.png)
+![](../../.gitbook/assets/trello\_2.png)
 
 - Select request type as `POST`
 
@@ -61,13 +61,13 @@ https://api.trello.com/1/webhooks?key=YOUR_KEY&token=YOUR_TOKEN&callbackURL=PREV
 
     - To see your `idList`, open any **card** > click on **Share** > click on **Export JSON** > Find `idList` from the JSON
 
-    ![](../.gitbook/assets/trello\_3.png)
+    ![](../../.gitbook/assets/trello\_3.png)
 
 - `callbackURl` - paste the previously copied Squadcast webhook URL
 
 **NOTE:** After the `POST` request is made, please ensure that the **status** of the request should return `200 OK`.
 
-![](../.gitbook/assets/trello\_4.png)
+![](../../.gitbook/assets/trello\_4.png)
 
 ### Approach 2:
 

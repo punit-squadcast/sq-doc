@@ -16,11 +16,11 @@ Route detailed alerts from Cisco Meraki to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Cisco Meraki** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/cisco\_meraki\_1.png)
+![](../../.gitbook/assets/cisco\_meraki\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -32,25 +32,25 @@ Route detailed alerts from Cisco Meraki to the right users in Squadcast.
 
 **(1)** Login to your Cisco Meraki dashboard. Head over to the **Network-wide** tab and click on **Alerts**
 
-![](../.gitbook/assets/cisco\_meraki\_2.png)
+![](../../.gitbook/assets/cisco\_meraki\_2.png)
 
 **(2)** Scroll to the bottom of the **Alerts** page, and click on **Add an HTTP Server** under the **Webhooks** section
 
-![](../.gitbook/assets/cisco\_meraki\_4.png)
+![](../../.gitbook/assets/cisco\_meraki\_4.png)
 
 **(3)** Here, fill in the **Name**. Paste the previously copied Squadcast Webhook URL in the placeholder for **URL**. Then, click on **Save**
 
-![](../.gitbook/assets/cisco\_meraki\_5.png)
+![](../../.gitbook/assets/cisco\_meraki\_5.png)
 
 **(4)** Scroll to the top of the **Alerts** page and add the newly created Webhook for Squadcast as a  **default recipient**
 
-![](../.gitbook/assets/cisco\_meraki\_6.png)
+![](../../.gitbook/assets/cisco\_meraki\_6.png)
 
 **(5)** Select the events & parameters for triggering this webhook and the click on **Save**
 
-![](../.gitbook/assets/cisco\_meraki\_7.png)
+![](../../.gitbook/assets/cisco\_meraki\_7.png)
 
-![](../.gitbook/assets/cisco\_meraki\_8.png)
+![](../../.gitbook/assets/cisco\_meraki\_8.png)
 
 That's it, you are good to go! Your Cisco Meraki integration is now complete. Whenever Cisco Meraki fires an alert, an incident will be created in Squadcast for it.
 

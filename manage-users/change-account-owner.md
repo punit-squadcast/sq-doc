@@ -12,29 +12,29 @@ There might be multiple reasons why one would want to transfer Account Ownership
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (9).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (9).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1) (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_2 (1) (1).png>)
 
 3\. Click on **Transfer Ownership** beside your name
 
-![](<../.gitbook/assets/ownership\_3 (1).png>)
+![](<../../.gitbook/assets/ownership\_3 (1).png>)
 
 ### Via Organization Settings <a href="#via-organization-settings" id="via-organization-settings"></a>
 
 1. Click on **Settings**, then select **General Settings** and click on **Transfer Ownership**
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (4).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (4).png>)
 
 2\. From the **Users** drop-down, select the user you would like to transfer your Organization’s ownership to
 
-![](../.gitbook/assets/ownership\_1.png)
+![](../../.gitbook/assets/ownership\_1.png)
 
 3\. Enable the checkbox confirming your action to proceed. Once you have confirmed, click on the **Save** button to transfer your ownership to that user
 
-![](../.gitbook/assets/ownership\_2.png)
+![](../../.gitbook/assets/ownership\_2.png)
 
 {% hint style="warning" %}
 **Important:**

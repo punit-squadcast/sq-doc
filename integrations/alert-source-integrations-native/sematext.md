@@ -20,11 +20,11 @@ Route detailed monitoring alerts from Sematext to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Sematext** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/sematext_1.png)
+![](../../.gitbook/assets/sematext_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,13 +36,13 @@ Route detailed monitoring alerts from Sematext to the right users in Squadcast.
 
 **(1)** Go to **Alerts** from the left navigation panel. Click on **Notification Hooks** and select **Squadcast** to create a new Squadcast notification hook
 
-![](../.gitbook/assets/sematext_2.png)
+![](../../.gitbook/assets/sematext_2.png)
 
 **(2)** **Name** your Notification Hook to reflect the type of alerts that will be sent into Squadcast
 
 **(3)** Paste the webhook URL that was copied from Squadcast under **Webhook URL**
 
-![](../.gitbook/assets/sematext_3.png)
+![](../../.gitbook/assets/sematext_3.png)
 
 **(4)** Click on **Send Test Notification** to test this integration
 

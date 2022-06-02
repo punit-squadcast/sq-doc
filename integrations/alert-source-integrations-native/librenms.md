@@ -21,11 +21,11 @@ Route detailed monitoring alerts from LibreNMS to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **LibreNMS** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/librenms\_1.png)
+![](../../.gitbook/assets/librenms\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,15 +37,15 @@ Route detailed monitoring alerts from LibreNMS to the right users in Squadcast.
 
 **(1)** From the home page, click on the **Alerts** tab on the top
 
-![](../.gitbook/assets/librenms\_2.png)
+![](../../.gitbook/assets/librenms\_2.png)
 
 **(2)** Select **Alert Transports**
 
-![](../.gitbook/assets/librenms\_3.png)
+![](../../.gitbook/assets/librenms\_3.png)
 
 **(3)** Click on **Create alert transport**
 
-![](../.gitbook/assets/librenms\_4.png)
+![](../../.gitbook/assets/librenms\_4.png)
 
 **(4)** Next:
 
@@ -100,11 +100,11 @@ transport_name={{ $transport_name }}
 
 - Click on **Save Transport**
 
-![](../.gitbook/assets/librenms\_5.png)
+![](../../.gitbook/assets/librenms\_5.png)
 
 **(5)** Once your Alert Transport has been created, click on the **Alerts** tab on the top and select **Alert Rules**
 
-![](../.gitbook/assets/librenms\_6.png)
+![](../../.gitbook/assets/librenms\_6.png)
 
 **(6)** You can either **Add alert rule** or modify an existing one. Choose the **Alert Rule** for which Squadcast Webhook should be triggered.
 
@@ -113,11 +113,11 @@ Here, in **Transports**:
 - Enable the toggle for **Recovery Alerts** to `ON`
 - Click on **Save Rule**
 
-![](../.gitbook/assets/librenms\_7.png)
+![](../../.gitbook/assets/librenms\_7.png)
 
 **(7)** Back in the **Alert Rule** dashboard, you can verify the rules for which **Squadcast Webhook** is added as a **Transport**
 
-![](../.gitbook/assets/librenms\_8.png)
+![](../../.gitbook/assets/librenms\_8.png)
 
 That is it, your integration with LibreNMS is complete and you are good to go!
 

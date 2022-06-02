@@ -6,11 +6,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Amazon CloudWatch** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/aws\_1.png)
+![](../../.gitbook/assets/aws\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -24,7 +24,7 @@ Now log in to your AWS account and proceed to SNS.
 
 Click on "**Create topic**" to configure the display name and related details. Fill in the details as per your requirements and then click on "Create topic".
 
-![](../.gitbook/assets/aws\_2.png)
+![](../../.gitbook/assets/aws\_2.png)
 
 Now inside the topic, click on "**Create subscription**" to get "Create subscription" page. Select the protocol as "HTTPS" and in the endpoint enter the URL that was copied from Squadcast. Finally, click on "Create subscription" to create the subscription. 
 
@@ -33,25 +33,25 @@ Now inside the topic, click on "**Create subscription**" to get "Create subscrip
 <p>Ensure that the <code class="highlighter-rouge" style="color: #c7254e; background-color: #f9f2f4 !important;">Enable raw message Delivery</code> checkbox remains unchecked.</p>
 {{site.data.alerts.end}}
 
-![](../.gitbook/assets/aws\_3.png)
+![](../../.gitbook/assets/aws\_3.png)
 
 The "**Subscription ID**" for the subscription should immediately change from "PendingConfirmation" to "Confirmed". Click on the refresh button to verify the same.
 
-![](../.gitbook/assets/aws\_4.png)
+![](../../.gitbook/assets/aws\_4.png)
 
 Now you can go to any of your AWS services for which you want to set the Alarm. We'll take the example of "EC2" in this case.
 
 Right-click on your EC2 instance and go to "**CloudWatch Monitoring**". Click on "**Add/Edit Alarms**".
 
-![](../.gitbook/assets/aws\_5.png)
+![](../../.gitbook/assets/aws\_5.png)
 
 Click on "**Create Alarm**" and in the following dialog box for "Send a notification to" drop down, select the topic you created earlier. Configure the alarm as per your requirements and finally click on "**Create Alarm**". Now you will start receiving incidents on Squadcast whenever this Alarm moves to "**ALARM" state**.
 
-![](../.gitbook/assets/aws\_6.png)
+![](../../.gitbook/assets/aws\_6.png)
 
 Under "**Actions**", add a notification selecting "**Whenever this alarm: State is OK**" and "Send notification to:" as the topic you created earlier. Finally click on "**Save Changes**".
 
-![](../.gitbook/assets/aws\_7.png)
+![](../../.gitbook/assets/aws\_7.png)
 
 Your Amazon CloudWatch Integration is now good to go! 
 

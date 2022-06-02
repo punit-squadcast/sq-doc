@@ -20,11 +20,11 @@ Route detailed monitoring alerts from AppOptics to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **SolarWinds AppOptics** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/appoptics\_1.png)
+![](../../.gitbook/assets/appoptics\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,15 +38,15 @@ Route detailed monitoring alerts from AppOptics to the right users in Squadcast.
 
 **(2)** From the navigation section to the left of the homepage, select  **Settings > Metric Settings > Notification Services**
 
-![](../.gitbook/assets/appoptics\_2.png)
+![](../../.gitbook/assets/appoptics\_2.png)
 
 **(3)** Click on **Webhooks** under the **Available** section
 
-![](../.gitbook/assets/appoptics\_3.png)
+![](../../.gitbook/assets/appoptics\_3.png)
 
 **(4)** Add an appropriate **Title** and paste the webhook URL copied from Squadcast under **URL**. Click on **Add**
 
-![](../.gitbook/assets/appoptics\_4.png)
+![](../../.gitbook/assets/appoptics\_4.png)
 
 **(5)** While creating a **Metric Alert**, select the configured webhook URL and **test fire** to verify whether the notification service is working as expected
 

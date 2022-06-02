@@ -17,11 +17,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Sumo Logic** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/sumo\_logic\_1.png)
+![](../../.gitbook/assets/sumo\_logic\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -42,21 +42,21 @@ So, we'll create 2 Webhook connections with different payload formats.
 
 1.Login to your sumo logic dashboard and go to the **Settings** tab in the **Manage Data** section.
 
-![](../.gitbook/assets/sumo\_logic\_2.png){: style="max-width: 70%" }
+![](../../.gitbook/assets/sumo\_logic\_2.png){: style="max-width: 70%" }
 
 2.Select the **Connections** tab from the topbar.
 
-![](../.gitbook/assets/sumo\_logic\_3.png)
+![](../../.gitbook/assets/sumo\_logic\_3.png)
 
 3.Click on **+** button.
 
-![](../.gitbook/assets/sumo\_logic\_4.png)
+![](../../.gitbook/assets/sumo\_logic\_4.png)
 
 4.Select **Webhook** option.
 
 5.Add the _Log Alerts_ webhook connection.
 
-![](../.gitbook/assets/sumo\_logic\_5.png)
+![](../../.gitbook/assets/sumo\_logic\_5.png)
 
 * Paste the webhook URL copied from the Squadcast dashboard in the URL field.
 
@@ -79,7 +79,7 @@ So, we'll create 2 Webhook connections with different payload formats.
 
 6.Similarly, add _Metric Alerts_ webhook connection.
 
-![](../.gitbook/assets/sumo\_logic\_6.png)
+![](../../.gitbook/assets/sumo\_logic\_6.png)
 
 * Paste the same webhook URL copied from the Squadcast dashboard in the URL field.
 
@@ -105,7 +105,7 @@ So, we'll create 2 Webhook connections with different payload formats.
 
 * Follow the article: [Schedule Searches for Webhook Connections](https://help.sumologic.com/Manage/Connections-and-Integrations/Webhook-Connections/Schedule-Searches-for-Webhook-Connections) for configuring alerts for logs.
 
-![](../.gitbook/assets/sumo\_logic\_7.png)
+![](../../.gitbook/assets/sumo\_logic\_7.png)
 
 * In the **Alert Type** drop-down, select **Webhook**.
 
@@ -115,7 +115,7 @@ So, we'll create 2 Webhook connections with different payload formats.
 
 * Refer the video: [Monitor your Metrics in Real-Time with Sumo Logic Alerts](https://www.youtube.com/watch?v=DfL7SetZ5dc) for configuring alerts for Metrics.
 
-![](../.gitbook/assets/sumo\_logic\_8.png)
+![](../../.gitbook/assets/sumo\_logic\_8.png)
 
 * In the **Send Notification Via** dropdown, select **Squadcast Metric Alerts**.
 

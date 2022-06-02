@@ -17,11 +17,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Buildkite** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/buildkite\_1.png)
+![](../../.gitbook/assets/buildkite\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -33,15 +33,15 @@ Squadcast will then process this information to create incidents for this servic
 
 1.Login to your build kite web console and go to **Settings** tab on the top.
 
-![](../.gitbook/assets/buildkite\_2.png)
+![](../../.gitbook/assets/buildkite\_2.png)
 
 2.Click on **Notification Services** on left sidebar.
 
-![](../.gitbook/assets/buildkite\_3.png)
+![](../../.gitbook/assets/buildkite\_3.png)
 
 3.Click on **Add** button beside Webhook.
 
-![](../.gitbook/assets/buildkite\_4.png)
+![](../../.gitbook/assets/buildkite\_4.png)
 
 4.Paste the Build Kite Webhook URL copied from the Squadcast dashboard into the **Webhook URL** field. In events, select :
 
@@ -51,7 +51,7 @@ Squadcast will then process this information to create incidents for this servic
     * agent.disconnected
     * agent.stopped
 
-![](../.gitbook/assets/buildkite\_5.png)
+![](../../.gitbook/assets/buildkite\_5.png)
 
 5.Configure the **Pipelines** and **Branch filtering** sections as per your requirements.
 6.Finally, click on the **Add Webhook Notification** 

@@ -22,11 +22,11 @@ Route detailed events from AppSignal to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **AppSignal** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/appsignal\_1.png)
+![](../../.gitbook/assets/appsignal\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -40,21 +40,21 @@ Log in to your **AppSignal** web console.
 
 **(1)** Select the app you would create incidents for. Now, in the left sidebar, select **Notifications**
 
-![](../.gitbook/assets/appsignal\_2.png)
+![](../../.gitbook/assets/appsignal\_2.png)
 
 **(2)** Click on **Add Integration** and select **Webhook** from the dropdown
 
-![](../.gitbook/assets/appsignal\_3.png)
+![](../../.gitbook/assets/appsignal\_3.png)
 
 **(3)** Give the Webhook a **Name**, select the types of events for which you would like to create incidents for, and paste the previously copied Squadcast Webhook under **Webhook URL**
 
-![](../.gitbook/assets/appsignal\_4.png)
+![](../../.gitbook/assets/appsignal\_4.png)
 
 {{site.data.alerts.blue-note-md}}
 **Important:**
 
 
-![](../.gitbook/assets/appsignal\_5.png)
+![](../../.gitbook/assets/appsignal\_5.png)
 
 
 When you click on the **Test Hook** button after adding the Webhook, AppSignal sends test data over a `GET HTTP Request` and **not** a `POST HTTP Request`. As a result, **you will not notice an incident in Squadcast** for the same. To test the Webhook, either generate or wait for real-time alerts to occur within AppSignal.

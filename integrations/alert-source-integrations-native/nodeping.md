@@ -20,11 +20,11 @@ Route detailed alerts from NodePing to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **NodePing** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/nodeping\_1.png)
+![](../../.gitbook/assets/nodeping\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,11 +36,11 @@ Route detailed alerts from NodePing to the right users in Squadcast.
 
 **(1)** In the app, click on **Checks & Contacts > Contacts > Add new contact**
 
-![](../.gitbook/assets/nodeping\_2.png)
+![](../../.gitbook/assets/nodeping\_2.png)
 
 **(2)** Provide any suitable Name, select **Webhook** option in the drop-down, change method name from **GET** to **POST**. Paste the previously copied **Webhook URL** in the **URL field**
 
-![](../.gitbook/assets/nodeping\_3.png)
+![](../../.gitbook/assets/nodeping\_3.png)
 
 **(3)** Click on **Body > RAW** and copy the below payload and paste this in the **JSON** section and click on **Save**
 
@@ -63,11 +63,11 @@ Route detailed alerts from NodePing to the right users in Squadcast.
 }
 ```
 
-![](../.gitbook/assets/nodeping\_4.png)
+![](../../.gitbook/assets/nodeping\_4.png)
 
 **(4)** Click on **Checks & Contacts > Checks** and edit the check. Scroll to the **Notify** section and select the Contact created for Sqaudcast in the drop-down and click on **Save**
 
-![](../.gitbook/assets/nodeping\_5.png)
+![](../../.gitbook/assets/nodeping\_5.png)
 
 You can find more information on setting this up [here](https://nodeping.com/nodepingnotifications.html#webhooks).
 

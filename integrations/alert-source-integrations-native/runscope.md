@@ -17,11 +17,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Runscope** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/runscope_1.png)
+![](../../.gitbook/assets/runscope_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -31,11 +31,11 @@ Squadcast will then process this information to create incidents for this servic
 
 Now login to you Runscope dashboard and click on the Runscope icon at the top right corner and select **Connected Services** from the resulting options.
 
-![](../.gitbook/assets/runscope_2.png)
+![](../../.gitbook/assets/runscope_2.png)
 
 In the list of options available, scroll to **Webhooks** and click **Connect**.
 
-![](../.gitbook/assets/runscope_3.png)
+![](../../.gitbook/assets/runscope_3.png)
 
 In the Advanced Webhooks window, Enter a Description such as **Squadcast Incidents** and select the Threshold as per your requirement.
 
@@ -43,16 +43,16 @@ For best results, select **Notify after a test fails in location atleast 1 times
 
 Then paste the webhook url for the Runscope service and click **Save Changes**.
 
-![](../.gitbook/assets/runscope_4.png)
+![](../../.gitbook/assets/runscope_4.png)
 
 Click **Edit** on the test needs to be integrated with Squadcast and click on **Test Settings**.
 
-![](../.gitbook/assets/runscope_5.png)
+![](../../.gitbook/assets/runscope_5.png)
 
-![](../.gitbook/assets/runscope_6.png)
+![](../../.gitbook/assets/runscope_6.png)
 
 In the **Test Settings**, go to **Integrations** and Toggle on the switch near to Squadcast Incidents webhook.
 
-![](../.gitbook/assets/runscope_7.png)
+![](../../.gitbook/assets/runscope_7.png)
 
 The Runscope integration is good to go and if there are any failed tests, it will automatically trigger an incident in Squadcast and if the test passes again, the incident will get **Auto-Resolved** in Squadcast.

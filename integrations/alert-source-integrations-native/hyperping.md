@@ -20,11 +20,11 @@ Route detailed alerts from Hyperping to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Hyperping** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/hyperping\_1.png)
+![](../../.gitbook/assets/hyperping\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,7 +38,7 @@ Route detailed alerts from Hyperping to the right users in Squadcast.
 
 **(2)** Paste the previously copied Squadcast **Webhook URL** in the **URL** field under **Webhook** section
 
-![](../.gitbook/assets/hyperping\_2.png)
+![](../../.gitbook/assets/hyperping\_2.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **Information**: 

@@ -7,7 +7,7 @@
 
 **(2)** Search for **Kapacitor** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/kapacitor\_1.png)
+![](../../.gitbook/assets/kapacitor\_1.png)
 
 {% hint style="note" %}
 <b>Important</b>
@@ -21,11 +21,11 @@
 
 **(1)** From your Chronograf account, hover over the *Alerts* icon in the side bar, and select *Manage Tasks*
 
-![](../.gitbook/assets/kapacitor\_2.png)
+![](../../.gitbook/assets/kapacitor\_2.png)
 
 **(2)** You can either modify an existing *Alert Rule* or create one by selecting *Add Alert Rule*
 
-![](../.gitbook/assets/kapacitor\_3.png)
+![](../../.gitbook/assets/kapacitor\_3.png)
 
 **(3)** Within the *Alert Rule Builder*, give the Alert Rule a *Name*, select *Alert Type*, *Time Series*, *Conditions*
 
@@ -33,11 +33,11 @@ Scroll further to *Alert Handlers*
 
 (a) Select *post* from the drop down
 
-![](../.gitbook/assets/kapacitor\_4.png)
+![](../../.gitbook/assets/kapacitor\_4.png)
 
 **(3)** (b) Paste the Webhook copied from Squadcast under *HTTP endpoint for POST request*
 
-![](../.gitbook/assets/kapacitor\_5.png)
+![](../../.gitbook/assets/kapacitor\_5.png)
 
 **(4)** Click on *Save Rule*
 

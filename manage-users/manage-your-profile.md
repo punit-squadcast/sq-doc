@@ -8,7 +8,7 @@ description: Edit your account details and set up notification preferences
 
 1. Click on the user icon in the upper right corner and select **Profile**
 
-![](../.gitbook/assets/manage\_your\_profile\_1.png)
+![](../../.gitbook/assets/manage\_your\_profile\_1.png)
 
 2\. On your **Profile** page, you can:
 
@@ -38,15 +38,15 @@ description: Edit your account details and set up notification preferences
 2. Select your country _Dial Code_ and fill in the _Mobile Number_
 3. Click on **Verify**
 
-![](<../.gitbook/assets/manage\_account\_11 (1).png>)
+![](<../../.gitbook/assets/manage\_account\_11 (1).png>)
 
 4\. An OTP will be sent to you, fill in the OTP and click **Submit**
 
-![](<../.gitbook/assets/manage\_account\_12 (1).png>)
+![](<../../.gitbook/assets/manage\_account\_12 (1).png>)
 
 5\. If you did not receive an OTP, you can click on **Send again** to get a new OTP. **Send again** will only be enabled after 1 minute has passed every-time an OTP is sent. You can also click on **Skip and verify later** to verify the _Mobile Number_ later
 
-![](<../.gitbook/assets/manage\_account\_13 (2).png>)
+![](<../../.gitbook/assets/manage\_account\_13 (2).png>)
 
 ### Mobile Number Verification <a href="#mobile-number-verification" id="mobile-number-verification"></a>
 
@@ -69,7 +69,7 @@ description: Edit your account details and set up notification preferences
 
 1. Enter the details, _Mobile Number_ is **optional**. You can add a _Mobile Number_ later in your **Profile** page
 
-![](../.gitbook/assets/manage\_account\_4.png)
+![](../../.gitbook/assets/manage\_account\_4.png)
 
 2\. If _Mobile Number_ is provided, a One-time Password (OTP) will be sent to you through SMS and you will be taken to the OTP verification screen
 
@@ -78,7 +78,7 @@ description: Edit your account details and set up notification preferences
 3. If you want to verify your _Mobile Number_ later, you can select **Skip and verify later**. _Mobile Number_ can be verified in the [**Profile page**](broken-reference/)
 4. You will then be logged in, irrespective of whether you choose to verify instantly or at a later point in time
 
-![](../.gitbook/assets/manage\_account\_5.png)
+![](../../.gitbook/assets/manage\_account\_5.png)
 
 ### In Profile Page <a href="#in-profile-page" id="in-profile-page"></a>
 
@@ -86,19 +86,19 @@ To verify _Mobile Number_
 
 1. Click on **Verify Phone Number**
 
-![](../.gitbook/assets/manage\_account\_6.png)
+![](../../.gitbook/assets/manage\_account\_6.png)
 
 2\. An OTP will be sent to your _Mobile Number_. Fill in the OTP and **Submit**
 
-![](../.gitbook/assets/manage\_account\_7.png)
+![](../../.gitbook/assets/manage\_account\_7.png)
 
 3\. If you did not receive an OTP, you can click on **Send again** to get a new OTP. **Send again** will only be enabled after 1 minute has passed every-time an OTP is sent. You can also click on **Skip and verify later** to verify the _Mobile Number_ later
 
-![](<../.gitbook/assets/manage\_account\_13 (1).png>)
+![](<../../.gitbook/assets/manage\_account\_13 (1).png>)
 
 4\. After verification is complete, the warning message will disappear and you will receive Phone & SMS notifications for incidents
 
-![](../.gitbook/assets/manage\_account\_8.png)
+![](../../.gitbook/assets/manage\_account\_8.png)
 
 {% hint style="info" %}
 **Note:**
@@ -107,11 +107,11 @@ If the Mobile Number is not verified via OTP, the same will be indicated in the 
 
 **In the web app:**
 
-![](../.gitbook/assets/manage\_account\_14.png)
+![](../../.gitbook/assets/manage\_account\_14.png)
 
 **In the mobile app:**
 
 Navigate to **My Profile**:
 
-<img src="../.gitbook/assets/manage_account_15.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/manage_account_15.png" alt="" data-size="original">
 {% endhint %}

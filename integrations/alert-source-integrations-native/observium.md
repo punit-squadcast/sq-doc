@@ -20,11 +20,11 @@ Route detailed monitoring alerts from Observium to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Observium** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/observium_1.png)
+![](../../.gitbook/assets/observium_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,11 +36,11 @@ Route detailed monitoring alerts from Observium to the right users in Squadcast.
 
 **(1)** From the first option in the top bar, select **Contacts**
 
-![](../.gitbook/assets/observium_2.png)
+![](../../.gitbook/assets/observium_2.png)
 
 **(2)** Select **Add Contact** to add a Webhook
 
-![](../.gitbook/assets/observium_3.png)
+![](../../.gitbook/assets/observium_3.png)
 
 **(3)** Fill out the details as below:
 - (a) **Transport**: Select **Webhook** from the drop-down
@@ -48,15 +48,15 @@ Route detailed monitoring alerts from Observium to the right users in Squadcast.
 - (c) **URL**: Paste the previously copied URL from Squadcast
 - (d) Click on **Add Contact**
 
-![](../.gitbook/assets/observium_4.png)
+![](../../.gitbook/assets/observium_4.png)
 
 **(4)** Navigate to the newly created **Contact** and associate the required *Alert Checkers* and *Syslog Rules* that should use this **Contact** to notify you for alerts
 
-![](../.gitbook/assets/observium_5.png)
+![](../../.gitbook/assets/observium_5.png)
 
 **(5)** Navigate to your **Alert Checkers** and enable **Send Recovery** option to send *recovery alerts* signals to Squadcast
 
-![](../.gitbook/assets/observium_6.png)
+![](../../.gitbook/assets/observium_6.png)
 
 That is it, you are now good to go! Whenever an alert is triggered in Observium, an incident will be created automatically in Squadcast. When an alert is resolved in Observium, the corresponding **incident gets auto-resolved in Squadcast** as well.
 

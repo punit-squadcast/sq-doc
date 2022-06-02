@@ -20,11 +20,11 @@ Route detailed ticket alerts from Shortcut to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Shortcut** from the **Alert Source** drop-down menu and copy the Webhook
 
-![](../.gitbook/assets/shortcut\_1.png)
+![](../../.gitbook/assets/shortcut\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,19 +36,19 @@ Route detailed ticket alerts from Shortcut to the right users in Squadcast.
 
 **(1)** Click on **Profile > Integrations**
 
-![](../.gitbook/assets/shortcut\_2.png)
+![](../../.gitbook/assets/shortcut\_2.png)
 
 **(2)** Click on **Webhooks**
 
-![](../.gitbook/assets/shortcut\_3.png)
+![](../../.gitbook/assets/shortcut\_3.png)
 
 **(3)** Click on **Add New Webhook**
 
-![](../.gitbook/assets/shortcut\_4.png)
+![](../../.gitbook/assets/shortcut\_4.png)
 
 **(4)** Paste the previously copied Webhook URL into **Payload URL** field and click on **Add New Webhook**
 
-![](../.gitbook/assets/shortcut\_5.png)
+![](../../.gitbook/assets/shortcut\_5.png)
 
 
 That is it, you are now good to go! Whenever either of a Story or an Epic is created, an incident will be created in Squadcast for it. When the Story or Epicis moved to the `Completed` state in Shortcut, the corresponding incident will automatically get resolved in Squadcast as well.

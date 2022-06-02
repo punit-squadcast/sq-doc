@@ -20,11 +20,11 @@ Route detailed events from Twilio to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Twilio** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/twilio\_1.png)
+![](../../.gitbook/assets/twilio\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,11 +38,11 @@ You can configure a webhook for a group or a project.
 
 **(1)** Navigate to **Monitor > Logs > Errors > Webhooks & alerts** from the left panel of the page
 
-![](../.gitbook/assets/twilio\_2.png)
+![](../../.gitbook/assets/twilio\_2.png)
 
 **(2)** Paste the previously copied Squadcast **Webhook URL** and click on **Save**
 
-![](../.gitbook/assets/twilio\_3.png)
+![](../../.gitbook/assets/twilio\_3.png)
 
 This will create and complete the configuration of the webhook in your Twilio account.
 

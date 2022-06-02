@@ -20,11 +20,11 @@ Route detailed ticket alerts from Freshservice to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Freshservice** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/freshservice\_1.png)
+![](../../.gitbook/assets/freshservice\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,29 +36,29 @@ Route detailed ticket alerts from Freshservice to the right users in Squadcast.
 
 **(1)** In the app, go to **Admin > Workflows Automator** to create the webhook
 
-![](../.gitbook/assets/freshservice\_2.png)
+![](../../.gitbook/assets/freshservice\_2.png)
 
 **(2)** Click on **New Automator** and select the suitable category from the drop-down. Here, we have selected **Ticket**
 
-![](../.gitbook/assets/freshservice\_3.png)
+![](../../.gitbook/assets/freshservice\_3.png)
 
 **(3)** Provide a **Title** and an optional **Description**. Next, click on **Create**
 
-![](../.gitbook/assets/freshservice\_4.png)
+![](../../.gitbook/assets/freshservice\_4.png)
 
 **(4)** In the **Events** section, you can select and add the **Events** of your choice. Here, we have added 3 Events as shown in the screenshot. Then, click on **Done**
 
-![](../.gitbook/assets/freshservice\_5.png)
+![](../../.gitbook/assets/freshservice\_5.png)
 
 **(5)** Drag **ACTION** from the menu on the left on to the screen
 
-![](../.gitbook/assets/freshservice\_6.png)
+![](../../.gitbook/assets/freshservice\_6.png)
 
 **(a)** From the drop-down for **Perform these actions on**, select **Ticket**
 
 **(b)** Then, from the next drop-down, select **Trigger Webhook**
 
-![](../.gitbook/assets/freshservice\_7.png)
+![](../../.gitbook/assets/freshservice\_7.png)
 
 **(c)** Choose **Request Type** as `POST`
 
@@ -98,7 +98,7 @@ ticket_requester_phone
 
 **(g)** Then, click on **Done**
 
-![](../.gitbook/assets/freshservice\_8.png)
+![](../../.gitbook/assets/freshservice\_8.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **Note:**
@@ -108,7 +108,7 @@ The **Test Webhook** option sends empty data on the configured **Callback URL**.
 
 **(6)** Click on **Activate**
 
-![](../.gitbook/assets/freshservice\_9.png)
+![](../../.gitbook/assets/freshservice\_9.png)
 
 **(7)** Do the following for sending **resolve alerts** to Squadcast:
 
@@ -116,7 +116,7 @@ The **Test Webhook** option sends empty data on the configured **Callback URL**.
 
 **(b)** Fill in the form as shown in the screenshot below:
 
-![](../.gitbook/assets/freshservice\_10.png)
+![](../../.gitbook/assets/freshservice\_10.png)
 
 **(c)** Follow steps **5 and 6**
 
@@ -124,11 +124,11 @@ The **Test Webhook** option sends empty data on the configured **Callback URL**.
 
 **(a)** Click on **➕**(plus) icon and select any of the available options in the drop-down. Here, we have selected **Incident**
 
-![](../.gitbook/assets/freshservice\_11.png)
+![](../../.gitbook/assets/freshservice\_11.png)
 
 **(b)** Fill the form and click on **Save**
 
-![](../.gitbook/assets/freshservice\_12.png)
+![](../../.gitbook/assets/freshservice\_12.png)
 
 - **Status** `Open` -> **to trigger incident at Squadcast**
 - **Status** `Resolved` -> **to resolve incident at Squadcast**

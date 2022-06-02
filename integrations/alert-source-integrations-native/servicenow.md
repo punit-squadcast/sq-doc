@@ -20,11 +20,11 @@ Route detailed ticket alerts from ServiceNow to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **ServiceNow** from the **Alert Source** drop-down menu and copy the Webhook
 
-![](../.gitbook/assets/servicenow\_1.png)
+![](../../.gitbook/assets/servicenow\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,25 +38,25 @@ Route detailed ticket alerts from ServiceNow to the right users in Squadcast.
 
 **(2)** Navigate to the filter box and search for **Business Rules**. Click on **System Definition > Business Rules**
 
-![](../.gitbook/assets/servicenow\_2.png)
+![](../../.gitbook/assets/servicenow\_2.png)
 
 **(3)** Click on **New**
 
-![](../.gitbook/assets/servicenow\_3.png)
+![](../../.gitbook/assets/servicenow\_3.png)
 
 **(4)** Provide any suitable **Name**, select **Incident** in the drop-down and check the **Advanced** option
 
-![](../.gitbook/assets/servicenow\_4.png)
+![](../../.gitbook/assets/servicenow\_4.png)
 
 **(5)** Navigate to **when to run** and fill the form as shown in the screenshot below
 
-![](../.gitbook/assets/servicenow\_5.png)
+![](../../.gitbook/assets/servicenow\_5.png)
 
 **(6)** Paste the previously downloaded and copied snippet into the **Script** text box
 
 **(7)** Replace <**Squadcast Webhook URL**> with the previously copied Webhook URL and click on **Submit**
 
-![](../.gitbook/assets/servicenow\_6.png)
+![](../../.gitbook/assets/servicenow\_6.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **Important:**

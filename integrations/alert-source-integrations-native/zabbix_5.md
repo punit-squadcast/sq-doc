@@ -20,11 +20,11 @@ Route detailed monitoring alerts from Zabbix 5.0 to the right users in Squadcast
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Zabbix 5.0** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/zabbix-5\_1.png)
+![](../../.gitbook/assets/zabbix-5\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,7 +36,7 @@ Route detailed monitoring alerts from Zabbix 5.0 to the right users in Squadcast
 
 **(1)** From the sidebar in the dashboard, click on **Media types** present under the **Administration** section
 
-![](../.gitbook/assets/zabbix-5\_2.png)
+![](../../.gitbook/assets/zabbix-5\_2.png)
 
 **(2)** Copy the contents of the below XML snippet and save it in a file with .xml extension
 
@@ -228,19 +228,19 @@ Route detailed monitoring alerts from Zabbix 5.0 to the right users in Squadcast
 
 **(3)** Click on **Import** button in the top right corner 
 
-![](../.gitbook/assets/zabbix-5\_3.png)
+![](../../.gitbook/assets/zabbix-5\_3.png)
 
 **(4)** Choose the saved .xml file from your device and click on **Import**
 
-![](../.gitbook/assets/zabbix-5\_4.png)
+![](../../.gitbook/assets/zabbix-5\_4.png)
 
 **(5)** Verify if **Squadcast** Media Type was added successfully. Click on **Media Types** > Search for **Squadcast** > click on the result
 
-![](../.gitbook/assets/zabbix-5\_5.png)
+![](../../.gitbook/assets/zabbix-5\_5.png)
 
 You should be able to view the *Parameters* and *Script*, similar to the screenshot below
 
-![](../.gitbook/assets/zabbix-5\_6.png)
+![](../../.gitbook/assets/zabbix-5\_6.png)
 
 {{site.data.alerts.blue-note}}
 <b>Note</b>
@@ -249,17 +249,17 @@ You should be able to view the *Parameters* and *Script*, similar to the screens
 
 **(6)** Click on **Script** to verify that the Script has been added 
 
-![](../.gitbook/assets/zabbix-5\_7.png)
+![](../../.gitbook/assets/zabbix-5\_7.png)
 
-![](../.gitbook/assets/zabbix-5\_8.png)
+![](../../.gitbook/assets/zabbix-5\_8.png)
 
 **(7)** Now, you can add this Media Type to any User/s you want. Click on the **Users** tab under the **Administration** section from the sidebar
 
-![](../.gitbook/assets/zabbix-5\_9.png)
+![](../../.gitbook/assets/zabbix-5\_9.png)
 
 **(8)** Select User/s you want to add Squadcast Media Type to
 
-![](../.gitbook/assets/zabbix-5\_10.png)
+![](../../.gitbook/assets/zabbix-5\_10.png)
 
 **(9)** Navigate to **Media** tab, click on **Add** to enter the following details:
 - *Type*: Either pick Squadcast or add a name, such as *Squadcast*
@@ -268,23 +268,23 @@ You should be able to view the *Parameters* and *Script*, similar to the screens
 - *Use if severity*: Select appropriate checkboxes
 - Click on **Add** to save the Media for the User
 
-![](../.gitbook/assets/zabbix-5\_11.png)
+![](../../.gitbook/assets/zabbix-5\_11.png)
 
 **(10)** Make sure you click on **Update** button in the **Media** page to save these details
 
-![](../.gitbook/assets/zabbix-5\_12.png)
+![](../../.gitbook/assets/zabbix-5\_12.png)
 
 **(11)** Now navigate to **Actions** tab under **Configurations** section from the sidebar 
 
-![](../.gitbook/assets/zabbix-5\_13.png)
+![](../../.gitbook/assets/zabbix-5\_13.png)
 
 **(12)** Click on **Create Action** at the top right corner. In the **Action** tab, give the action a meaningful name, such as *Squadcast Notifications*
 
-![](../.gitbook/assets/zabbix-5\_14.png)
+![](../../.gitbook/assets/zabbix-5\_14.png)
 
 **(13)** In the same page, switch to **Operations** tab and configure available options as per your requirements. Finally, click on **Add** to save it
 
-![](../.gitbook/assets/zabbix-5\_15.png)
+![](../../.gitbook/assets/zabbix-5\_15.png)
 
 That's it, Your Zabbix 5.0 integration is now good to go! Whenever an alert is fired from Zabbix 5.0, an incident for the same will be created in Squadcast.
 

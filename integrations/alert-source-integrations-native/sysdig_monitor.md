@@ -21,11 +21,11 @@ Route detailed events from Sysdig Monitor to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Sysdig Monitor** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/sysdig\_1.png)
+![](../../.gitbook/assets/sysdig\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -43,15 +43,15 @@ You can add a Notification Channel in Sysdig Monitor only if your user has the r
 
 **(1)** Click on your username on the bottom left corner and select **Settings** 
 
-![](../.gitbook/assets/sysdig\_2.png)
+![](../../.gitbook/assets/sysdig\_2.png)
 
 **(2)** Select **Notification Channels** from the sidebar
 
-![](../.gitbook/assets/sysdig\_3.png)
+![](../../.gitbook/assets/sysdig\_3.png)
 
 **(3)** Select **Add Notification Channel** and select **Webhook**
 
-![](../.gitbook/assets/sysdig\_4.png)
+![](../../.gitbook/assets/sysdig\_4.png)
 
 **(4)** To create a _Squadcast Webhook Notification Channel_: 
 
@@ -67,20 +67,20 @@ You can add a Notification Channel in Sysdig Monitor only if your user has the r
 
 - **Test notification:** Toggle **on** 
 
-![](../.gitbook/assets/sysdig\_5.png)
+![](../../.gitbook/assets/sysdig\_5.png)
 
 - Click **Save** to save the Squadcast Webhook Notification Channel
 
 **(5)** Verify that the Webhook that you added is visible in **Notification Channels** and is **Enabled**
 
-![](../.gitbook/assets/sysdig\_6.png)
+![](../../.gitbook/assets/sysdig\_6.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **Note:**
 
 When you **save** the Webhook, a **test alert** is sent to Squadcast for which Squadcast creates a **test incident**. This will verify that the Webhook is working as expected.
 
-![](../.gitbook/assets/sysdig\_7.png)
+![](../../.gitbook/assets/sysdig\_7.png)
 
 {{site.data.alerts.end}}
 

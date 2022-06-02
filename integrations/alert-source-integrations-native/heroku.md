@@ -20,11 +20,11 @@ Route detailed alerts from Heroku to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Heroku** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/heroku\_1.png)
+![](../../.gitbook/assets/heroku\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,15 +36,15 @@ Route detailed alerts from Heroku to the right users in Squadcast.
 
 **(1)** Navigate to the Dashboard page for your application. In the drop-down menu below, select **More**. You will see an option to **View Webhooks** that will take you to the Webhooks creation and management interface
 
-![](../.gitbook/assets/heroku\_2.png)
+![](../../.gitbook/assets/heroku\_2.png)
 
 **(2)** Here, click on **Create Webhook**
 
-![](../.gitbook/assets/heroku\_3.png)
+![](../../.gitbook/assets/heroku\_3.png)
 
 **(3)** Provide a suitable **Name** for the Webhook, paste the previously copied **Webhook URL**, select all the checks for which you want to create incidents in Squadcast and click on **Add Webhook**
 
-![](../.gitbook/assets/heroku\_4.png)
+![](../../.gitbook/assets/heroku\_4.png)
 
 This completes the configuration of a Webhook in Heroku for Squadcast!
 

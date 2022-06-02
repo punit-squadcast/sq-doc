@@ -21,11 +21,11 @@ Route detailed events from Wavefront to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Wavefront** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/wavefront\_1.png)
+![](../../.gitbook/assets/wavefront\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,11 +37,11 @@ Route detailed events from Wavefront to the right users in Squadcast.
 
 **(1)** From the Home Page, navigate to **Browse** and select **Alert Targets** from the dropdown
 
-![](../.gitbook/assets/wavefront\_2.png)
+![](../../.gitbook/assets/wavefront\_2.png)
 
 **(2)** Click on **Create Alert Target** to add a Webhook for Squadcast
 
-![](../.gitbook/assets/wavefront\_3.png)
+![](../../.gitbook/assets/wavefront\_3.png)
 
 **(3)** Here:
 - Give it a **Name**
@@ -58,7 +58,7 @@ Route detailed events from Wavefront to the right users in Squadcast.
 
 - In **Body Template**, select **Generic Webhook**
 
-![](../.gitbook/assets/wavefront\_4.png)
+![](../../.gitbook/assets/wavefront\_4.png)
 
 - Paste the below as is in the placeholder for the template
 
@@ -129,22 +129,22 @@ Route detailed events from Wavefront to the right users in Squadcast.
 
 - Click on **Save**
 
-![](../.gitbook/assets/wavefront\_5.png)
+![](../../.gitbook/assets/wavefront\_5.png)
 
 You will now be able to see this newly created Alert Target being listed under **Alert Targets**
 
-![](../.gitbook/assets/wavefront\_6.png)
+![](../../.gitbook/assets/wavefront\_6.png)
 
 **(4)** Now from the navigation bar on the top, select **Alerts**. You can choose to edit an existing alert and create a new alert
 
-![](../.gitbook/assets/wavefront\_7.png)
+![](../../.gitbook/assets/wavefront\_7.png)
 
 **(5)** In either case, for the alert, in **Target List**, choose the newly added Webhook for Squadcast in **Alert Target** and save the configuration
 
-![](../.gitbook/assets/wavefront\_8.png)
+![](../../.gitbook/assets/wavefront\_8.png)
 
 **(6)** For the alert, now you can click on the **More** option to trigger a **Test Alert** to Squadcast. An incident for this test alert will be triggered indicating the integration is working as expected
 
-![](../.gitbook/assets/wavefront\_9.png)
+![](../../.gitbook/assets/wavefront\_9.png)
 
 That is it, you are good to go! Everytime an Alert is created in Wavefront, an incident would be created in Squadcast. When the Alert is resolved in Wavefront, the corresponding incident in Squadcast will be **automatically resolved**. 

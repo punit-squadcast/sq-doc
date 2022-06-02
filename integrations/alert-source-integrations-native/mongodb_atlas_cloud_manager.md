@@ -17,7 +17,7 @@ Follow the below steps to configure routing of your MongoDB Atlas / Cloud manage
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for either **MongoAtlas** or **MongoCloudManager**, depending on the MongoDB hosting at your end, from the Alert Source drop-down and copy the Webhook URL
 
@@ -25,7 +25,7 @@ Follow the below steps to configure routing of your MongoDB Atlas / Cloud manage
 Select the <b>Alert Source</b> Integration type as <b>MongoAtlas</b> (For MongoDB Atlas hosted version) / <b>MongoCloudManager</b> (For Self hosted version).
 {{site.data.alerts.end}}
 
-![](../.gitbook/assets/mongodb\_1.png)
+![](../../.gitbook/assets/mongodb\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -35,17 +35,17 @@ Select the <b>Alert Source</b> Integration type as <b>MongoAtlas</b> (For MongoD
 
 2.Go to your MongoDB Atlas / Cloud manager Dashboard and click on **Settings** and click the **edit** icon on Webhook settings and enter the webhook url obtained from the previous step and click Save button. (You need Account owner permissions to do this in MongoDB)
 
-![](../.gitbook/assets/mongodb\_2.png)
+![](../../.gitbook/assets/mongodb\_2.png)
 
 3.Now we can add the created webhook as an alert mechanism for both new / existing alerts. Click **Add -> New Alert** to create a new alert.
 
-![](../.gitbook/assets/mongodb\_3.png)
+![](../../.gitbook/assets/mongodb\_3.png)
 
 4.Define the alert parameters and under **Send to**, select **Webhook** and click **Save** button.
 
-![](../.gitbook/assets/mongodb\_4.png)
+![](../../.gitbook/assets/mongodb\_4.png)
 
-![](../.gitbook/assets/mongodb\_5.png)
+![](../../.gitbook/assets/mongodb\_5.png)
 
 The Alert is configured and integrated with Squadcast and whenever it is triggered in MongoDB, an incident will be triggered in Squadcast as well.
 

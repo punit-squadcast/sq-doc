@@ -17,11 +17,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Graylog** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/graylog\_1.png)
+![](../../.gitbook/assets/graylog\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,6 +38,6 @@ Squadcast will then process this information to create incidents for this servic
 5. Select **HTTP Alarm Callback** on **Notification type** and click on **Add alert notification**.
 6. Give a title to the notification and put the Squadcast web hook url from the previous step on the url field and click on **Save**.
 
-![](../.gitbook/assets/graylog\_2.png)
+![](../../.gitbook/assets/graylog\_2.png)
 
 Now whenever an alert is triggered by Graylog, an incident will be created automatically in Squadcast.

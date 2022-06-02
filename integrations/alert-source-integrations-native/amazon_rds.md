@@ -21,11 +21,11 @@ Route detailed alerts from Amazon RDS to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **AWS Cloudwatch Event Rules** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/event_rules_1.png)
+![](../../.gitbook/assets/event_rules_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -41,17 +41,17 @@ Route detailed alerts from Amazon RDS to the right users in Squadcast.
 
 **(3)** Within the dialog box, fill in the details as per your requirements and then click on **Create topic**
 
-![](../.gitbook/assets/event_rules_2.png)
+![](../../.gitbook/assets/event_rules_2.png)
 
 **(4)** Inside the topic, click on **Create subscription**
 
-![](../.gitbook/assets/event_rules_3.png)
+![](../../.gitbook/assets/event_rules_3.png)
 
 **(5)** Select the protocol as **HTTPS** and in the endpoint enter the URL you obtained from previous step
 
 **(6)** Finally, click on **Create subscription** to create the subscription
 
-![](../.gitbook/assets/event_rules_4.png)
+![](../../.gitbook/assets/event_rules_4.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important:</b>
@@ -62,22 +62,22 @@ Route detailed alerts from Amazon RDS to the right users in Squadcast.
  
 **(1)** Headover to your RDS dashboard and navigate to **Event Subscriptions**
 
-![](../.gitbook/assets/rds_1.png)
+![](../../.gitbook/assets/rds_1.png)
 
 **(2)** Click on **Create event subscription**
 
-![](../.gitbook/assets/rds_2.png)
+![](../../.gitbook/assets/rds_2.png)
 
 **(3)** Enter a suitable **Name**
 
-![](../.gitbook/assets/rds_3.png)
+![](../../.gitbook/assets/rds_3.png)
 
 **(4)** Next, select **Target** as **Amazon Resource Name (ARN)** and select the previously created ARN from the drop-down
 
-![](../.gitbook/assets/rds_4.png)
+![](../../.gitbook/assets/rds_4.png)
 
 **(5)** Select the appropriate **Source type** from the drop-down and click on **Create**
 
-![](../.gitbook/assets/rds_5.png)
+![](../../.gitbook/assets/rds_5.png)
 
 That's it, you are good to go! Your Amazon RDS integration is complete. Now, whenever an event is triggered by Amazon RDS, an incident will be created in Squadcast for it.

@@ -62,7 +62,7 @@ This Role will allow you to manage just this Team. The abilities are:
 | `read`    | Status Pages        |
 | `read`    | Team analytics      |
 
-![](../.gitbook/assets/rbac\_roles.png)
+![](../../.gitbook/assets/rbac\_roles.png)
 
 {% hint style="warning" %}
 **Important:**`Stakeholders` can be added with only `Observer` Role within a Team.
@@ -74,15 +74,15 @@ Follow the steps below manage Roles for a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (4).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (4).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team you want to manage _Roles and Access Controls_ for
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (2).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (2).png>)
 
 3\. Click on **Roles** from the horizontal menu and you will have the option to <mark style="color:red;">`edit`</mark> or <mark style="color:red;">`delete`</mark> the Roles and Access Controls via the <mark style="color:red;">`More Option`</mark>
 
-![](../.gitbook/assets/rbac\_2.png)
+![](../../.gitbook/assets/rbac\_2.png)
 
 {% hint style="info" %}
 **Note:** Roles are Team specific, i.e. roles will allow you specific abilities for just that team that you’re a part of.
@@ -102,15 +102,15 @@ Follow the steps below to create a Custom Role for a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team for which you want to add the **Custom Role**
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1).png>)
 
 3\. Click on **Roles** from the horizontal menu and scroll down to the bottom of the page
 
-![](../.gitbook/assets/rbac\_3.png)
+![](../../.gitbook/assets/rbac\_3.png)
 
 4\. Click on **Add new team role**. Here:
 
@@ -119,4 +119,4 @@ Follow the steps below to create a Custom Role for a Team:
 
 5\. Click on **Save** to create the new Custom Role for the Team
 
-![](../.gitbook/assets/rbac\_4.png)
+![](../../.gitbook/assets/rbac\_4.png)

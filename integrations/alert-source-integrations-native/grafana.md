@@ -21,11 +21,11 @@ Route detailed alerts from Grafana to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Grafana** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/grafana\_1.png)
+![](../../.gitbook/assets/grafana\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,19 +37,19 @@ Route detailed alerts from Grafana to the right users in Squadcast.
 
 **(1)** Login to your Grafana dashboard, click on the **Alerting (Bell) icon** and select **Notification Channels**
 
-![](../.gitbook/assets/grafana\_2.png)
+![](../../.gitbook/assets/grafana\_2.png)
 
 **(2)** Click on **Add Channel** or **New Channel** and enter the Notification Channel `Name` as **Squadcast** and under `Type`, select **webhook**
 
 **(3)** Under `url`, enter the Webhook URL we have got from the Squadcast Service you copied before 
 
-![](../.gitbook/assets/grafana\_3.png)
+![](../../.gitbook/assets/grafana\_3.png)
 
-![](../.gitbook/assets/grafana\_4.png)
+![](../../.gitbook/assets/grafana\_4.png)
 
 **(4)** Expand `Optional Webhook Settings` and select **POST** under `Http method`. 
 
-![](../.gitbook/assets/grafana\_5.png)
+![](../../.gitbook/assets/grafana\_5.png)
 
 **(5)** Under `Notification Settings`, check  **Default** to send all alert data to Squadcast. You can uncheck this if you want only specific Grafana Panels to send alerts to Squadcast. [Move over to this section of our documentation to set up alerting for Specific Grafana Panels](grafana#setup-alerting-for-specific-grafana-panels). 
 
@@ -68,15 +68,15 @@ Route detailed alerts from Grafana to the right users in Squadcast.
 <br/><br/><p>If you would like to enable <b>Auto-Resolve</b> in Squadcast, then make sure the <b>Disable Resolve Message</b> is unchecked.</p>
 {{site.data.alerts.end}}
 
-![](../.gitbook/assets/grafana\_6.png)
+![](../../.gitbook/assets/grafana\_6.png)
 
 **(5)** Click on **Save** to enable the integration. You can test the integration by clicking on **Test**. This will trigger a test incident in Squadcast. 
 
-![](../.gitbook/assets/grafana\_7.png)
+![](../../.gitbook/assets/grafana\_7.png)
 
-![](../.gitbook/assets/grafana\_8.png)
+![](../../.gitbook/assets/grafana\_8.png)
 
-![](../.gitbook/assets/grafana\_9.png)
+![](../../.gitbook/assets/grafana\_9.png)
 
 ## Setup Alerting for Specific Grafana Panels 
 
@@ -87,17 +87,17 @@ Route detailed alerts from Grafana to the right users in Squadcast.
 
 **(1)** After you've saved **Squadcast Webhook** as a Notification Channel for your Grafana account, navigate to the panel from your Grafana Dashboard and under options select **Edit**
 
-![](../.gitbook/assets/grafana\_10.png)
+![](../../.gitbook/assets/grafana\_10.png)
 
 **(2)** Under **Alerts**, click **Create Alert** button
 
-![](../.gitbook/assets/grafana\_11.png)
+![](../../.gitbook/assets/grafana\_11.png)
 
 **(3)** To configure your alerts, set rules for when you want an alert triggered in the **Rules** section  
 
 **(4)** In the **Notifications** section , under **Send to**, search and add your previously saved **Squadcast Webhook** and enter a Message for the alert and save it. The message here will be your Incident Message in Squadcast. Ensure that this message is meaningful and provides immediate context in an on-call scenario
 
-![](../.gitbook/assets/grafana\_12.png)
+![](../../.gitbook/assets/grafana\_12.png)
 
 Now, whenever an alert is triggered in Grafana for that particular panel, an incident will be created in Squadcast. When it is resolved in Grafana, it will automatically get Resolved in Squadcast, provided the **Disable Resolve Message** checkbox is **unchecked**.
 

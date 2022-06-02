@@ -15,11 +15,11 @@ Follow the steps below to configure a service so as to extract its related alert
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Azure Monitor** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/azure\_1.png)
+![](../../.gitbook/assets/azure\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -33,11 +33,11 @@ Login to your Azure account select your virtual machine. Under **Monitoring**, g
 
 Then go to **Manage Actions** → **Add Action groups** → **Creatre action group** (Test grp or Squadcast webhook alerts) by selecting **Action type** as **Webhook**. Paste the squadcast webhook url from the previous step and make sure **Enable the common alert schema** toggle switch is turned on.
 
-![](../.gitbook/assets/azure\_2.png)
+![](../../.gitbook/assets/azure\_2.png)
 
 Go back to **Alerts** window and click **New Alert**. Specify Resource, Condition and under **Actions** select the action group (Test grp or Squadcast webhook alerts) you just made. Provide alert rule Name, Description and **Create Alert**.
 
-![](../.gitbook/assets/azure\_3.png)
+![](../../.gitbook/assets/azure\_3.png)
 
 Now whenever an alert is triggered by Azure Monitor, an incident will be created automatically in Squadcast. 
 

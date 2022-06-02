@@ -21,11 +21,11 @@ Route detailed monitoring alerts from New Relic to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **New Relic** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/new\_relic\_1.png)
+![](../../.gitbook/assets/new\_relic\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -39,11 +39,11 @@ Log in to your New Relic account.
 
 **(1)** From Home, navigate to **Alerts & AI** 
 
-![](../.gitbook/assets/new\_relic\_2.png)
+![](../../.gitbook/assets/new\_relic\_2.png)
 
 **(2)** Navigate to **Notification channels** tab and click on **New notification channel**
 
-![](../.gitbook/assets/new\_relic\_3.png)
+![](../../.gitbook/assets/new\_relic\_3.png)
 
 **(3)** Here:
 - Select **channel type** as **Webhook**
@@ -51,7 +51,7 @@ Log in to your New Relic account.
 - Paste the copied Webhook URL copied from Squadcast previously under **Base Url**
 - Click on **Create channel**
 
-![](../.gitbook/assets/new\_relic\_4.png)
+![](../../.gitbook/assets/new\_relic\_4.png)
 
 **(4)** Now, you can add this **Notification Channel** to any Alert Policy you have created
 
@@ -63,11 +63,11 @@ Log in to your New Relic account.
 
 **(1)** From Home, hover over **Alerts & AI** and select **Settings**
 
-![](../.gitbook/assets/new\_relic\_6.png)
+![](../../.gitbook/assets/new\_relic\_6.png)
 
 **(2)** Click on **Settings** in the sidebar under **Proactive Detection** and click on **Add a configuration**
 
-![](../.gitbook/assets/new\_relic\_7.png)
+![](../../.gitbook/assets/new\_relic\_7.png)
 
 **(3)** Here:
 
@@ -75,11 +75,11 @@ Log in to your New Relic account.
 - Select your New Relic **Account**
 - Choose the **Applications and Services** that need to be monitored
 
-![](../.gitbook/assets/new\_relic\_8.png)
+![](../../.gitbook/assets/new\_relic\_8.png)
 
 - Select the **Signals** that need to be monitored
 
-![](../.gitbook/assets/new\_relic\_9.png)
+![](../../.gitbook/assets/new\_relic\_9.png)
 
 - Select where you want to **receive notifications** 
     + Select **Webhook**
@@ -96,7 +96,7 @@ Log in to your New Relic account.
     + You can click on **Send test notification** to trigger an incident in Squadcast check if the integration works fine
     + **Save** the configuration
 
-![](../.gitbook/assets/new\_relic\_10.png)
+![](../../.gitbook/assets/new\_relic\_10.png)
 
 Now, every time there is an alert in New Relic, the alert will be sent to Squadcast and an incident will be triggered, notifying the right people. 
 

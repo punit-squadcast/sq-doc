@@ -15,11 +15,11 @@ Follow the steps below to configure a service so as to extract its related alert
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **LogDNA** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/logdna\_1.png)
+![](../../.gitbook/assets/logdna\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -33,14 +33,14 @@ Login to your LogDNA account and navigate to the view for which you want to setu
 
 On the View name, click on the dropdown and select **Attach an alert**.
 
-![](../.gitbook/assets/logdna\_2.png)
+![](../../.gitbook/assets/logdna\_2.png)
 
 Then select **View-Specific alert** from the drop down under **BUILD MY OWN** and click on **Webhooks**.
 
-![](../.gitbook/assets/logdna\_3.png)
+![](../../.gitbook/assets/logdna\_3.png)
 
 Then configure the type of alert and other conditions and enter Squadcast webhook url from the previous step in the **Webhook URL** text box and click on **Save Alert** button.
 
-![](../.gitbook/assets/logdna\_4.png)
+![](../../.gitbook/assets/logdna\_4.png)
 
 That's it! Your LogDNA integration is good to go and whenever the alert conditions are met, an incident will be automatically created in Squadcast.

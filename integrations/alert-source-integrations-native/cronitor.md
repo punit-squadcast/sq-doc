@@ -16,11 +16,11 @@ Route detailed alerts from Cronitor to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Cronitor** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/cronitor\_1.png)
+![](../../.gitbook/assets/cronitor\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -32,13 +32,13 @@ Route detailed alerts from Cronitor to the right users in Squadcast.
 
 **(1)** Login to your Cronitor dashboard. Head over to the **Settings** tab and click on **Alerts**
 
-![](../.gitbook/assets/cronitor\_2.png)
+![](../../.gitbook/assets/cronitor\_2.png)
 
 **(2)** Click on **Create Notification List**. Fill in the **Name**, **Unique Key** and paste the previously copied Squadcast Webhook URL in the placeholder for **Webhook Endpoints**. Then click on **Save Notification List**
 
-![](../.gitbook/assets/cronitor\_3.png)
+![](../../.gitbook/assets/cronitor\_3.png)
 
-![](../.gitbook/assets/cronitor\_4.png)
+![](../../.gitbook/assets/cronitor\_4.png)
 
 The created alert can then be added to **Jobs**, **Checks** & **Heartbeats**.
 

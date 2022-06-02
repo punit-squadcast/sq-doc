@@ -20,11 +20,11 @@ Route detailed alerts from Kibana to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Kibana** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/kibana\_1.png)
+![](../../.gitbook/assets/kibana\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,23 +36,23 @@ Route detailed alerts from Kibana to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Management** and then, select **Stack Management**
 
-![](../.gitbook/assets/kibana\_2.png)
+![](../../.gitbook/assets/kibana\_2.png)
 
 **(2)** Select **Alerts and Insights** > **Rules and Connectors** 
 
-![](../.gitbook/assets/kibana\_3.png)
+![](../../.gitbook/assets/kibana\_3.png)
 
 **(3)** Navigate to **Connectors** and click on **Create Connector**
 
-![](../.gitbook/assets/kibana\_4.png)
+![](../../.gitbook/assets/kibana\_4.png)
 
 **(4)** Select **Webhook** as a Connector
 
-![](../.gitbook/assets/kibana\_5.png)
+![](../../.gitbook/assets/kibana\_5.png)
 
 **(5)** Provide a name for **Connector name**, choose **Method** as `POST` and paste the previously copied Squadcast Webhook URL in the **URL** field. Click on **Save**
 
-![](../.gitbook/assets/kibana\_6.png)
+![](../../.gitbook/assets/kibana\_6.png)
 
 **(6)** Head over to **Rules** and click on **Create Rules**. Provide a name for the rule and select any of the options from the supported rule scenarios:
     **(a)** APM AND USER EXPERIENCE
@@ -63,8 +63,8 @@ Route detailed alerts from Kibana to the right users in Squadcast.
 
 Select **Webhook** in the **Action** section.
 
-![](../.gitbook/assets/kibana\_7.png)
-![](../.gitbook/assets/kibana\_8.png)
+![](../../.gitbook/assets/kibana\_7.png)
+![](../../.gitbook/assets/kibana\_8.png)
 
 **(7)** Next, select the previously created Connector in the **Webhook connector** drop-down and paste the below **JSON** in the placeholder for **Body** and click on **Save**
 
@@ -134,7 +134,7 @@ Select **Webhook** in the **Action** section.
 ```
 {% endraw %}
 
-![](../.gitbook/assets/kibana\_9.png)
+![](../../.gitbook/assets/kibana\_9.png)
 
 That is it, you are now good to go! Whenever an alert is generated in Kibana, an incident will be created in Squadcast.
 

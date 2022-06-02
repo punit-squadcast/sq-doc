@@ -22,11 +22,11 @@ Route detailed alerts from Conviva to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Conviva** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/conviva\_1.png)
+![](../../.gitbook/assets/conviva\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,7 +38,7 @@ Route detailed alerts from Conviva to the right users in Squadcast.
 
 **(1)** Log in to your Conviva web console, go to the **Settings** menu of your project and click on **Notification Channels**
 
-![](../.gitbook/assets/conviva\_2.png)
+![](../../.gitbook/assets/conviva\_2.png)
 
 **(2)** Click on the **Alerts** tab to display the existing list of Webhooks
 
@@ -46,17 +46,17 @@ Route detailed alerts from Conviva to the right users in Squadcast.
 
 **(4)** Click on the **Add** button to go to the **Add Webhooks** page so you can configure webhooks
 
-![](../.gitbook/assets/conviva\_3.png)
+![](../../.gitbook/assets/conviva\_3.png)
 
 **(5)** Enter a **Webhook Name**, an **Email** to notify users when an issue occurs with the Webhook notification, and the **Webhook URL** that was copied from the Squadcast Services page
 
-![](../.gitbook/assets/conviva\_4.png)
+![](../../.gitbook/assets/conviva\_4.png)
 
 **(6)** Next set the **alert type(s)** to include in the webhook payload and the relevant information to be included in the payload for each alert type that is configured. 
 
 In this screenshot, we have checked to include both **AI Alerts** and **Manual Alerts**.
 
-![](../.gitbook/assets/conviva\_5.png)
+![](../../.gitbook/assets/conviva\_5.png)
 
 **(7)** Test the Webhook and then click on the **Add Webhook** button to save the Webhook configuration
 

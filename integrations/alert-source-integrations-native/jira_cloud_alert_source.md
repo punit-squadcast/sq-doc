@@ -21,11 +21,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Jira Cloud** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/jira\_cloud\_1.png)
+![](../../.gitbook/assets/jira\_cloud\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,23 +37,23 @@ Squadcast will then process this information to create incidents for this servic
 
 1.Login to Jira Cloud and go to **Settings** in left-side pannel.
 
-![](../.gitbook/assets/jira\_cloud\_2.png)
+![](../../.gitbook/assets/jira\_cloud\_2.png)
 
 2.Go to **System** under **Jira Settings**
 
-![](../.gitbook/assets/jira\_cloud\_3.png)
+![](../../.gitbook/assets/jira\_cloud\_3.png)
 
 3.Click on the **WebHook** tab under the **Advanced** Section.
 
-![](../.gitbook/assets/jira\_cloud\_4.png)
+![](../../.gitbook/assets/jira\_cloud\_4.png)
 
 4.Click on **Create a Webhook**.
 
-![](../.gitbook/assets/jira\_cloud\_5.png)
+![](../../.gitbook/assets/jira\_cloud\_5.png)
 
 5.Paste the **Jira Cloud Webhook URL** copied from Squadcast Dashboard in the **URL** field and check the  **created** And **updated** check boxes under issues. Click on **Create** to finally save the webhook.
 
-![](../.gitbook/assets/jira\_cloud\_6.png)
+![](../../.gitbook/assets/jira\_cloud\_6.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Note</b><br/><br/>

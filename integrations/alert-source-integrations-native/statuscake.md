@@ -17,11 +17,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **StatusCake** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/statuscake\_1.png)
+![](../../.gitbook/assets/statuscake\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -35,7 +35,7 @@ Squadcast will then process this information to create incidents for this servic
 
 2.Enter the Group Name , paste StatusCake webhook url which you initially copied from Squadcast Dashboard ,select Webhook Method as **POST** and click Save
 
-![](../.gitbook/assets/statuscake\_2.png)
+![](../../.gitbook/assets/statuscake\_2.png)
 
 3.Add the Contact Group you just created to the tests for which you want to receive alerts on squadcast.
 

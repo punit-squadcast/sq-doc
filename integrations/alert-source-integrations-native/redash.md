@@ -21,11 +21,11 @@ Route detailed events from Redash to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Redash** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/redash_1.png)
+![](../../.gitbook/assets/redash_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,39 +37,39 @@ Route detailed events from Redash to the right users in Squadcast.
 
 **(1)** From the Home Page, navigate to **Settings** by clicking on the icon in the top right of the menu bar
 
-![](../.gitbook/assets/redash_2.png)
+![](../../.gitbook/assets/redash_2.png)
 
 **(2)** Select **Alert Destinations**
 
-![](../.gitbook/assets/redash_3.png)
+![](../../.gitbook/assets/redash_3.png)
 
 **(3)** Here, select **New Alert Destination**
 
-![](../.gitbook/assets/redash_4.png)
+![](../../.gitbook/assets/redash_4.png)
 
 **(4)** Select **Webhook**
 
-![](../.gitbook/assets/redash_5.png)
+![](../../.gitbook/assets/redash_5.png)
 
 **(5)** Here, give the Webhook a **Name** and paste the previously copied Webhook URL from Squadcast under **Url**. Then, click on **Create**
 
-![](../.gitbook/assets/redash_6.png)
+![](../../.gitbook/assets/redash_6.png)
 
 **(6)** In the next modal, click on **Save** to save this Webhook
 
-![](../.gitbook/assets/redash_7.png)
+![](../../.gitbook/assets/redash_7.png)
 
 You will now be able to see this newly created Webhook being listed under **Alert Destinations**
 
-![](../.gitbook/assets/redash_8.png)
+![](../../.gitbook/assets/redash_8.png)
 
 **(7)** Now, from the navigation bar on the top, select **Alerts**
 
-![](../.gitbook/assets/redash_9.png)
+![](../../.gitbook/assets/redash_9.png)
 
 **(8)** Here, you can either choose to add a **New Alert** or select an existing Alert
 
-![](../.gitbook/assets/redash_11.png)
+![](../../.gitbook/assets/redash_11.png)
 
 **(9)** Next:
 - In either case, fill in all the necessary details for the **Query Name** and **Trigger When** fields
@@ -97,26 +97,26 @@ You will now be able to see this newly created Webhook being listed under **Aler
 ```
 {% endraw %}
 
-![](../.gitbook/assets/redash_10.png)
+![](../../.gitbook/assets/redash_10.png)
 
 - Then, click on **Create Alert**
 
 **(10)** Once the Alert has been added, select the newly added Alert in the list
 
-![](../.gitbook/assets/redash_11.png)
+![](../../.gitbook/assets/redash_11.png)
 
 **(11)** Click on **Add** against **Destinations**
 
-![](../.gitbook/assets/redash_12.png)
+![](../../.gitbook/assets/redash_12.png)
 
 **(12)** Here, select the newly added Webhook, **Squadcast Webhook**
 
-![](../.gitbook/assets/redash_13.png)
+![](../../.gitbook/assets/redash_13.png)
 
 **(13)** Ensure that the Webhook has been enabled for it and is being displayed as one of the Destinations for the Alert
 
-![](../.gitbook/assets/redash_14.png)
+![](../../.gitbook/assets/redash_14.png)
 
-![](../.gitbook/assets/redash_15.png)
+![](../../.gitbook/assets/redash_15.png)
 
 That is it, you are good to go! Everytime an Alert is created in Redash, an incident would be created in Squadcast. When the Alert is resolved in Redash, the corresponding incident in Squadcast will be **automatically resolved**. 

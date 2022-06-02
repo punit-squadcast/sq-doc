@@ -24,11 +24,11 @@ Please drop our **[Support Team](mailto:support@squadcast.com)** a line if you h
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Checkmk** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/checkmk\_1.png)
+![](../../.gitbook/assets/checkmk\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -70,7 +70,7 @@ chmod +x sq-script.py
 
 + Log in to the Checkmk web interface, go to **Users** (located in the WATO· Configuration box) and click **New User**
 
-![](../.gitbook/assets/checkmk\_2.png)
+![](../../.gitbook/assets/checkmk\_2.png)
 
 + Enter a Username and, optionally, a Full name for the Squadcast user. 
 
@@ -85,23 +85,23 @@ chmod +x sq-script.py
 
 + Add the user to the Contact Groups which are a part of the hosts/services that you want to receive alerts for. Click **Save** when you are done.
 
-![](../.gitbook/assets/checkmk\_3.png)
+![](../../.gitbook/assets/checkmk\_3.png)
 
 + Click the Notifications icon (bell icon) for the user created.
 
-![](../.gitbook/assets/checkmk\_4.png)
+![](../../.gitbook/assets/checkmk\_4.png)
 
 + Enter a **Description** for the new notification method, then set **Notification Method** to **Squadcast**. 
 
 + Paste the Webhook URL you copied from Squadcast earlier in the text box that appears once you select **Squadcast**, and select any desired conditions to limit the alerts that get sent to Squadcast. Click **Save** when you are done.
 
-![](../.gitbook/assets/checkmk\_5.png)
+![](../../.gitbook/assets/checkmk\_5.png)
 
 + Go back to the Users list and click  **Changes**, then click **Activate Changes**.
 
-![](../.gitbook/assets/checkmk\_6.png)
+![](../../.gitbook/assets/checkmk\_6.png)
 
-![](../.gitbook/assets/checkmk\_7.png)
+![](../../.gitbook/assets/checkmk\_7.png)
 
 + Congratulations! When you see **"Configuration successfully activated"** you are done! Checkmk will now be able send alerts into Squadcast. 
 
@@ -113,7 +113,7 @@ You can test the integration to make sure everything works as expected by going 
 
 + You should see a new incident created in Squadcast.
 
-![](../.gitbook/assets/checkmk\_8.png)
+![](../../.gitbook/assets/checkmk\_8.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Note: </b>

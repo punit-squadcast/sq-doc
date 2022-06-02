@@ -20,11 +20,11 @@ Route detailed events from GitHub to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **GitHub** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/github\_1.png)
+![](../../.gitbook/assets/github\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -38,17 +38,17 @@ You can configure a webhook for a group or a project.
 
 **(1)** Click on your user icon on the top right, under **Your repositories** or **Your organizations**, navigate to **Settings**
 
-![](../.gitbook/assets/github\_2.png)
+![](../../.gitbook/assets/github\_2.png)
 
-![](../.gitbook/assets/github\_3.png)
+![](../../.gitbook/assets/github\_3.png)
 
 **(2)** Selecy **Webhooks**, then select **Add webhook**
 
-![](../.gitbook/assets/github\_4.png)
+![](../../.gitbook/assets/github\_4.png)
 
 **(3)** Paste the previously copied Webhook from Squadcast into the **Payload URL** field, and select **Content type** as `application/json`
 
-![](../.gitbook/assets/github\_5.png)
+![](../../.gitbook/assets/github\_5.png)
 
 
 **(3)** In **Which events would you like to trigger this webhook** section, choose **Let me select individual events** and select the **below events** to trigger the Webhook. Next, click on **Add webhook**
@@ -58,7 +58,7 @@ You can configure a webhook for a group or a project.
  + `Releases`
  + `Repository Vulnerability Alerts`
 
-![](../.gitbook/assets/github\_6.png)
+![](../../.gitbook/assets/github\_6.png)
 
 {{site.data.alerts.yellow-note-i-md}}
 **NOTE:** 

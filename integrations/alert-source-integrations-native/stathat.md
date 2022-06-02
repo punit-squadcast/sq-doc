@@ -20,11 +20,11 @@ Route detailed monitoring alerts from StatHat to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **StatHat** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/stathat\_1.png)
+![](../../.gitbook/assets/stathat\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,23 +36,23 @@ Route detailed monitoring alerts from StatHat to the right users in Squadcast.
 
 **(1)** In the app, navigate to **Settings**
 
-![](../.gitbook/assets/stathat\_2.png)
+![](../../.gitbook/assets/stathat\_2.png)
 
 **(2)** Click on **Manage Alert Destinations** to add the Webhook
 
-![](../.gitbook/assets/stathat\_4.png)
+![](../../.gitbook/assets/stathat\_4.png)
 
 **(3)** Under **Webhooks**, give it a meaningful *Name* and paste the copied Webhook *URL* from Squadcast and click on **Add**
 
-![](../.gitbook/assets/stathat\_3.png)
+![](../../.gitbook/assets/stathat\_3.png)
 
 **(4)** Now, navigate back to **Settings**. You can enable *Squadcast Webhook* to be triggered for *Automatic Alerts* and *Manual Alerts* on a global level.
 
-![](../.gitbook/assets/stathat\_5.png)
+![](../../.gitbook/assets/stathat\_5.png)
 
 Or, you can specify within each of your **Alerts** to trigger *Squadcast Webhook* in case of an anomaly.
 
-![](../.gitbook/assets/stathat\_6.png)
+![](../../.gitbook/assets/stathat\_6.png)
 
 That is it, you are now good to go! Whenever an alert is triggered in StatHat, an incident will be created automatically in Squadcast.
 

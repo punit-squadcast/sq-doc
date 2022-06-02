@@ -15,11 +15,11 @@ Follow the steps below to configure a service so as to extract its related alert
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Server Density** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/server\_density\_1.png)
+![](../../.gitbook/assets/server\_density\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -29,14 +29,14 @@ Follow the steps below to configure a service so as to extract its related alert
 
 Now log in to your Server Density account and click on the gear icon on the top right and then click on notifications.
 
-![](../.gitbook/assets/server\_density\_2.png)
+![](../../.gitbook/assets/server\_density\_2.png)
 
 In the notifications page select "**Webhook**" as the type of notification and enter the URL obtained earlier as the **webhook URL**. Give it an appropriate name and click on Add.
 
-![](../.gitbook/assets/server\_density\_3.png)
+![](../../.gitbook/assets/server\_density\_3.png)
 
 Now you can use this "**Webhook**" for any alert as per your requirements.
 
-![](../.gitbook/assets/server\_density\_4.png)
+![](../../.gitbook/assets/server\_density\_4.png)
 
 That's it your Server Density Integration is now good to go. Once an alert is fixed inside Server Density it will automatically be resolved inside Squadcast as well.

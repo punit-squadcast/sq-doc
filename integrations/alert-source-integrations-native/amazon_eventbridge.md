@@ -6,11 +6,11 @@ Route detailed alerts from Amazon EventBridge to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Amazon EventBridge** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/aws\_eventbridge\_1.png)
+![](../../.gitbook/assets/aws\_eventbridge\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -22,19 +22,19 @@ Route detailed alerts from Amazon EventBridge to the right users in Squadcast.
 
 **(1)** Login to your Amazon EventBridge dashboard. Head over to the **API destinations** tab and click on **Connections**. Then click on **Create connection**
 
-![](../.gitbook/assets/aws\_eventbridge\_2.png)
+![](../../.gitbook/assets/aws\_eventbridge\_2.png)
 
 **(2)** Fill in the **Connection name**, select **API Key** as Authorization type. Enter **Squadcast** as **API key name** and **true** as **Value**. Then click on **Create**
 
-![](../.gitbook/assets/aws\_eventbridge\_3.png)
+![](../../.gitbook/assets/aws\_eventbridge\_3.png)
 
 **(3)** Switch the **API destinations** and click on **Create API destination**
 
-![](../.gitbook/assets/aws\_eventbridge\_4.png)
+![](../../.gitbook/assets/aws\_eventbridge\_4.png)
 
 **(4)** Fill in the **Name** and paste the previously copied Squadcast Webhook URL in the placeholder for **API destination endpoint**. Select **POST** as **HTTP method** and under Connection, choose the previously created connection. Then click on **Create** 
 
-![](../.gitbook/assets/aws\_eventbridge\_5.png)
+![](../../.gitbook/assets/aws\_eventbridge\_5.png)
 
 You can now mention your newly created **API destination** as target under **Rules**.
 

@@ -20,11 +20,11 @@ Route detailed alerts from OSNexus QuantaStor to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **OSNexus QuantaStor** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/osnexus-quantastor_1.png)
+![](../../.gitbook/assets/osnexus-quantastor_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,15 +36,15 @@ Route detailed alerts from OSNexus QuantaStor to the right users in Squadcast.
 
 **(1)** In the dashboard, click on **Alert Manager**
 
-![](../.gitbook/assets/osnexus-quantastor_2.png)
+![](../../.gitbook/assets/osnexus-quantastor_2.png)
 
 **(2)** Click on **ITSM Integrations**. In the **Module** drop-down, select **squadcast**. Paste the previously copied **Squadcast Webhook URL** and click on **Add**
 
-![](../.gitbook/assets/osnexus-quantastor_3.png)
+![](../../.gitbook/assets/osnexus-quantastor_3.png)
 
 **(3)** Click on **Generate Test Alert** and click **OK**
 
-![](../.gitbook/assets/osnexus-quantastor_4.png)
+![](../../.gitbook/assets/osnexus-quantastor_4.png)
 
 This should generate a test alert from OSNexus QuantaStor, in turn triggering an incident in Squadcast. This will confirm that the integration is working as expected.
 

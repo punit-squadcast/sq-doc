@@ -19,11 +19,11 @@ For regular AWS CloudWatch alarms (like EC2 alerts), use the [AWS CloudWatch Int
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **AWS CloudTrail Logs via SNS** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/cloudtrail\_1.png)
+![](../../.gitbook/assets/cloudtrail\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,14 +37,14 @@ Now log in to your AWS account and proceed to SNS.
 
 Click on "**Create topic**" to get "Create new topic" dialog box. Fill in the details as per your requirements and then click on "**Create topic**"
 
-![](../.gitbook/assets/cloudtrail\_2.png)
+![](../../.gitbook/assets/cloudtrail\_2.png)
 
 Now inside the topic, click on "**Create subscription**" to get "Create subscription" dialog box. Select the protocol as "**HTTPS**" and in the endpoint enter the URL you obtained from previous step. Finally, click on "**Create subscription**" to create the subscription.
 
-![](../.gitbook/assets/cloudtrail\_3.png)
+![](../../.gitbook/assets/cloudtrail\_3.png)
 
 The "**Subscription ID**" for the subscription should to "**Confirmed**" immediately change from "**PendingConfirmation**". Click on the refresh button to verify the same.
 
-![](../.gitbook/assets/cloudtrail\_4.png)
+![](../../.gitbook/assets/cloudtrail\_4.png)
 
 Then you can [configure your CloudTrail log alerts](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/configure-sns-notifications-for-cloudtrail.html) and assign this topic as the notification option and you are good to go.

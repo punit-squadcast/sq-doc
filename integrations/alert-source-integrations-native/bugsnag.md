@@ -20,11 +20,11 @@ Route detailed error alerts from Bugsnag to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Bugsnag** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/bugsnag\_1.png)
+![](../../.gitbook/assets/bugsnag\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,23 +36,23 @@ Route detailed error alerts from Bugsnag to the right users in Squadcast.
 
 **(1)** In the app, within your **Project**, click on the **Settings** icon on the top right and select **Project Settings**
 
-![](../.gitbook/assets/bugsnag\_2.png)
+![](../../.gitbook/assets/bugsnag\_2.png)
 
 **(2)** Scroll down a little to the **Integrations and email** section and select **Data forwarding**
 
-![](../.gitbook/assets/bugsnag\_3.png)
+![](../../.gitbook/assets/bugsnag\_3.png)
 
 **(3)** Select **Webhook** to configure the custom webhook
 
-![](../.gitbook/assets/bugsnag\_4.png)
+![](../../.gitbook/assets/bugsnag\_4.png)
 
 **(4)** Paste the Webhook URL copied from Squadcast under **Webhook URL**. Test the configuration by clicking on **Test**. This would generate a test error alert which would create a test incident in Squadcast
 
-![](../.gitbook/assets/bugsnag\_5.png)
+![](../../.gitbook/assets/bugsnag\_5.png)
 
 **(5)** Once the integration is verified, click on **Save**. Verify that the newly configured webhook is listed under **Configured integrations**
 
-![](../.gitbook/assets/bugsnag\_6.png)
+![](../../.gitbook/assets/bugsnag\_6.png)
 
 **(6)** Click on the Webhook to configure when you should be notified for errors by enabling different options in the **Notify me when** section. Here is [Bugsnag's documentation](https://docs.bugsnag.com/product/integrations/data-forwarding/webhook/) to understand what each of these settings mean and when you would be notified
 
@@ -61,6 +61,6 @@ Route detailed error alerts from Bugsnag to the right users in Squadcast.
 <br/><br/><p>Except for "This project has a spike in errors" and "This project has a new release", every other "Notify me when" type is supported.</p>
 {{site.data.alerts.end}}
 
-![](../.gitbook/assets/bugsnag\_7.png)
+![](../../.gitbook/assets/bugsnag\_7.png)
 
 That is it, you are now good to go! Whenever an error alert is triggered in Bugsnag, an incident will be automatically created in Squadcast based on your Notification rules in Bugsnag. Whenever, **an error is resolved in Bugsnag, the corresponding incident is auto-resolved in Squadcast as well.**

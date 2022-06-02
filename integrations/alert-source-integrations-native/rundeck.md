@@ -16,11 +16,11 @@ Route detailed alerts from Rundeck to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Rundeck** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/rundeck_1.png)
+![](../../.gitbook/assets/rundeck_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -34,23 +34,23 @@ Route detailed alerts from Rundeck to the right users in Squadcast.
 
 **(a)** To create a new job, click on **Job Actions**. Then click on **New Job**
 
-![](../.gitbook/assets/rundeck_2.png)
+![](../../.gitbook/assets/rundeck_2.png)
 
 **(b)** To edit an existing job, click on the job you want to edit. Then click on **Action** and on **Edit this Job**
 
-![](../.gitbook/assets/rundeck_3.png)
+![](../../.gitbook/assets/rundeck_3.png)
 
 **(2)** Navigate to the **Notifications** tab, then select when Rundeck should send alerts to Squadcast. Next, click on **+Add Notification**
 
-![](../.gitbook/assets/rundeck_4.png)
+![](../../.gitbook/assets/rundeck_4.png)
 
 **(3)** Click on **Select a Notification** and select **Send Webhook** as the **Notification Type**
 
-![](../.gitbook/assets/rundeck_5.png)
+![](../../.gitbook/assets/rundeck_5.png)
 
 **(4)** Paste the previously copied Squadcast Webhook URL in the placeholder for **URL(s)**. Select the Payload Format as **JSON** and Method as **POST**. Then, click on **Save**
 
-![](../.gitbook/assets/rundeck_6.png)
+![](../../.gitbook/assets/rundeck_6.png)
 
 
 That's it, you are good to go! Your Rundeck integration is now complete. Whenever Rundeck fires an alert, an incident will be created in Squadcast for it. Also, when a job is completed in Rundeck, the corresponding incident gets **auto-resolved** in Squadcast.

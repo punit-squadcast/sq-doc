@@ -18,11 +18,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Stackify Retrace** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/stackify\_1.png)
+![](../../.gitbook/assets/stackify\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -34,22 +34,22 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** Log in to your account and click on the Settings tab as shown below. Under the Integrations section, click on the Webhook link.
 
-![](../.gitbook/assets/stackify\_2.png)
+![](../../.gitbook/assets/stackify\_2.png)
 
 **(2)** Click `Add Webhook` button. Enter a webhook name and url.
 
-![](../.gitbook/assets/stackify\_3.png)
+![](../../.gitbook/assets/stackify\_3.png)
 
 **(3)** To test the webhook you can click on the `Send Sample Alert` or `Send sample Error` button. An incident will be triggered in Squadcast with the sample payload.
 
-![](../.gitbook/assets/stackify\_4.png)
+![](../../.gitbook/assets/stackify\_4.png)
 
 **(4)** Under the settings tab click `Notification Groups`. You can edit an existing `Notification Group` or create a new one.
 
-![](../.gitbook/assets/stackify\_5.png)
+![](../../.gitbook/assets/stackify\_5.png)
 
 **(5)** Under the contacts tab select the Squadcast webhook which you created in step 2. Click `Save`.
 
-![](../.gitbook/assets/stackify\_6.png)
+![](../../.gitbook/assets/stackify\_6.png)
 
 Now whenever an alert is triggered in Retrace, an incident will be created automatically in Squadcast. Also when the alert is closed in Retrace, the corresponding incident **in Squadcast gets auto-resolved.**

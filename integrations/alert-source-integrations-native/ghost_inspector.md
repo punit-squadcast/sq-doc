@@ -15,11 +15,11 @@ Follow the steps below to configure a Ghost Inspector service so an alert can be
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Ghost Inspector** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/ghost\_1.png)
+![](../../.gitbook/assets/ghost\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -29,27 +29,27 @@ Follow the steps below to configure a Ghost Inspector service so an alert can be
 
 ## Create a Squadcast Webhook in Ghost Inspector
 
-![](../.gitbook/assets/ghost\_2.png)
+![](../../.gitbook/assets/ghost\_2.png)
 
 Select Notifications panel from the account settings.
 
-![](../.gitbook/assets/ghost\_3.png)
+![](../../.gitbook/assets/ghost\_3.png)
 
 In the notifications window, under **Webhooks**, choose **Yes** for Enabled and add the webhook URL from above and make sure Frequency is selected as **Send once if the test fails, then once when it passes again**, so the alerts can be **Auto-Resolved** in Squadcast when the test passes again.
 
-![](../.gitbook/assets/ghost\_4.png)
+![](../../.gitbook/assets/ghost\_4.png)
 
 Go to your test suite settings and select the Notifications tab and make sure webhooks has **Use Organizational settings** enabled.
 
-![](../.gitbook/assets/ghost\_5.png)
+![](../../.gitbook/assets/ghost\_5.png)
 
-![](../.gitbook/assets/ghost\_6.png)
+![](../../.gitbook/assets/ghost\_6.png)
 
 Also, make sure that **Use Suite settings is enabled **for webhooks in individual test settings.
 
-![](../.gitbook/assets/ghost\_7.png)
+![](../../.gitbook/assets/ghost\_7.png)
 
-![](../.gitbook/assets/ghost\_8.png)
+![](../../.gitbook/assets/ghost\_8.png)
 
 Alternatively, you can also choose to use different webhook URL's for different suites or tests and configure them to different services in Squadcast based on requirement.
 

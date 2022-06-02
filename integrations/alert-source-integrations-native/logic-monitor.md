@@ -20,11 +20,11 @@ Route detailed monitoring alerts from LogicMonitor to the right users in Squadca
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **LogicMonitor** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/logic-monitor11.png)
+![](../../.gitbook/assets/logic-monitor11.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,19 +36,19 @@ Route detailed monitoring alerts from LogicMonitor to the right users in Squadca
 
 **(1)** From the dashboard, navigate to **Settings**
 
-![](../.gitbook/assets/logic-monitor1.png)
+![](../../.gitbook/assets/logic-monitor1.png)
 
 **(2)** Select **Integrations** from the sidebar
 
-![](../.gitbook/assets/logic-monitor2.png)
+![](../../.gitbook/assets/logic-monitor2.png)
 
 **(3)** Select **Add** to add the new endpoint
 
-![](../.gitbook/assets/logic-monitor3.png)
+![](../../.gitbook/assets/logic-monitor3.png)
 
 **(4)** Select **Custom HTTP Delivery** since we want to configure a custom webhook
 
-![](../.gitbook/assets/logic-monitor4.png)
+![](../../.gitbook/assets/logic-monitor4.png)
 
 - Give the integration a meaningul **Name**, such as, *Squadcast Webhook*
 - Provide an *optional* **Description**
@@ -58,7 +58,7 @@ Route detailed monitoring alerts from LogicMonitor to the right users in Squadca
 - In the **URL** field, first select **https://** from the drop-down on the left and paste the copied Squadcast webhook by removing the *https://* prefix from the URL
 - Provide **Username** and **Password** if applicable
 
-![](../.gitbook/assets/logic-monitor5.png)
+![](../../.gitbook/assets/logic-monitor5.png)
 
 - Within **Alert Data**, paste the following template:
 
@@ -105,27 +105,27 @@ Enable **Raw**. Additionally, from the **Format** drop-down, select **Form Data*
 
 **(6)** **Save** the integration configuration
 
-![](../.gitbook/assets/logic-monitor6.png)
+![](../../.gitbook/assets/logic-monitor6.png)
 
 Find more details on how each of these parameters for **Custom HTTP Endpoints** can be configured [here](https://www.logicmonitor.com/support/alerts/integrations/custom-http-delivery)
 
 **(7)** Select **Escalation Chains** from the sidebar. Either **Add** a new Escalation Chain or edit an existing one
 
-![](../.gitbook/assets/logic-monitor7.png)
+![](../../.gitbook/assets/logic-monitor7.png)
 
 **(8)** Configure the *Squadcast Webhook* within your Escalation Chain and **Save** it
 
-![](../.gitbook/assets/logic-monitor8.png)
+![](../../.gitbook/assets/logic-monitor8.png)
 
 Find more details on how each of these parameters for **Escalation Chains** can be configured [here](https://www.logicmonitor.com/support/alerts/alert-delivery/escalation-chains)
 
 **(9)** Select **Alert Rules** from the sidebar from under **Alert Settings**. Either **Add** a new Alert Rule or edit an existing one
 
-![](../.gitbook/assets/logic-monitor9.png)
+![](../../.gitbook/assets/logic-monitor9.png)
 
 **(10)** Fill in all the relevant details. *Enable* the checkbox **Send notification when alerts clear**. Choose the configured **Escalation Chain** from the drop-down and **Save** it
 
-![](../.gitbook/assets/logic-monitor10.png)
+![](../../.gitbook/assets/logic-monitor10.png)
 
 Find more details on how each of these parameters for **Alert Rules** can be configured [here](https://www.logicmonitor.com/support/alerts/alert-delivery/alert-rules)
 

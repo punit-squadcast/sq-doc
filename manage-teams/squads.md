@@ -18,11 +18,11 @@ Follow the steps below to create a Squad in a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (9).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (9).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the **Team** that you want to create a Squad in
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1).png>)
 
 3\. Click on **Squads** from the horizontal menu
 
@@ -32,17 +32,17 @@ Follow the steps below to create a Squad in a Team:
 
 6\. Click on **Save** to create and view the Squad
 
-![](../.gitbook/assets/squads\_1.png)
+![](../../.gitbook/assets/squads\_1.png)
 
 ### Edit or Delete a Squad <a href="#edit-or-delete-a-squad" id="edit-or-delete-a-squad"></a>
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (8).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the **Team** that you want to create a Squad in
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3) (1) (1).png>)
+![](<../../.gitbook/assets/add\_and\_delete\_teams\_1 (3) (1) (1).png>)
 
 3\. Click on **Squads** from the horizontal menu
 
@@ -50,8 +50,8 @@ Follow the steps below to create a Squad in a Team:
 
 5\. Choose **Edit** to modify the existing Squad or **Delete** to delete the Squad entirely
 
-![](../.gitbook/assets/squads\_3.png)
+![](../../.gitbook/assets/squads\_3.png)
 
 6\. After modifying/choosing to delete the Squad, either click on **Save** or confirm the deletion accordingly
 
-![](../.gitbook/assets/squads\_2.png)
+![](../../.gitbook/assets/squads\_2.png)

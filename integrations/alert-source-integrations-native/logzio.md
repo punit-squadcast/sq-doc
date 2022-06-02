@@ -20,11 +20,11 @@ Route detailed monitoring alerts from Logz.io to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Logz.io** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/logzio\_1.png)
+![](../../.gitbook/assets/logzio\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,11 +36,11 @@ Route detailed monitoring alerts from Logz.io to the right users in Squadcast.
 
 **(1)** In the app, go to **Alerts & Events > Notification endpoints** to create the webhook
 
-![](../.gitbook/assets/logzio\_2.png)
+![](../../.gitbook/assets/logzio\_2.png)
 
 **(2)** Click on **Add endpoint**
 
-![](../.gitbook/assets/logzio\_3.png)
+![](../../.gitbook/assets/logzio\_3.png)
 
 **(3)** Fill in the form as shown below:
 
@@ -54,7 +54,7 @@ Route detailed monitoring alerts from Logz.io to the right users in Squadcast.
 
 Find more details on how each of these parameters can be configured [here](https://docs.logz.io/user-guide/integrations/custom-endpoints.html)
 
-![](../.gitbook/assets/logzio\_4.png)
+![](../../.gitbook/assets/logzio\_4.png)
 
 {% raw %}
 ```json
@@ -75,7 +75,7 @@ Find more details on how each of these parameters can be configured [here](https
 - Go to **Alerts & Events > New Alert** or,
 - Click on **Create Alert** from the **Kibana dashboard**
 
-![](../.gitbook/assets/logzio\_5.png)
+![](../../.gitbook/assets/logzio\_5.png)
 
 Find more details on how each of these parameters can be configured [here](https://docs.logz.io/user-guide/alerts/configure-an-alert.html)
 
@@ -90,13 +90,13 @@ Now, you will have to fill out the 3 sections:
 - Select **Accounts to Search**
 - Choose to repeat this (by adding another query), join the queries, etc.
 
-![](../.gitbook/assets/logzio\_6.png)
+![](../../.gitbook/assets/logzio\_6.png)
 
 **(5)** (b) **Trigger if...** section:
 
 - Add **Trigger conditions** for the alert and add one or more thresholds for the trigger
 
-![](../.gitbook/assets/logzio\_7.png)
+![](../../.gitbook/assets/logzio\_7.png)
 
 **(5)** (c) **Notify** section:
 
@@ -107,11 +107,11 @@ Now, you will have to fill out the 3 sections:
 - **Output format** -> choose **JSON**
 - You can choose to either send **all log fields** or **custom fields** 
 
-![](../.gitbook/assets/logzio\_8.png)
+![](../../.gitbook/assets/logzio\_8.png)
 
 **(6)** Click on **Save**
 
-![](../.gitbook/assets/logzio\_9.png)
+![](../../.gitbook/assets/logzio\_9.png)
 
 That is it, you are now good to go! Whenever a log alert is triggered in Logz.io, an incident will be created automatically in Squadcast.
 

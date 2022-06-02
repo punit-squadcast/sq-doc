@@ -20,11 +20,11 @@ Route detailed monitoring alerts from HetrixTools to the right users in Squadcas
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **HetrixTools** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/hetrixtools\_1.png)
+![](../../.gitbook/assets/hetrixtools\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -36,19 +36,19 @@ Route detailed monitoring alerts from HetrixTools to the right users in Squadcas
 
 **(1)** From the dashboard, click on your **&lt;username&gt;** which is at the top-right corner. From the drop-down, select **Contact Lists**
 
-![](../.gitbook/assets/hetrixtools\_2.png)
+![](../../.gitbook/assets/hetrixtools\_2.png)
 
 **(2)** Select **Add New Contact List** 
 
-![](../.gitbook/assets/hetrixtools\_3.png)
+![](../../.gitbook/assets/hetrixtools\_3.png)
 
 **(3)** Click on **Webhook** and enter the copied **HetrixTools Webhook URL** from Squadcast here
 
-![](../.gitbook/assets/hetrixtools\_4.png)
+![](../../.gitbook/assets/hetrixtools\_4.png)
 
 **(4)** Click on **Send test notification** and verify if the test alert from HetrixTools created a test incident in Squadcast. Once that is confirmed, click on **Add** to save the integration
 
-![](../.gitbook/assets/hetrixtools\_5.png)
+![](../../.gitbook/assets/hetrixtools\_5.png)
 
 That is it, you are good to go! Now, whenever HetrixTools fires an alert, an incident will be created in Squadcast for it. 
 

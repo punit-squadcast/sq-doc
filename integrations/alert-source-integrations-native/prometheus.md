@@ -17,11 +17,11 @@ Squadcast will then process this information to create incidents for this servic
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Prometheus** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/prometheus_1.png)
+![](../../.gitbook/assets/prometheus_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -35,11 +35,11 @@ Now open your Prometheus Alertmanager's Configuration file. (You need Prometheus
 
 Add a new webhook receiver and enter the URL obtained earlier as the webhook url.
 
-![](../.gitbook/assets/prometheus_2.png)
+![](../../.gitbook/assets/prometheus_2.png)
 
 Now you can use this receiver in any of your alert routes (You can also make it the default receiver, as per your requirements).
 
-![](../.gitbook/assets/prometheus_3.png)
+![](../../.gitbook/assets/prometheus_3.png)
 
 Also please make sure that your alerts has the severity under labels, and annotations has the summary & description fields configured in the alert rules file as shown below in the example rules config.
 

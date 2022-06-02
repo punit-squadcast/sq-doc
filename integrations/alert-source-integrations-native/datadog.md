@@ -19,11 +19,11 @@ Route detailed monitoring alerts from Datadog to the right users in Squadcast.
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Datadog** from the Alert Source drop-down and copy the Webhook URL 
 
-![](../.gitbook/assets/datadog\_1.png)
+![](../../.gitbook/assets/datadog\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -35,19 +35,19 @@ Route detailed monitoring alerts from Datadog to the right users in Squadcast.
 
 **(1)** Open **Integrations** page from the sidebar
 
-![](../.gitbook/assets/datadog\_2.png)
+![](../../.gitbook/assets/datadog\_2.png)
 
 **(2)** Search for **Webhooks**. Once the Webhooks tile appears, hover over it and click on "Configure"
 
-![](../.gitbook/assets/datadog\_3.png)
+![](../../.gitbook/assets/datadog\_3.png)
 
 **(3)** Navigate to the **Configuration** tab
 
-![](../.gitbook/assets/datadog\_4.png)
+![](../../.gitbook/assets/datadog\_4.png)
 
 **(4)** Scroll to the bottom of the page. Click on `New Webhook` to add a new Webhook URL
 
-![](../.gitbook/assets/datadog\_5.png)
+![](../../.gitbook/assets/datadog\_5.png)
 
 **(5)** (a) Give the Webhook a name in the Name field
 
@@ -91,7 +91,7 @@ Route detailed monitoring alerts from Datadog to the right users in Squadcast.
 }
 ```
 
-![](../.gitbook/assets/datadog\_6.png)
+![](../../.gitbook/assets/datadog\_6.png)
 
 Click on “Save” to complete the service integration.
 

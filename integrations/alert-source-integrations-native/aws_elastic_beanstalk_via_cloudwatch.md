@@ -20,11 +20,11 @@ Route detailed monitoring alerts from AWS Elastic Beanstalk via CloudWatch to th
 
 **(1)** From the navigation bar on the left, select **Services**. Pick the applicable **Team** from the Team-picker on the top. Next, click on **Alert Sources** for the applicable Service
 
-![](../.gitbook/assets/alert\_source\_1.png)
+![](../../.gitbook/assets/alert\_source\_1.png)
 
 **(2)** Search for **Amazon CloudWatch** from the Alert Source drop-down and copy the Webhook URL
 
-![](../.gitbook/assets/aws\_1.png)
+![](../../.gitbook/assets/aws\_1.png)
 
 {{site.data.alerts.yellow-note-i}}
 <b>Important</b><br/><br/>
@@ -37,19 +37,19 @@ Route detailed monitoring alerts from AWS Elastic Beanstalk via CloudWatch to th
 Log in to your AWS account and proceed to **Simple Notification Service - SNS**
 
 **(1)** From the sidebar on the left, select **Topics**
-![](../.gitbook/assets/aws\_2\_a.png)
+![](../../.gitbook/assets/aws\_2\_a.png)
 
 **(2)** Click on **Create Topic**
 
-![](../.gitbook/assets/aws\_2\_b.png)
+![](../../.gitbook/assets/aws\_2\_b.png)
 
 Fill in the details as per your requirements and then click on **Create Topic**
 
-![](../.gitbook/assets/aws\_2\_c.png)
+![](../../.gitbook/assets/aws\_2\_c.png)
 
 **(3)** Now, click on **Create Subscription**
 
-![](../.gitbook/assets/aws\_3\_a.png)
+![](../../.gitbook/assets/aws\_3\_a.png)
 
 **(4)** Here, select the **Protocol** as **HTTPS** and under **Endpoint**, paste the previously copied Webhook URL from Squadcast
 
@@ -57,25 +57,25 @@ Fill in the details as per your requirements and then click on **Create Topic**
 
 Finally, click on **Create Subscription** to create the subscription.
 
-![](../.gitbook/assets/aws\_3\_b.png)
+![](../../.gitbook/assets/aws\_3\_b.png)
 
 **(5)** The **Subscription ID** for this Subscription should immediately change from **PendingConfirmation** to **Confirmed**. Click on the *refresh button* to verify the same
 
-![](../.gitbook/assets/aws\_4\_a.png)
+![](../../.gitbook/assets/aws\_4\_a.png)
 
 ## Configure Amazon CloudWatch within AWS Elastic Beanstalk
 
 **(1)** In AWS Elastic Beanstalk, within your **Environment**, navigate to **Monitoring**
 
-![](../.gitbook/assets/aws\_elastic\_1.png)
+![](../../.gitbook/assets/aws\_elastic\_1.png)
 
 **(2)** Click on the **bell icon** on the graphs for which you want to create an Alarm and route alerts to Squadcast
 
-![](../.gitbook/assets/aws\_elastic\_2.png)
+![](../../.gitbook/assets/aws\_elastic\_2.png)
 
 **(3)** Configure the required parameters in the **Add Alarm** dialog box. In the **Notify** drop-down, select the **Subscription** that was previously created. Under **Notify when state changes to**, enable **OK** and **Alarm** checkboxes. Finally, click on **Add** to create the Alarm
 
-![](../.gitbook/assets/aws\_elastic\_3.png)
+![](../../.gitbook/assets/aws\_elastic\_3.png)
 
 That is it, you are now good to go! 
 
