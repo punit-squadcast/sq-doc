@@ -55,7 +55,7 @@ http_post_all_values: true
 
 {% hint style="info" %} 
 <b>Note: </b>
-<br/><br/><p>You can make sure that the 'Incident Title Name' and 'ElastAlert Rule Name' be the same in order to help identify the rule that caused the alert easily. <br/><br/>However, this is not mandatory.</p>
+<p>You can make sure that the 'Incident Title Name' and 'ElastAlert Rule Name' be the same in order to help identify the rule that caused the alert easily. <br/><br/>However, this is not mandatory.</p>
 {% endhint %}
 
 ![](../../.gitbook/assets/elastalert\_2.png)
