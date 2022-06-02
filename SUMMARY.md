@@ -151,7 +151,7 @@
   * [Honeycomb](integrations/alert-source-integrations-native/honeycomb.md)
   * [Hyperping](integrations/alert-source-integrations-native/hyperping.md)
   * [Icinga2](integrations/alert-source-integrations-native/icinga2.md)
-  * [Incident Webhook](integrations/extensions/apiv2.md)
+  * [Incident Webhook](integrations/alert-source-integrations-native/apiv2.md)
   * [InsightOps (LogEntries)](integrations/alert-source-integrations-native/insightops_(logentries).md)
   * [Instana](integrations/alert-source-integrations-native/instana.md)
   * [Jira Cloud Alert Source](integrations/alert-source-integrations-native/jira_cloud_alert_source.md)
