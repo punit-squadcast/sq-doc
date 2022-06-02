@@ -50,21 +50,18 @@ Log in to your **AppSignal** web console.
 
 ![](../../.gitbook/assets/appsignal\_4.png)
 
-{{site.data.alerts.blue-note-md}}
+{% hint style="warning" %} 
 **Important:**
-
-
-![](../../.gitbook/assets/appsignal\_5.png)
-
-
 When you click on the **Test Hook** button after adding the Webhook, AppSignal sends test data over a `GET HTTP Request` and **not** a `POST HTTP Request`. As a result, **you will not notice an incident in Squadcast** for the same. To test the Webhook, either generate or wait for real-time alerts to occur within AppSignal.
 {% endhint %}
+
+![](../../.gitbook/assets/appsignal\_5.png)
 
 **(4)** Click on **Submit** to save this Webhook integration
 
 That is it, you are good to go! Now, whenever an event in generated in AppSignal, an incident for the same will be created in Squadcast.
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>FAQ:</b>
 <br/><br/><p>Q: Does this integration support auto-resolution of incidents in Squadcast?<br/><br/>
 A: No, this integration does not support auto-resolution of incidents in Squadcast since AppSignal does not send out alert resolve notifications via the Webhook.</p>
