@@ -111,7 +111,7 @@
   * [AWS Cloudwatch (AWS)](integrations/alert-source-integrations-native/amazon_cloudwatch_aws.md)
   * [AWS CloudWatch Event Rules](integrations/alert-source-integrations-native/aws_cloudwatch_event_rules.md)
   * [AWS Elastic Beanstalk via CloudWatch](integrations/alert-source-integrations-native/aws_elastic_beanstalk_via_cloudwatch.md)
-  * [AWS RDS](integrations/extensions/amazon_rds.md)
+  * [AWS RDS](integrations/alert-source-integrations-native/amazon_rds.md)
   * [Azure Monitor](integrations/alert-source-integrations-native/azure_monitor.md)
   * [Bitbucket](integrations/alert-source-integrations-native/bitbucket.md)
   * [Bugsnag](integrations/alert-source-integrations-native/bugsnag.md)
