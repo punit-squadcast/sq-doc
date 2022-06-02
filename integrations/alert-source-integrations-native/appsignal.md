@@ -63,6 +63,6 @@ That is it, you are good to go! Now, whenever an event in generated in AppSignal
 
 {% hint style="info" %} 
 <b>FAQ:</b>
-<br/><br/><p>Q: Does this integration support auto-resolution of incidents in Squadcast?<br/><br/>
+<p>Q: Does this integration support auto-resolution of incidents in Squadcast?<br/><br/>
 A: No, this integration does not support auto-resolution of incidents in Squadcast since AppSignal does not send out alert resolve notifications via the Webhook.</p>
 {% endhint %}
