@@ -87,6 +87,6 @@ That's it, you are good to go! Your AWS CloudWatch Event Rules integration is co
 
 {% hint style="info" %} 
 <b>FAQ:</b>
-<br/><br/><p>Q: If an alert gets resolved in AWS CloudWatch Event Rules, does it send auto-resolve signals to Squadcast?<br/><br/>
+<p>Q: If an alert gets resolved in AWS CloudWatch Event Rules, does it send auto-resolve signals to Squadcast?<br/><br/>
 A: No, AWS CloudWatch Event Rules does not send auto-resolve signals to Squadcast. Hence, Squadcast incidents from AWS CloudWatch Event Rules should be resolved manually.</p>
 {% endhint %}
