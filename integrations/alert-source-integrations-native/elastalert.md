@@ -13,14 +13,14 @@ Follow the steps below to configure a service so as to extract its related alert
 
 Squadcast will then process this information to create incidents for this service as per your preferences.
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>Note: </b>
-<br/><br/><p>In this document, we'll go through how to get alerts from <b>Elastic</b> to <b>Squadcast</b> using <i>ElastAlert</i>. If you're looking for how to get alerts from Elastic using <i>Watcher</i>, refer <a href="elastic">Elastic Watcher Docs - Squadcast</a>.</p>
+<p>In this document, we'll go through how to get alerts from <b>Elastic</b> to <b>Squadcast</b> using <i>ElastAlert</i>. If you're looking for how to get alerts from Elastic using <i>Watcher</i>, refer <a href="elastic">Elastic Watcher Docs - Squadcast</a>.</p>
 {% endhint %}
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>Note: </b>
-<br/><br/><p>We'll be using _ElastAlert_ for getting alerts from Elastic. To know more about <i>ElastAlert</i>, refer <a href="https://elastalert.readthedocs.io/en/latest/" target=_blank>ElastAlert - Easy & Flexible Alerting With Elasticsearch</a>.</p>
+<p>We'll be using _ElastAlert_ for getting alerts from Elastic. To know more about <i>ElastAlert</i>, refer <a href="https://elastalert.readthedocs.io/en/latest/" target=_blank>ElastAlert - Easy & Flexible Alerting With Elasticsearch</a>.</p>
 {% endhint %}
 
 ## Using ElastAlert as an Alert Source
