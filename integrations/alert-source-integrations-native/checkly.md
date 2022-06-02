@@ -79,7 +79,7 @@ Route detailed monitoring alerts from Checkly to the right users in Squadcast.
 ```
 {% endraw %}
 
-{{site.data.alerts.yellow-note-i-md}}
+{% hint style="warning" %} 
 **Important:**
 
 **(1)** Checkly auto-reformats the content copied from above that you paste which ruptures the template syntax, resulting in the failure of the **Test webhook** option and hence, alert propagation to Squadcast. Please ensure the copied content is edited to match the syntax in the screenshot below.
