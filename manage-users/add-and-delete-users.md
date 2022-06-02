@@ -30,7 +30,7 @@ Here, fill in the following details to invite users into your Organization:
 {% hint style="info" %}
 **Note:**
 
-To import multiple users to your Organization in one go, you can simply drag and drop a `.csv` file or, click on `select a file from your computer` on the top of the page to bulk import users. More information on this is available [here](https://support.squadcast.com/docs/import-users).
+To import multiple users to your Organization in one go, you can simply drag and drop a `.csv` file or, click on `select a file from your computer` on the top of the page to bulk import users. More information on this is available [here](import-users.md).
 {% endhint %}
 
 {% hint style="info" %}
@@ -74,4 +74,4 @@ Remove/delete users added to your Organization by following the steps below:
 
 ![](<../.gitbook/assets/add\_and\_delete\_users\_team\_list (1).png>)
 
-Users who are part of some team can’t be deleted. You’ll have to remove them from the team before deleting them.
+Users who are part of some team can’t be deleted. You’ll have to [remove them from the team](../manage-teams/add-and-remove-team-members.md#remove-a-member-from-a-team) before deleting them.
