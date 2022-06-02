@@ -15,11 +15,11 @@ On-Call Reminder Rules determine how an individual user is notified about the up
 
 1. Click on the user icon in the upper right corner and select **Profile**
 
-![](../../.gitbook/assets/notification\_rules\_1.png)
+![](<../.gitbook/assets/notification\_rules\_1 (1) (2).png>)
 
 2\. You will be taken into the **My Profile** section where you can see the **On-Call Reminder Rules** below the **Notification Rules** on the right. Click on the **Edit** button to edit the rules
 
-![](../../.gitbook/assets/oncall\_reminder\_rules\_1.png)
+![](../.gitbook/assets/oncall\_reminder\_rules\_1.png)
 
 3\. Choose the medium from the drop-down, enter the amount of time before which you wish to be reminded and choose the unit of time from the drop-down
 
@@ -29,7 +29,7 @@ On-Call Reminder Rules determine how an individual user is notified about the up
 
 You’re good to go. Now, when **you** have an upcoming On-Call Shift, you will be notified based on your On-Call Reminder Rules preferences set in the **On-Call Reminder Rules** section.
 
-![](../../.gitbook/assets/oncall\_reminder\_rules\_2.png)
+![](../.gitbook/assets/oncall\_reminder\_rules\_2.png)
 
 {% hint style="info" %}
 **Note:**
