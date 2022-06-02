@@ -117,4 +117,5 @@ You can test the integration to make sure everything works as expected by going 
 
 {% hint style="info" %} 
 <b>Note: </b>
-<br/><br/><p>This integration has been tested with Checkmk version 1.6. However, this integration should work with other existing versions as well, just with slight UI differences.</p>
+<p>This integration has been tested with Checkmk version 1.6. However, this integration should work with other existing versions as well, just with slight UI differences.</p>
+{% endhint %}
