@@ -15,9 +15,12 @@ Maintenance Mode enables you to reduce alert noise during the scheduled maintena
 Ensure that the right Team is chosen from the team picker on the top of the screen.
 
 1. Click on **Services** in the primary navigation
-2. Click on the **More options** icon for the Service of your choice and select **Maintenance Mode** from the drop-down
-3. Toggle the button **on** to enable Maintenance Mode window creation
-4. Enter the **Date and Time range** during which maintenance would be carried out
+
+![](../.gitbook/assets/maintenance\_1.png)
+
+1. Click on the **More options** icon for the Service of your choice and select **Maintenance Mode** from the drop-down
+2. Toggle the button **on** to enable Maintenance Mode window creation
+3. Enter the **Date and Time range** during which maintenance would be carried out
 
 Maintenance windows can also be scheduled i.e. you can also choose to repeat it every day, every 7 days or 30 days
 
