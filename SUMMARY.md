@@ -213,7 +213,6 @@
   * [Uptime Robot](integrations/alert-source-integrations-native/uptime_robot.md)
   * [Uptrends](integrations/alert-source-integrations-native/uptrends.md)
   * [Wavefront](integrations/alert-source-integrations-native/wavefront.md)
-  * [Outgoing Webhooks](integrations/alert-source-integrations-native/webhooks.md)
   * [Zabbix 5.0](integrations/alert-source-integrations-native/zabbix_5.md)
   * [Zabbix](integrations/alert-source-integrations-native/zabbix.md)
   * [Zendesk](integrations/alert-source-integrations-native/zendesk.md)
