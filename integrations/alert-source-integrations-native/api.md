@@ -16,7 +16,7 @@ You can use our API integration to send alerts to Squadcast in HTTP POST format.
 {{site.data.alerts.red-note}}
 <b>Notice for API:</b>
 <br/><br/><p>APIv2 is the new version of our alert source API. This also carries the option to resolve through the API call.<br/><br/><b>API</b> will soon be deprecated in favour of <b>APIv2</b> but is currently still functional.<br/><br/>Please use APIv2 from the Integration Type dropdown for any new alert source API integrations and not API.  If you are using the old API, please migrate it to the latest API (APIv2) and update your Webhook URLs.<br/><br/>To know more about APIv2, refer to this <a href="apiv2">documentation</a>.</p>
-{{site.data.alerts.end}}
+{% endhint %}
 
 ## Using API as an Alert Source
 
@@ -84,7 +84,7 @@ Using Tags to Set Severity:
 ```
 {{site.data.alerts.note}}
 <br/><br/><p>If a colour code isn't explicitly mentioned,  then the system takes the default colour "<b>#808080</b>" for the tag</p>
-{{site.data.alerts.end}}
+{% endhint %}
 
 Assigning Colours to Tags:
 

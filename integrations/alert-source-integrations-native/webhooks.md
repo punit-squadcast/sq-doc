@@ -24,13 +24,13 @@ This new feature is currently in `Beta` and is accessible in all of our [plans](
 
 If you have queries or suggestions, please feel free to reach out to our [Support team](mailto:support@squadcast.com).
 
-{{site.data.alerts.end}}
+{% endhint %}
 
 {{site.data.alerts.yellow-note-i-md}}
 **Note:**
 
 We also support generic incoming webhooks for incident creation. You can find detailed information on how to use those [here](https://support.squadcast.com/docs/apiv2).
-{{site.data.alerts.end}}
+{% endhint %}
 
 ## Prerequisites
 
@@ -82,7 +82,7 @@ Squadcast expects that the server that responds to the webhook to return a `2xx`
 
 The exact details of the retry policy are currently not being tracked. This is subject to change during the Beta period.
 
-{{site.data.alerts.end}}
+{% endhint %}
 
 ## URLs and Headers
 
@@ -131,7 +131,7 @@ We will be coming up with *Webhook Connectors* soon, to show how our webhooks ca
 
 If you need help with integrating your Squadcast account to a third party application using webhooks, please contact our [Support team](mailto:support@squadcast.com).
 
-{{site.data.alerts.end}}
+{% endhint %}
 
 ## Sample Webhook Payloads
 

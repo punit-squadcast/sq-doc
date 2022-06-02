@@ -31,7 +31,7 @@ In the Slack channel from which you want to create an incident in Squadcast, per
 You can call out `/create_incident help` to walk you through the process within your Slack channel to guide you through the process.
 
 ![](../../.gitbook/assets/slack_2.png)
-{{site.data.alerts.end}}
+{% endhint %}
 
 The command that is used to create an incident from Slack is:
 
@@ -41,7 +41,7 @@ The command that is used to create an incident from Slack is:
 **Note**
 
 You can call the `/create_incident` or `/create_incident <Incident Message Text>` command to create an incident from Slack.
-{{site.data.alerts.end}}
+{% endhint %}
 
 ![](../../.gitbook/assets/slack_3.png)
 
@@ -81,7 +81,7 @@ The incident has now been created successfully.
 **Important**
 
 The **Squadcast Bot must be called into the channel** where you will want to take any of the above actions to create an incident.
-{{site.data.alerts.end}}
+{% endhint %}
 
 ### How to Video
 
