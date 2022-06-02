@@ -45,7 +45,7 @@ Go to your test suite settings and select the Notifications tab and make sure we
 
 ![](../../.gitbook/assets/ghost\_6.png)
 
-Also, make sure that **Use Suite settings is enabled **for webhooks in individual test settings.
+Also, make sure that **Use Suite settings is enabled** for webhooks in individual test settings.
 
 ![](../../.gitbook/assets/ghost\_7.png)
 

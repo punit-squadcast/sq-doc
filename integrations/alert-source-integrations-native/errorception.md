@@ -56,8 +56,8 @@ Route detailed events from Errorception to the right users in Squadcast.
 
 ![](../../.gitbook/assets/errorception\_4.png)
 
-{{site.data.alerts.blue-note}}
+{% hint style="info" %} 
 <b>FAQ:</b>
-<br/><br/><p>Q: Does this integration support auto-resolution of incidents in Squadcast?<br/><br/>
+<p>Q: Does this integration support auto-resolution of incidents in Squadcast?<br/><br/>
 A: No, this integration does not support auto-resolution of incidents in Squadcast since Errorception does not send out error resolve notifications via the Webhook.</p>
 {% endhint %}

@@ -58,14 +58,14 @@ Route detailed alerts from Grafana to the right users in Squadcast.
 <br/><p><ul><li>If you'd like to include images to your incident, check <b>Include Image</b>  and you should see it as a part of your incident description in Squadcast.</li><li>The Image URL must be public or accessible from your computer for it to be visible on Squadcast.</li><li>Even if the Image is not accessible, the Image URL will be provided in the Incident Description.</li></ul></p>
 {% endhint %}
 
-{{site.data.alerts.green-note-check}}
+{% hint style="info" %} 
 <b>Helpful Grafana Links</b>
-<br/><p><ul><li><a href="https://grafana.com/docs/grafana/latest/installation/configuration/#external-image-storage" target="_blank">Configuring External Image Storage in Grafana</a></li><li><a href="https://grafana.com/docs/grafana/latest/alerting/notifications/#external-image-store" target="_blank">Sending Images to your Incident Alerting Tool</a></li></ul></p>
+<ul><li><a href="https://grafana.com/docs/grafana/latest/installation/configuration/#external-image-storage" target="_blank">Configuring External Image Storage in Grafana</a></li><li><a href="https://grafana.com/docs/grafana/latest/alerting/notifications/#external-image-store" target="_blank">Sending Images to your Incident Alerting Tool</a></li></ul></p>
 {% endhint %}
 
 {% hint style="info" %} 
 <b>Important: Auto Resolve</b>
-<br/><br/><p>If you would like to enable <b>Auto-Resolve</b> in Squadcast, then make sure the <b>Disable Resolve Message</b> is unchecked.</p>
+<p>If you would like to enable <b>Auto-Resolve</b> in Squadcast, then make sure the <b>Disable Resolve Message</b> is unchecked.</p>
 {% endhint %}
 
 ![](../../.gitbook/assets/grafana\_6.png)
@@ -82,7 +82,7 @@ Route detailed alerts from Grafana to the right users in Squadcast.
 
 {% hint style="info" %} 
 <b>Pre-requisite</b>
-<br/><br/><p>Squadcast should be added as a Notification Channel in your Grafana account. <a href="grafana#in-grafana-create-a-squadcast-webhook-as-a-notification-channel">Follow steps 1-5 here</a> and ensure the following:<br/><ul><li><b>Default</b> is unchecked to allow only specific alerts of your choosing</li><li><b>Include image</b> is checked if you want to add images to your Squadcast incidents</li></ul></p>
+<p>Squadcast should be added as a Notification Channel in your Grafana account. <a href="grafana#in-grafana-create-a-squadcast-webhook-as-a-notification-channel">Follow steps 1-5 here</a> and ensure the following:<br/><ul><li><b>Default</b> is unchecked to allow only specific alerts of your choosing</li><li><b>Include image</b> is checked if you want to add images to your Squadcast incidents</li></ul></p>
 {% endhint %}
 
 **(1)** After you've saved **Squadcast Webhook** as a Notification Channel for your Grafana account, navigate to the panel from your Grafana Dashboard and under options select **Edit**
