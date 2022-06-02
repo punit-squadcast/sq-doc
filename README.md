@@ -6,8 +6,6 @@ description: Take your first steps towards incident management using Squadcast.
 
 ![](<.gitbook/assets/squadcast\_dashboard (1).svg>)
 
-### &#x20;<a href="#welcome-to-squadcast" id="welcome-to-squadcast"></a>
-
 ### Welcome to Squadcast! <a href="#welcome-to-squadcast" id="welcome-to-squadcast"></a>
 
 Squadcast is an incident management platform built on DevOps & SRE best practices to help you adopt the same to simplify incident management, get meaningful notifications, and enable faster incident resolution in collaboration. Explore all the incredible SRE features and incident resolution capabilities in this documentation.
@@ -40,18 +38,18 @@ Irrespective of your role, you can go through our checklist to see how you can g
 
 Here’s a checklist of things to do to use Squadcast to its full potential or jump to the section of your choice!
 
-1. [Setting up your on-call team](broken-reference)
-2. [Incident Response - Reduce MTTR with Faster Response](broken-reference)
-3. [Incident response - Noise Reduction & Contextual Awareness](broken-reference)
-4. [Incident communication](broken-reference)
-5. [SRE Visibility & Insights](broken-reference)
-6. [Squadcast Support - Essential Information](broken-reference)
-7. [Latest Product Updates](broken-reference)
-8. [Check out the Squadcast GitHub page](broken-reference)
-9. [Browse Through Glossary](broken-reference)
-10. [Check out our Blog & Resources](broken-reference)
-11. [Here are the events we’ll be at](broken-reference)
-12. [Here’s how we engage with the community](broken-reference)
+1. [Setting up your on-call team](broken-reference/)
+2. [Incident Response - Reduce MTTR with Faster Response](broken-reference/)
+3. [Incident response - Noise Reduction & Contextual Awareness](broken-reference/)
+4. [Incident communication](broken-reference/)
+5. [SRE Visibility & Insights](broken-reference/)
+6. [Squadcast Support - Essential Information](broken-reference/)
+7. [Latest Product Updates](broken-reference/)
+8. [Check out the Squadcast GitHub page](broken-reference/)
+9. [Browse Through Glossary](broken-reference/)
+10. [Check out our Blog & Resources](broken-reference/)
+11. [Here are the events we’ll be at](broken-reference/)
+12. [Here’s how we engage with the community](broken-reference/)
 
 ### 1. 📅 Setting up your on-call team <a href="#1--setting-up-your-on-call-team" id="1--setting-up-your-on-call-team"></a>
 
@@ -154,7 +152,7 @@ Alert Deduplication\*\* can help you reduce alert noise by organising and groupi
 
 Suppression rules is a part of the Squadcast Rules Engine that allows you to configure rules to automatically suppress non-actionable alerts such as warning, informational or test alerts. Based on your configuration, alerts will be suppressed and you will not be unnecessary notified. All suppressed data will still be available on the platform. See how to configure your Suppression Rules.
 
-### 4. 🔊 Incident communication  <a href="#4--incident-communication" id="4--incident-communication"></a>
+### 4. 🔊 Incident communication <a href="#4--incident-communication" id="4--incident-communication"></a>
 
 ✅ **Set up your Public and Private Status Pages**
 
