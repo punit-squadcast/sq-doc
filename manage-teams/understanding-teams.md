@@ -38,7 +38,7 @@ This, as the name suggests, is the <mark style="color:red;">`default`</mark> tea
 Here, you will be able to view:
 
 * All the [`Members`](https://support.squadcast.com/docs/add-and-delete-users) of this Team (your entire Organization)
-* The [`Roles`](https://support.squadcast.com/docs/user-permissions-access-controls) of these `Members`
+* The [`Roles`](https://support.squadcast.com/docs/user-permissions-access-controls) of these <mark style="color:red;">`Members`</mark>
 * The associated [`Entities`](broken-reference/)
 * Any defined [`Squads`](https://support.squadcast.com/docs/squads)
 * Team-specific `Settings`
@@ -47,9 +47,9 @@ Here, you will be able to view:
 
 Every Team can own <mark style="color:red;">`entities`</mark> that they are responsible for, or are specific to only them. The <mark style="color:red;">`entities`</mark> are:
 
-1. [Escalation Policies](https://support.squadcast.com/docs/escalation-policies)
-2. [Schedules](https://support.squadcast.com/docs/schedules)
-3. [Services](https://support.squadcast.com/docs/adding-a-service-1)
-4. [Status Pages](https://support.squadcast.com/docs/statuspage)
+1. [Escalation Policies](../escalation-policies/create-and-manage-escalation-policies.md)
+2. [Schedules](../schedules/create-and-manage-on-call-schedules-and-rotations.md)
+3. [Services](../services/adding-a-service.md)
+4. [Status Pages](../status-page/status-page.md)
 
 All such entities owned by a Team are clearly indicated here.

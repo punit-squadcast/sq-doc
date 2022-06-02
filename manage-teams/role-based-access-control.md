@@ -4,7 +4,7 @@ description: Understanding the Roles and Access Controls for Teams and Custom Ro
 
 # Role Based Access Control
 
-Roles are a _set of permissions_ granted that are specific to the Team that the user is a member of. There are pre-defined Roles that can be directly assigned to the members of the Team. If one wants to define [Custom Roles](broken-reference/), that is also doable.
+Roles are a _set of permissions_ granted that are specific to the Team that the user is a member of. There are pre-defined Roles that can be directly assigned to the members of the Team. If one wants to define [Custom Roles](role-based-access-control.md#custom-roles), that is also doable.
 
 It is critical to thoroughly note that **Roles are Team-specific**, that is, **Roles will allow you specific abilities for just that Team that you are a part of**.
 

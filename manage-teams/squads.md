@@ -6,12 +6,12 @@ description: What Squads are and understanding how to manage Squads
 
 Squads are smaller groups of members within Teams. Squads could correspond to groups of people that are responsible for specific projects within a Team.c
 
-These are especially useful for adding groups of people to be on-call in a [Schedule](https://support.squadcast.com/docs/schedules). Squads are also handy when you need to notify the entire group together. For instance, when co-ordinated responses are required for high-urgency, high-complexity incidents, or as the last level of notification in an [Escalation Policy](https://support.squadcast.com/docs/escalation-policies) when an incident is still un-acknowledged at that point.
+These are especially useful for adding groups of people to be on-call in a [Schedule](../schedules/create-and-manage-on-call-schedules-and-rotations.md). Squads are also handy when you need to notify the entire group together. For instance, when co-ordinated responses are required for high-urgency, high-complexity incidents, or as the last level of notification in an [Escalation Policy](broken-reference) when an incident is still un-acknowledged at that point.
 
 ### Create a Squad <a href="#create-a-squad" id="create-a-squad"></a>
 
 {% hint style="info" %}
-**Prerequisite:** Add Users into your Team before defining a Squad.
+**Prerequisite:** [Add Users](../manage-users/add-and-delete-users.md#add-users) into your Team before defining a Squad.
 {% endhint %}
 
 Follow the steps below to create a Squad in a Team:

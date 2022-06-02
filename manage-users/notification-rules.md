@@ -1,9 +1,15 @@
+---
+description: >-
+  Notification rules define how and when you are notified when an incident is
+  assigned to you
+---
+
 # Notification Rules
 
 Notification Rules determine how an individual user is notified for an incident that is assigned to them. One can set up rules to be notified on any of the following notification channels:
 
 * Email
-* Push notification on the Squadcast mobile app
+* [Push notification on the Squadcast mobile app](../mobile-app/using-the-mobile-app.md)
 * SMS
 * Phone
 
