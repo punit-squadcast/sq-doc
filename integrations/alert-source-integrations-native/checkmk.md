@@ -13,7 +13,7 @@ Follow the steps below to configure a service so as to extract its related alert
 
 {% hint style="info" %} 
 <b>Note: </b>
-<br/><br/><p>Note that you must be logged in as <code class="highlighter-rouge" style="color: #c7254e; background-color: #f9f2f4 !important;">root</code> to complete the installation.</p>
+<p>Note that you must be logged in as <code class="highlighter-rouge" style="color: #c7254e; background-color: #f9f2f4 !important;">root</code> to complete the installation.</p>
 {% endhint %}
 
 These instructions might need to be altered based on your exact Linux distribution and your Checkmk version and configuration. 
@@ -74,9 +74,9 @@ chmod +x sq-script.py
 
 + Enter a Username and, optionally, a Full name for the Squadcast user. 
 
-{{site.data.alerts.green-note-check}}
+{% hint style="info" %} 
 <b>Pro Tip: </b>
-<br/><br/><p>You will find it beneficial to set the full name to match the name of your Squadcast service if you will plan to configure Checkmk hosts and services to alert multiple Squadcast services and not just one.</p>
+<p>You will find it beneficial to set the full name to match the name of your Squadcast service if you will plan to configure Checkmk hosts and services to alert multiple Squadcast services and not just one.</p>
 {% endhint %}
 
 + Do not enter a password for this user; instead **check** `disable the login to this account`. This step is done as this account exists solely to send notifications to the Squadcast script.
