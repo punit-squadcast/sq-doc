@@ -18,13 +18,21 @@ Ensure that the right Team is chosen from the team picker on the top of the scre
 
 ![](../.gitbook/assets/maintenance\_1.png)
 
-1. Click on the **More options** icon for the Service of your choice and select **Maintenance Mode** from the drop-down
-2. Toggle the button **on** to enable Maintenance Mode window creation
-3. Enter the **Date and Time range** during which maintenance would be carried out
+2\. Click on the **More options** icon for the Service of your choice and select **Maintenance Mode** from the drop-down
+
+![](<../.gitbook/assets/maintenance\_2 (1).png>)
+
+3\. Toggle the button **on** to enable Maintenance Mode window creation
+
+![](<../.gitbook/assets/maintenance\_3 (1).png>)
+
+4\. Enter the **Date and Time range** during which maintenance would be carried out
 
 Maintenance windows can also be scheduled i.e. you can also choose to repeat it every day, every 7 days or 30 days
 
 5\. **Save** the set configuration
+
+![](../.gitbook/assets/maintenance\_4.png)
 
 That’s it, the maintenance window has now been created for the Service!
 
@@ -35,17 +43,25 @@ That’s it, the maintenance window has now been created for the Service!
 A Service in Maintenance Mode is indicated with an "Under Maintenance" tag on the Service card as seen in the screenshot below
 {% endhint %}
 
+![](../.gitbook/assets/maintenance\_5.png)
+
 ### FAQs <a href="#faqs" id="faqs"></a>
 
 1. Where can I see all the suppressed incidents?
 
-Suppressed incidents can be viewed on the **Dashboard** by clicking on the `Suppressed` tab as shown below:
+Suppressed incidents can be viewed on the **Dashboard** by clicking on the <mark style="color:red;">`Suppressed`</mark> tab as shown below:
 
-On the **Incidents** page, suppressed incidents can be viewed under the `Suppressed` state as shown below:
+![](../.gitbook/assets/maintenance\_6.png)
+
+On the **Incidents** page, suppressed incidents can be viewed under the <mark style="color:red;">`Suppressed`</mark> state as shown below:
+
+![](<../.gitbook/assets/maintenance\_7 (1).png>)
 
 2\. How do I know if an incident is suppressed due to scheduled maintenance and not due to any other Suppression Rule?
 
 In the Incident’s Activity Timeline the reason for suppression is displayed, in this case it will be <mark style="color:red;">`auto suppressed due to scheduled maintenance`</mark>.
+
+![](../.gitbook/assets/maintenance\_timeline.png)
 
 3\. Is a maintenance window global to the associated Service?
 
