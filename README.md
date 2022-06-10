@@ -16,13 +16,13 @@ Now that you’re here, we’ve put together a checklist of things that you can 
 
 Begin with the basic setup guide based on your role in the organisation: Account Owner, Admin, User or Stakeholder.
 
-#### 📛 Roles in Squadcast <a href="#roles-in-squadcast" id="roles-in-squadcast"></a>
+### 📛 Roles in Squadcast <a href="#roles-in-squadcast" id="roles-in-squadcast"></a>
 
 **Getting Started as an Account Owner**
 
-An Account Owner has all the privileges for managing an organization on Squadcast. There can be only one Account Owner for an organization. And only she can access the Billing page to manage subscription.
+An Account Owner has all the privileges for managing an organization on Squadcast. There can be only one Account Owner for an organization. And only she can access the Billing page to manage subscriptions.
 
-Learn more on how to manage your profile and other users. In case you’re also responsible for setting up of incident management tools, you can see the Admin’s section below.
+Learn more on how to manage your profile and other users. In case you’re also responsible for setting up incident management tools, you can see the Admin’s section below.
 
 **Getting Started as an Admin**
 
@@ -53,27 +53,27 @@ Here’s a checklist of things to do to use Squadcast to its full potential or j
 
 ### 1. 📅 Setting up your on-call team <a href="#1--setting-up-your-on-call-team" id="1--setting-up-your-on-call-team"></a>
 
-📟 **Set up your profile and add your notification rules**
+📟 **Set up your Profile and add your Notification Rules**
 
-The My Profile holds the name and contact information such as phone number, SMS number, email address that is associated with your profile. Head over to add in or edit your contact information.
+The My Profile holds the name and contact information such as phone number, SMS number, and email address that is associated with your profile. Head over to add in or edit your contact information.
 
 You will only be able to set your notification rules - rules for how you want to be notified and after how long from the time of incident trigger.
 
-📱 **Download our mobile app**
+📱 **Download our Mobile App**
 
-You can use the mobile app to Acknowledge, Reassign, take Actions and Resolve from the Mobile App. The Mobile app will walk you into the incident dashboard where you will be able to view incidents from all states; Triggered (Open), Acknowledged (Investigating), Resolved and Suppressed. You can also see the on-call schedule for your organization on the mobile app.
+You can use the mobile app to Acknowledge, Reassign, take Action and Resolve from the Mobile App. The Mobile app will walk you into the incident dashboard where you will be able to view incidents from all states; Triggered (Open), Acknowledged (Investigating), Resolved and Suppressed. You can also see the on-call schedule for your organization on the mobile app.
 
 The mobile app is available on both App Store and Google Play.
 
 ![](<.gitbook/assets/Untitled design (1) (1).png>)
 
-👥 **Add users to your organization**
+👥 **Add Users to your Organization**
 
 As an Account Owner/ Admin, you can add or remove Admin, User, and Stakeholder accounts. See how to Manage Users.
 
-🙌 **Create a squad**
+🙌 **Create a Squad**
 
-A Squad is a group of users that can refer to a team or a project. Squads are handy when you need to notify the whole group together. For instance, when coordinated response is required for high-urgency high-complexity incidents, or at the end of an escalation policy when nobody has acknowledged. See how to Manage Squads.
+A Squad is a group of users that can refer to a team or a project. Squads are handy when you need to notify the whole group together. For instance, when the coordinated response is required for high-urgency high-complexity incidents, or at the end of an escalation policy when nobody has acknowledged. See how to Manage Squads.
 
 Examples:
 
@@ -82,11 +82,11 @@ Examples:
 * Frontend Squad
 * All Hands
 
-⏳ **Create escalation policies**
+⏳ **Create Escalation Policies**
 
-Squadcast enables you to add time-based escalation rules for Users, Squads (a group of Users) or Schedules (on-call schedules). See how to Manage Escalation Policies.
+Squadcast enables you to add time-based Escalation Rules for Users, Squads (a group of Users) or Schedules (on-call schedules). See how to Manage Escalation Policies.
 
-Escalation policies are attached to services. So, any alert or incident triggered for a service will notify based on the escalation policy attached to it.
+Escalation policies are attached to services. So, any alert or incident triggered for a Service will notify based on the Escalation Policy attached to it.
 
 Examples:
 
