@@ -198,7 +198,7 @@ You can check out and contribute to our curated repository of [awesome-sre-tools
 
 ### 9. 📖 Browse Through Glossary <a href="#9--browse-through-glossary" id="9--browse-through-glossary"></a>
 
-You can browse our Glossary for terminologies that we use within the platform. This will give a fair understanding of each terminology and functionalities associated with them.
+You can browse our Glossary for terminologies that we use within the platform. This will give a fair understanding of each terminology and the functionalities associated with them.
 
 ### 10. 📚 Check out our Blog & Resources <a href="#10--check-out-our-blog--resources" id="10--check-out-our-blog--resources"></a>
 
@@ -210,4 +210,12 @@ You can catch Squadcast participating in prominent technology events around the 
 
 You can check out all the events we’ll be at on the [Squadcast Events](https://www.squadcast.com/events)
 
-From discussing all things SRE, hosting a webinar, contributing to our blog, getting featured on SRE Speak to speaking at meetups, there are several ways you can participate and give back to the SRE community. To find out how you can be a part of our super awesome community, drop us a line at \[email protected] and hear back from us soon!
+### 12. 🎊 Here’s how we engage with the community
+
+From discussing all things SRE, hosting a webinar, contributing to our blog, getting featured on SRE Speak to speaking at meetups, there are several ways you can participate and give back to the SRE community. To find out how you can be a part of our super awesome community, drop us a line at [marketing@squadcast.com](mailto:marketing@squadcast.com) and hear back from us soon!
+
+{% hint style="info" %}
+**Need more integrations?**\
+\
+In case you don’t find an integration, email us at [`support@squadcast.com`](mailto:support@squadcast.com). Our team will reach out to you within 1 working day.
+{% endhint %}
