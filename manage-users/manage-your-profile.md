@@ -62,7 +62,7 @@ description: Edit your account details and set up notification preferences
 
 1. In order to receive Phone and SMS notifications, ensure a valid Mobile Number is entered
 2. Phone and SMS notifications will be disabled if the Mobile Number is not verified
-3. Everytime you change your Mobile Number, you have to verify the new Mobile Number to continue receiving Phone and SMS notifications
+3. Everytime you change your Mobile Number, you have to verify the new Mobile Number to continue receiving Phone and SMS notifications\\
 {% endhint %}
 
 ### While Onboarding <a href="#while-onboarding" id="while-onboarding"></a>
@@ -75,7 +75,7 @@ description: Edit your account details and set up notification preferences
 
 1. Fill in the OTP and click on **Verify** to verify your _Mobile Number_
 2. If you did not receive an OTP, you can click on **Send again** to get a new OTP. **Send again** will only be enabled after 1 minute has passed every-time an OTP is sent
-3. If you want to verify your _Mobile Number_ later, you can select **Skip and verify later**. _Mobile Number_ can be verified in the [**Profile page**](manage-your-profile.md)****
+3. If you want to verify your _Mobile Number_ later, you can select **Skip and verify later**. _Mobile Number_ can be verified in the [**Profile page**](broken-reference/)
 4. You will then be logged in, irrespective of whether you choose to verify instantly or at a later point in time
 
 ![](../.gitbook/assets/manage\_account\_5.png)

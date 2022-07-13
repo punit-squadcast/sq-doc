@@ -10,11 +10,11 @@ Add users to your Organization by following the steps below:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (34).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1) (2) (15).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1) (2) (2).png>)
 
 3\. Click on **Add Users** on the top right corner
 
@@ -30,7 +30,7 @@ Here, fill in the following details to invite users into your Organization:
 {% hint style="info" %}
 **Note:**
 
-To import multiple users to your Organization in one go, you can simply drag and drop a `.csv` file or, click on `select a file from your computer` on the top of the page to bulk import users. More information on this is available [here](import-users.md).
+To import multiple users to your Organization in one go, you can simply drag and drop a `.csv` file or, click on `select a file from your computer` on the top of the page to bulk import users. More information on this is available [here](https://support.squadcast.com/docs/import-users).
 {% endhint %}
 
 {% hint style="info" %}
@@ -60,11 +60,11 @@ Remove/delete users added to your Organization by following the steps below:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (32).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (2).png>)
 
 2\. Click on **Users** from the secondary navigation menu
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1) (2) (12).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_2 (1) (2).png>)
 
 3\. Click on the <mark style="color:red;">`More Options`</mark> icon and select **Delete** to delete the user
 
@@ -74,4 +74,4 @@ Remove/delete users added to your Organization by following the steps below:
 
 ![](<../.gitbook/assets/add\_and\_delete\_users\_team\_list (1).png>)
 
-Users who are part of some team can’t be deleted. You’ll have to [remove them from the team](../manage-teams/add-and-remove-team-members.md#remove-a-member-from-a-team) before deleting them.
+Users who are part of some team can’t be deleted. You’ll have to remove them from the team before deleting them.

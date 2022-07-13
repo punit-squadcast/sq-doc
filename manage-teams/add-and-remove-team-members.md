@@ -10,7 +10,7 @@ description: >-
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (18).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (5).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team to which a new member needs to be added
 
@@ -28,7 +28,7 @@ description: >-
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (22).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (3).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team from which the Team member has to be removed
 
@@ -40,23 +40,18 @@ description: >-
 
 ![](../.gitbook/assets/add\_and\_delete\_teams\_6.png)
 
-5\. If the Team member to be removed is a part of any of the entities (Incidents, Escalation Policies, Schedules) that belong to the Team, a modal displaying those details will appear
-
-![](<../.gitbook/assets/add\_and\_remove\_members\_replace\_modal (2).png>)
-
-6\. Now, select the Team member who will replace the one who is being removed using the available drop-down
+1. If the Team member to be removed is a part of any of the entities (Incidents, Escalation Policies, Schedules) that belong to the Team, a modal displaying those details will appear
+2. Now, select the Team member who will replace the one who is being removed using the available drop-down
 
 {% hint style="warning" %}
 **Important:** For incidents, there are 2 options:
 
 * If the checkbox is left **unchecked**, all the incidents assigned to the member being removed will be reassigned to the replacing Team member. The replacing Team member will receive **one** Email notification notifying them of the incidents that are now assigned to them
-* If the checkbox is **checked**, all the **open** incidents (incidents in the <mark style="color:red;">`Triggered`</mark> and <mark style="color:red;">`Acknowledged`</mark> states) assigned to the member being removed will be suppressed
+* If the checkbox is **checked**, all the **open** incidents (incidents in the `Triggered` and `Acknowledged` states) assigned to the member being removed will be suppressed
 {% endhint %}
 
 7\. Once the appropriate replacement Team member is selected and an action for incidents is determined, click on **Swap & Remove**
 
 8\. A success modal confirming the swap will appear, like in the screenshot below
 
-![](../.gitbook/assets/add\_and\_remove\_members\_success\_modal.png)
-
-In addition to this, if a user also needs to be deleted from the Organization, please follow the steps [here ](../manage-users/add-and-delete-users.md#delete-users)to do so.
+In addition to this, if a user also needs to be deleted from the Organization, please follow the steps [here](https://support.squadcast.com/docs/add-and-delete-users#delete-users) to do so.

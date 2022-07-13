@@ -1,8 +1,6 @@
----
-description: Reduce alert noise by grouping similar alerts together
----
-
 # Alert Deduplication Rules
+
+Reduce alert noise by grouping similar alerts together
 
 Alert Deduplication can help you reduce alert noise by organising and grouping alerts. This also provides easy access to similar alerts when needed.
 
@@ -13,37 +11,29 @@ This can be achieved by defining Deduplication Rules for each Service in Squadca
 * The User Role associated with the user in the Team must have required permissions to manage Services (ability to manage Deduplication Rules).
 * Integrate with an Alert Source and ensure that the Alert Source has started sending alerts to Squadcast before setting up Deduplication Rules.
 
-{% hint style="warning" %}
-**Important**\
-Deduplication Rules work only on incidents in either the **Triggered** or **Acknowledged** states.
-{% endhint %}
-
 ### Creating Deduplication Rules <a href="#creating-deduplication-rules" id="creating-deduplication-rules"></a>
 
 Ensure that the right Team is chosen from the team picker on the top of the screen.
 
-1. Click on **Services** in the primary navigation
-2. Select a **Service** and click on the **More options** icon
-3. Click on **Deduplication Rules**
+**(1)** Click on **Services** in the primary navigation
 
-![](../../.gitbook/assets/de-duplication\_1.png)
+**(2)** Select a **Service** and click on the **More options** icon
 
-4\. Click on **Add new rule**
+**(3)** Click on **Deduplication Rules**
 
-5\. Select an **Alert Source** from the drop-down
+**(4)** Click on **Add new rule**
 
-![](../../.gitbook/assets/de-duplication\_2.png)
+**(5)** Select an **Alert Source** from the drop-down
 
-6\. Deduplication Rules can be added in three ways:
+**(6)** Deduplication Rules can be added in three ways:
 
-### 1. UI-based Rule Builder (Beginner-friendly) <a href="#a-ui-based-rule-builder-beginner-friendly" id="a-ui-based-rule-builder-beginner-friendly"></a>
+#### (A) UI-based Rule Builder (Beginner-friendly) <a href="#a-ui-based-rule-builder-beginner-friendly" id="a-ui-based-rule-builder-beginner-friendly"></a>
 
-1. On the right, you can view the _payload of the **latest** alert_ for the chosen Alert Source
-2. The drop-downs in the Rule Builder contain values from the payload on the right. You can use them to easily create your Deduplication Rules
+(a) On the right, you can view the _payload of the **latest** alert_ for the chosen Alert Source
 
-![](../../.gitbook/assets/de-duplication\_3.png)
+(b) The drop-downs in the Rule Builder contain values from the payload on the right. You can use them to easily create your Deduplication Rules
 
-1. You can add more than 1 condition for a rule by selecting **Add Condition** (a logical AND is performed between all the conditions -> the entire Deduplication Rule will evaluate to `True` only if all the conditions evaluate to `True`)
+(c) You can add more than 1 condition for a rule by selecting **Add Condition** (a logical AND is performed between all the conditions -> the entire Deduplication Rule will evaluate to `True` only if all the conditions evaluate to `True`)
 
 Next, choose the **Deduplication Time Window**. You can deduplicate incidents for a **maximum of 48 hours**.
 

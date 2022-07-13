@@ -14,7 +14,7 @@ Users are anyone from your team who are on the Squadcast platform. You can acces
 
 Users have various roles within the platform:
 
-### **Role: Account Owner** <a href="#role_account_owner" id="role_account_owner"></a>
+### **Role: Account Owner**
 
 An Account Owner has the ability to:
 
@@ -28,7 +28,7 @@ An Account Owner has the ability to:
 8. Add/edit/delete postmortem templates
 9. Change the account owner or delete the account
 
-### **Role: Admin** <a href="#role_admin" id="role_admin"></a>
+### **Role: Admin**
 
 An Admin can:
 

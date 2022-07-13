@@ -23,8 +23,6 @@ Ensure that the right Team is chosen from the team picker on the top of the scre
 
 **(3)** Click on **Suppression Rules**
 
-![](../.gitbook/assets/alert\_suppression\_1\_new.png)
-
 **(4)** Select an **Alert Source** from the drop-down
 
 **(5)** Click on **Add new rule**

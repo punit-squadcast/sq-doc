@@ -15,6 +15,7 @@
 * [Notification Rules](manage-users/notification-rules.md)
 * [On-Call Reminder Rules](manage-users/on-call-reminder-rules.md)
 * [Change Account Owner](manage-users/change-account-owner.md)
+* [punit test](manage-users/punit-test.md)
 
 ## Manage Teams
 

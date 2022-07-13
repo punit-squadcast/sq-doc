@@ -6,6 +6,8 @@ description: Take your first steps towards incident management using Squadcast.
 
 ![](<.gitbook/assets/squadcast\_dashboard (1).svg>)
 
+### &#x20;<a href="#welcome-to-squadcast" id="welcome-to-squadcast"></a>
+
 ### Welcome to Squadcast! <a href="#welcome-to-squadcast" id="welcome-to-squadcast"></a>
 
 Squadcast is an incident management platform built on DevOps & SRE best practices to help you adopt the same to simplify incident management, get meaningful notifications, and enable faster incident resolution in collaboration. Explore all the incredible SRE features and incident resolution capabilities in this documentation.
@@ -16,13 +18,13 @@ Now that you’re here, we’ve put together a checklist of things that you can 
 
 Begin with the basic setup guide based on your role in the organisation: Account Owner, Admin, User or Stakeholder.
 
-### 📛 Roles in Squadcast <a href="#roles-in-squadcast" id="roles-in-squadcast"></a>
+#### 📛 Roles in Squadcast <a href="#roles-in-squadcast" id="roles-in-squadcast"></a>
 
 **Getting Started as an Account Owner**
 
-An Account Owner has all the privileges for managing an organization on Squadcast. There can be only one Account Owner for an organization. And only she can access the Billing page to manage subscriptions.
+An Account Owner has all the privileges for managing an organization on Squadcast. There can be only one Account Owner for an organization. And only she can access the Billing page to manage subscription.
 
-Learn more on how to manage your profile and other users. In case you’re also responsible for setting up incident management tools, you can see the Admin’s section below.
+Learn more on how to manage your profile and other users. In case you’re also responsible for setting up of incident management tools, you can see the Admin’s section below.
 
 **Getting Started as an Admin**
 
@@ -53,27 +55,27 @@ Here’s a checklist of things to do to use Squadcast to its full potential or j
 
 ### 1. 📅 Setting up your on-call team <a href="#1--setting-up-your-on-call-team" id="1--setting-up-your-on-call-team"></a>
 
-📟 **Set up your Profile and add your Notification Rules**
+📟 **Set up your profile and add your notification rules**
 
-The My Profile holds the name and contact information such as phone number, SMS number, and email address that is associated with your profile. Head over to add in or edit your contact information.
+The My Profile holds the name and contact information such as phone number, SMS number, email address that is associated with your profile. Head over to add in or edit your contact information.
 
 You will only be able to set your notification rules - rules for how you want to be notified and after how long from the time of incident trigger.
 
-📱 **Download our Mobile App**
+📱 **Download our mobile app**
 
-You can use the mobile app to Acknowledge, Reassign, take Action and Resolve from the Mobile App. The Mobile app will walk you into the incident dashboard where you will be able to view incidents from all states; Triggered (Open), Acknowledged (Investigating), Resolved and Suppressed. You can also see the on-call schedule for your organization on the mobile app.
+You can use the mobile app to Acknowledge, Reassign, take Actions and Resolve from the Mobile App. The Mobile app will walk you into the incident dashboard where you will be able to view incidents from all states; Triggered (Open), Acknowledged (Investigating), Resolved and Suppressed. You can also see the on-call schedule for your organization on the mobile app.
 
 The mobile app is available on both App Store and Google Play.
 
 ![](<.gitbook/assets/Untitled design (1) (1).png>)
 
-👥 **Add Users to your Organization**
+👥 **Add users to your organization**
 
 As an Account Owner/ Admin, you can add or remove Admin, User, and Stakeholder accounts. See how to Manage Users.
 
-🙌 **Create a Squad**
+🙌 **Create a squad**
 
-A Squad is a group of users that can refer to a team or a project. Squads are handy when you need to notify the whole group together. For instance, when the coordinated response is required for high-urgency high-complexity incidents, or at the end of an escalation policy when nobody has acknowledged. See how to Manage Squads.
+A Squad is a group of users that can refer to a team or a project. Squads are handy when you need to notify the whole group together. For instance, when coordinated response is required for high-urgency high-complexity incidents, or at the end of an escalation policy when nobody has acknowledged. See how to Manage Squads.
 
 Examples:
 
@@ -82,11 +84,11 @@ Examples:
 * Frontend Squad
 * All Hands
 
-⏳ **Create Escalation Policies**
+⏳ **Create escalation policies**
 
-Squadcast enables you to add time-based Escalation Rules for Users, Squads (a group of Users) or Schedules (on-call schedules). See how to Manage Escalation Policies.
+Squadcast enables you to add time-based escalation rules for Users, Squads (a group of Users) or Schedules (on-call schedules). See how to Manage Escalation Policies.
 
-Escalation policies are attached to services. So, any alert or incident triggered for a Service will notify based on the Escalation Policy attached to it.
+Escalation policies are attached to services. So, any alert or incident triggered for a service will notify based on the escalation policy attached to it.
 
 Examples:
 
@@ -198,7 +200,7 @@ You can check out and contribute to our curated repository of [awesome-sre-tools
 
 ### 9. 📖 Browse Through Glossary <a href="#9--browse-through-glossary" id="9--browse-through-glossary"></a>
 
-You can browse our Glossary for terminologies that we use within the platform. This will give a fair understanding of each terminology and the functionalities associated with them.
+You can browse our Glossary for terminologies that we use within the platform. This will give a fair understanding of each terminology and functionalities associated with them.
 
 ### 10. 📚 Check out our Blog & Resources <a href="#10--check-out-our-blog--resources" id="10--check-out-our-blog--resources"></a>
 
@@ -210,12 +212,4 @@ You can catch Squadcast participating in prominent technology events around the 
 
 You can check out all the events we’ll be at on the [Squadcast Events](https://www.squadcast.com/events)
 
-### 12. 🎊 Here’s how we engage with the community
-
-From discussing all things SRE, hosting a webinar, contributing to our blog, getting featured on SRE Speak to speaking at meetups, there are several ways you can participate and give back to the SRE community. To find out how you can be a part of our super awesome community, drop us a line at [marketing@squadcast.com](mailto:marketing@squadcast.com) and hear back from us soon!
-
-{% hint style="info" %}
-**Need more integrations?**\
-\
-In case you don’t find an integration, email us at [`support@squadcast.com`](mailto:support@squadcast.com). Our team will reach out to you within 1 working day.
-{% endhint %}
+From discussing all things SRE, hosting a webinar, contributing to our blog, getting featured on SRE Speak to speaking at meetups, there are several ways you can participate and give back to the SRE community. To find out how you can be a part of our super awesome community, drop us a line at \[email protected] and hear back from us soon!

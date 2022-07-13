@@ -19,9 +19,9 @@ The below Organization-level entities can be managed by enabling the checkboxes 
 
 ![](../.gitbook/assets/user\_permissions\_access\_controls\_1.png)
 
-### Understanding Organization Level Permissions <a href="#understanding-organization-level-permissions" id="understanding-organization-level-permissions"></a>
+### Understanding Organization-level Permissions <a href="#understanding-organization-level-permissions" id="understanding-organization-level-permissions"></a>
 
-These Organization Level specific entity permissions can be assigned only to <mark style="color:red;">`Account Owners`</mark> and <mark style="color:red;">`Users`</mark>.
+These Organization-level specific entity permissions can be assigned only to <mark style="color:red;">`Account Owners`</mark> and <mark style="color:red;">`Users`</mark>.
 
 | Permission Type             | What it means                                             | User Types who can be assigned these |
 | --------------------------- | --------------------------------------------------------- | ------------------------------------ |
