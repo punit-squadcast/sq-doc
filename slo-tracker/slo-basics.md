@@ -1,14 +1,24 @@
+---
+description: >-
+  SLOs allow you to define and enforce an agreement between two parties
+  regarding the delivery of a given service.
+---
+
 # SLO Basics
 
-SLOs allow you to define and enforce an agreement between two parties regarding the delivery of a given service.
+{% embed url="https://www.youtube.com/watch?v=qwGYc7m67O8" %}
 
-In recent years, organizations have increasingly adopted Service Level Objectives, or SLOs, as a fundamental part of their Site Reliability engineering (SRE) practice. Best practices around SLOs have been pioneered by Google—the [Google SRE book](https://sre.google/sre-book/service-level-objectives/) provides a great introduction to this concept.
+In recent years, organizations have increasingly adopted Service Level Objectives, or SLOs, as a fundamental part of their Site Reliability Engineering (SRE) practice. Best practices around SLOs have been pioneered by Google—the [Google SRE book](https://sre.google/sre-book/service-level-objectives/) provides a great introduction to this concept.
 
-In essence, SLOs are rooted in the idea that service reliability and user happiness go hand in hand. Setting concrete and measurable reliability targets helps organizations strike the right balance between product development and operational work, which ultimately results in a positive end user experience.
+In essence, SLOs are rooted in the idea that service reliability and user happiness go hand in hand. Setting concrete and measurable reliability targets helps organizations strike the right balance between product development and operational work, which ultimately results in a positive end-user experience.
 
 ### What is a Service Level Objective? <a href="#what-is-a-service-level-objective" id="what-is-a-service-level-objective"></a>
 
-SLOs quantify customers’ expectations for reliability and start conversations between product and engineering on reliability goals and action plans when the goal is at risk. An example SLO for a service is 95% availability in a rolling 28-day window.
+{% hint style="info" %}
+A **Service Level Objective (SLO)** is a reliability target, measured by a Service Level Indicator (SLI) and sometimes serves as a safeguard for a Service Level Agreement (SLA). SLOs represent customer happiness and guide the development team’s velocity
+{% endhint %}
+
+SLOs quantify customers’ expectations for reliability and start conversations between product and engineering on reliability goals and action plans when the goal is at risk. An example SLO for service is 95% availability in a rolling 28-day window.
 
 You might feel tempted to set the objective at 100%, but that’s too good to be true. Change brings instability, which will inevitably lead to failure. Not only is 100% reliability an impossible target, but it would also mean that you can’t make any changes to the service in production. So expecting perfect reliability is the same as choosing to stop any new features from reaching customers and choosing to stop competing in the market.
 
@@ -16,11 +26,11 @@ You might feel tempted to set the objective at 100%, but that’s too good to be
 
 ### Who does your SLO matter to? <a href="#who-does-your-slo-matter-to" id="who-does-your-slo-matter-to"></a>
 
-In order to get the main stakeholders across your organization to adopt SLOs, you will need them to agree on reliability targets that are realistically achievable, given the priorities of the business and the projects they wish to work on. We will take a closer look at what end users, developers, and operations engineers care about—and how we should factor in their goals and priorities when setting SLOs.
+In order to get the main stakeholders across your organization to adopt SLOs, you will need them to agree on reliability targets that are realistically achievable, given the priorities of the business and the projects they wish to work on. We will take a closer look at what end-users, developers, and operations engineers care about—and how we should factor in their goals and priorities when setting SLOs.
 
 #### End Users <a href="#end-users" id="end-users"></a>
 
-No matter what product, end users have expectations for the quality of service they receive. While you could use support tickets or incident pages to gauge how unhappy your customers are, you shouldn’t solely rely on them for making product decisions as they do not comprehensively capture your end user experience.
+No matter what product, end users have expectations for the quality of service they receive. While you could use support tickets or incident pages to gauge how unhappy your customers are, you shouldn’t solely rely on them for making product decisions as they do not comprehensively capture your end-user experience.
 
 SLOs help you figure out the right balance between product innovation (which will help you provide greater value to your end users, but runs the risk of breaking things) and reliability (which will keep those users happy). Your error budgets dictate the amount of unreliability that can be afforded for development work before your end users are likely to experience a degradation in quality of service.
 
@@ -36,7 +46,7 @@ Before we go any further, let’s walk through some of the fundamental concepts 
 
 ### Key Terminology <a href="#key-terminology" id="key-terminology"></a>
 
-* **SLA or Service Level Agreement** is an explicit or implicit agreement between a client and service provider stipulating the client’s reliability expectations and service provider’s consequences for not meeting them.
+* **SLA or Service Level Agreement** is an explicit or implicit agreement between a client and service provider stipulating the client’s reliability expectations and the service provider’s consequences for not meeting them.
 * **SLO or Service Level Objective** is an agreement within an SLA about a specific metric over a certain period of time. It is expressed as a percentage or ratio over some time, for example, “99.95% availability over 24 hours”.
 * **SLI or Service Level Indicator** measures compliance with an SLO (Service Level Objective). So, for example, if an SLA specifies that your system will be available 99.95% of the time, your SLO is likely 99.95% uptime and your SLI is the actual measurement of your uptime. Maybe it’s 99.90%, or maybe it’s 99.99%.
 * **Error Budget** is the maximum acceptable downtime without breaching the SLO. For example, if your Service Level Agreement (SLA) specifies an uptime of 99.99% (in a year) before the business has to compensate clients for the outage, that means your error budget (or the time for which your system can go down without any consequences) is 52 mins 35 secs in a year.
@@ -72,6 +82,8 @@ As you start selecting SLIs, a short but important saying to keep in mind is: �
 
 You can use the table below—which comes from [Google’s SRE book](https://sre.google/workbook/implementing-slos/#slis-for-different-types-of-services)—as a reference.
 
+![](../.gitbook/assets/pick\_sli.png)
+
 Once you have identified good SLIs, you’ll need to measure them with data from your monitoring system. Again, we recommend pulling data from the components that are in closest proximity to the user.
 
 ### Finally turning SLIs into SLOs <a href="#finally-turning-slis-into-slos" id="finally-turning-slis-into-slos"></a>
@@ -86,15 +98,15 @@ And as a general rule of thumb, you should keep your SLOs slightly stricter than
 
 #### Experiment away <a href="#experiment-away" id="experiment-away"></a>
 
-There is no hard-and-fast rule for perfecting SLOs. Each organization’s SLOs will differ depending on the nature of the product, the priorities of the teams that manage them, and the expectations of the end users. Remember that you can always continue to refine your targets until you find the most optimal values.
+There is no hard-and-fast rule for perfecting SLOs. Each organization’s SLOs will differ depending on the nature of the product, the priorities of the teams that manage them, and the expectations of the end-users. Remember that you can always continue to refine your targets until you find the most optimal values.
 
 #### Don’t overcomplicate it <a href="#dont-overcomplicate-it" id="dont-overcomplicate-it"></a>
 
 Last but not least, resist the temptation to set too many SLOs or to overcomplicate your SLI aggregations when defining your SLO targets.
 
-In general, you should restrict your SLOs and SLIs to only ones that are absolutely critical to your end user experience. This helps cut through the noise so you can focus on what’s truly important.
+In general, you should restrict your SLOs and SLIs to only ones that are absolutely critical to your end-user experience. This helps cut through the noise so you can focus on what’s truly important.
 
-### How to Define SLO of a Service? <a href="#how-to-define-slo-of-a-service" id="how-to-define-slo-of-a-service"></a>
+### How to Define the SLO of a Service? <a href="#how-to-define-slo-of-a-service" id="how-to-define-slo-of-a-service"></a>
 
 We will discuss the step-by-step approach to defining service level objectives. There are no hard and fast rules concerning the order of the steps. Some companies start by defining user journeys and formulating the SLO accordingly, whereas others start with metrics and hypothesize user journeys later to improve and refine an existing SLO.
 

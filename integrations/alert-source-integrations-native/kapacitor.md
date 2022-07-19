@@ -9,6 +9,7 @@ summary: Send alerts to Squadcast from Kapacitor
 sidebar: mydoc_sidebar
 permalink: docs/kapacitor
 folder: mydoc
+description: Send alerts to Squadcast from Kapacitor
 ---
 
 # Kapacitor
@@ -74,8 +75,7 @@ headers = { Content-Type = "application/json" }
 **(2)** Go to your TICKscript, within _alert_ context, set up a [post call to the above configured endpoint](https://docs.influxdata.com/kapacitor/v1.5/event\_handlers/post/#example-tickscript-using-a-pre-configured-endpoint)
 
 \{{site.data.alerts.blue-note\}} **Pro Tip:**\
-\
-
+\\
 
 In Mac OS, Kapacitor's configuration file is generally in `/usr/local/etc/kapacitor.conf` and in Linux machines, it generally is in `/etc/kapacitor.conf`
 

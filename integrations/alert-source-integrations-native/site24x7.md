@@ -9,6 +9,7 @@ summary: Get alerts from Site24x7 (a service by Zoho Corp) into Squadcast
 sidebar: mydoc_sidebar
 permalink: docs/site24x7
 folder: mydoc
+description: Get alerts from Site24x7 (a service by Zoho Corp) into Squadcast
 ---
 
 # Site24x7
@@ -47,8 +48,7 @@ Next, head over to your Site24x7 dashboard and set up a Webhook based integratio
 You will next be greeted by the Webhooks Integration configuration page. Paste the previously copied Webhook URL into the **Hook URL** field.
 
 \{{site.data.alerts.blue-note\}} **Custom Parameters:**\
-\
-
+\\
 
 If you wish to send Custom Parameters in your payload, kindly prefix (this is an ABSOLUTE NECESSITY) every parameter-key with **CUSTOM\_**. That way, we can point them out in the **Incident Description** in **Squadcast**.
 

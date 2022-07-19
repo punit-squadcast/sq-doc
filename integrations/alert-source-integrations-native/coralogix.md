@@ -9,6 +9,7 @@ summary: Get alerts from Coralogix into Squadcast
 sidebar: mydoc\_sidebar
 permalink: docs/coralogix
 folder: mydoc
+description: Get alerts from Coralogix into Squadcast
 ---
 
 # Coralogix
@@ -49,15 +50,15 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 
 **(3)** (a) Give the Webhook a name in the Alias field.
 
-&#x20;     (b) Choose WebHook as the option from the drop down.
+(b) Choose WebHook as the option from the drop down.
 
-&#x20;     (c) Paste the copied Webhook URL from Squadcast in the URL field.
+(c) Paste the copied Webhook URL from Squadcast in the URL field.
 
-&#x20;     (d) Choose Method as Post.
+(d) Choose Method as Post.
 
-&#x20;     (e) Click on Test Configuration. Go back to Squadcast and verify if the test alert from Coralogix triggered an incident. If it did, the integration is working successfully.
+(e) Click on Test Configuration. Go back to Squadcast and verify if the test alert from Coralogix triggered an incident. If it did, the integration is working successfully.
 
-&#x20;     (f) Click on Save.
+(f) Click on Save.
 
 ![](../../.gitbook/assets/coralogix\_4.png)
 

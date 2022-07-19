@@ -9,6 +9,7 @@ summary: Get alerts from StatusCake into Squadcast
 sidebar: mydoc_sidebar
 permalink: docs/statuscake
 folder: mydoc
+description: Get alerts from StatusCake into Squadcast
 ---
 
 # StatusCake
@@ -46,8 +47,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 3.Add the Contact Group you just created to the tests for which you want to receive alerts on squadcast.
 
 \{{site.data.alerts.blue-note\}} **Supported Monitoring Alerts**\
-\
-
+\\
 
 Alerts from Uptime Monitoring, Page Speed Monitoring, SSL Monitoring, Virus Monitoring and Server Monitoring are currently supported
 

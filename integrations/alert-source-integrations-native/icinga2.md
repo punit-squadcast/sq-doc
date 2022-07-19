@@ -10,6 +10,7 @@ summary: Get alerts from Icinga2 into Squadcast
 sidebar: mydoc_sidebar
 permalink: docs/icinga2
 folder: mydoc
+description: Get alerts from Icinga2 into Squadcast
 ---
 
 # Icinga2
@@ -99,8 +100,7 @@ wget https://raw.githubusercontent.com/SquadcastHub/squadcast-icinga2-integratio
 
 {% hint style="info" %}
 **Note**\
-\
-
+\\
 
 The above script require Python 3 to be installed on your Icinga2 server.\
 The script have been tested to work with Python 3.7
@@ -120,8 +120,7 @@ chmod +x sq-icinga2.py
 
 {% hint style="info" %}
 **Restart Command**\
-\
-
+\\
 
 The Restart Command might differ depending on the Icinga2 version and the host operating system used.\
 Please refer to the documentation of your specific deployment.

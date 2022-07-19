@@ -9,13 +9,13 @@ description: >-
 On-Call Reminder Rules determine how an individual user is notified about the upcoming On-Call shift. One can set up rules to be notified on any of the following notification channels:
 
 * Email
-* Push notification on the Squadcast mobile app
+* [Push notification on the Squadcast mobile app](../mobile-app/using-the-mobile-app.md)
 
 ### Edit On-Call Reminder Rules <a href="#edit-on-call-reminder-rules" id="edit-on-call-reminder-rules"></a>
 
 1. Click on the user icon in the upper right corner and select **Profile**
 
-![](<../.gitbook/assets/notification\_rules\_1 (1).png>)
+![](<../.gitbook/assets/notification\_rules\_1 (1) (2).png>)
 
 2\. You will be taken into the **My Profile** section where you can see the **On-Call Reminder Rules** below the **Notification Rules** on the right. Click on the **Edit** button to edit the rules
 

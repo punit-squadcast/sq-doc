@@ -1,8 +1,12 @@
+---
+description: View the Activity Timelines of an Incident
+---
+
 # Incident Activity Timeline
 
-View the Activity Timelines of an Incident
+You can access the **Incident Activity Timeline** for a particular incident on the **Incidents** page in the web app and the timeline will be displayed on the right-hand side of the **Incident Details** page.
 
-You can access the **Incident Activity Timeline** for a particular incident in the **Incidents** page in the web app and the timeline will be displayed on the right-hand side of the **Incident Details** page.
+![](../.gitbook/assets/timeline\_1.png)
 
 The Incident Timeline will display the timeline of the incident in reverse chronological order for the following details:
 
@@ -24,10 +28,18 @@ The Incident Timeline will display the timeline of the incident in reverse chron
 
 **(i)** if the incident is suppressed due to a **scheduled maintenance**
 
-**(i)** if the incident is routed due to a **Routing Rule**
+![](<../.gitbook/assets/maintenance\_timeline (1).png>)
 
-**(j)** if the incident is suppressed due to a **Suppression Rule**
+**(j)** if the incident is routed due to a **Routing Rule**
+
+![](<../.gitbook/assets/routing\_reason (1).png>)
+
+**(k)** if the incident is suppressed due to a **Suppression Rule**
+
+![](<../.gitbook/assets/suppression\_reason (1).png>)
 
 #### Exporting Incident Activity Timeline <a href="#exporting-incident-activity-timeline" id="exporting-incident-activity-timeline"></a>
 
-The automated **Incident Activity Timeline** serves as a real-time chain of incident resolution activity. You can download this and use it for **Incident Reviews** or to create **Postmortems**. **Incident Activity Timeline** can be exported by clicking on the **Download** icon at the top right corner of the **Activity Timeline**. You can download this in PDF or CSV formats.
+The automated **Incident Activity Timeline** serves as a real-time chain of incident resolution activity. You can download this and use it for **Incident Reviews** or create **Postmortems**. **Incident Activity Timeline** can be exported by clicking on the **Download** icon at the top right corner of the **Activity Timeline**. You can download this in PDF or CSV formats.
+
+![](../.gitbook/assets/timeline\_2.png)

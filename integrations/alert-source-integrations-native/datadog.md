@@ -7,6 +7,7 @@ sidebar: mydoc\_sidebar
 permalink: docs/datadog
 summary: Send events to Squadcast from Datadog
 folder: mydoc
+description: Send events to Squadcast from Datadog
 ---
 
 # Datadog
@@ -57,9 +58,9 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 
 **(5)** (a) Give the Webhook a name in the Name field
 
-&#x20;     (b) Paste the **Datadog Webhook URL** provided by Squadcast in the URL field
+(b) Paste the **Datadog Webhook URL** provided by Squadcast in the URL field
 
-&#x20;     (c) Copy-paste the following JSON in the text box under the **Payload** section
+(c) Copy-paste the following JSON in the text box under the **Payload** section
 
 ```json
 {

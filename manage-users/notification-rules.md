@@ -1,9 +1,15 @@
+---
+description: >-
+  Notification rules define how and when you are notified when an incident is
+  assigned to you
+---
+
 # Notification Rules
 
 Notification Rules determine how an individual user is notified for an incident that is assigned to them. One can set up rules to be notified on any of the following notification channels:
 
 * Email
-* Push notification on the Squadcast mobile app
+* [Push notification on the Squadcast mobile app](../mobile-app/using-the-mobile-app.md)
 * SMS
 * Phone
 
@@ -17,11 +23,11 @@ Irrespective of your User Role in Squadcast, you will only be able to set/edit y
 
 1. Click on the user icon in the upper right corner and select **Profile**
 
-![](<../.gitbook/assets/notification\_rules\_1 (1) (1) (2).png>)
+![](<../.gitbook/assets/notification\_rules\_1 (2) (3).png>)
 
 2\. You will be taken into the **My Profile** section where you can see the User Details on the left and the **Notification Rules** on the right. Click on the **Edit** button to edit the rules
 
-![](<../.gitbook/assets/notification\_rules\_2 (2) (1) (1) (2).png>)
+![](<../.gitbook/assets/notification\_rules\_2 (2) (2) (4).png>)
 
 3\. Choose the medium from the drop-down and enter the amount of time after the incident trigger when you wish to get notified
 
@@ -29,7 +35,7 @@ Irrespective of your User Role in Squadcast, you will only be able to set/edit y
 
 5\. Select **Save** after making changes to save the configuration
 
-![](<../.gitbook/assets/notification\_rules\_3 (1) (2).png>)
+![](../.gitbook/assets/notification\_rules\_3.png)
 
 {% hint style="info" %}
 **Note:**

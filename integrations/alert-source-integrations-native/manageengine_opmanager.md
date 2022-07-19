@@ -9,6 +9,7 @@ summary: Send alerts from ManageEngine OpManager to Squadcast
 sidebar: mydoc_sidebar
 permalink: docs/manageengine-opmanager
 folder: mydoc
+description: Send alerts from ManageEngine OpManager to Squadcast
 ---
 
 # ManageEngine Opmanager
@@ -97,15 +98,13 @@ sudo chmod +x sq-opmanager-script.py
 
 {% hint style="info" %}
 **Note:**\
-\
-
+\\
 
 This has been tested and documented for Python version 3.9
 {% endhint %}
 
 \{{site.data.alerts.blue-note\}} **Pro Tip:**\
-\
-
+\\
 
 To get the absolute path of _python.exe_ file run the command `where python.exe` in your Command Prompt
 

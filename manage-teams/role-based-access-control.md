@@ -4,7 +4,7 @@ description: Understanding the Roles and Access Controls for Teams and Custom Ro
 
 # Role Based Access Control
 
-Roles are a _set of permissions_ granted that are specific to the Team that the user is a member of. There are pre-defined Roles that can be directly assigned to the members of the Team. If one wants to define [Custom Roles](broken-reference/), that is also doable.
+Roles are a _set of permissions_ granted that are specific to the Team that the user is a member of. There are pre-defined Roles that can be directly assigned to the members of the Team. If one wants to define [Custom Roles](role-based-access-control.md#custom-roles), that is also doable.
 
 It is critical to thoroughly note that **Roles are Team-specific**, that is, **Roles will allow you specific abilities for just that Team that you are a part of**.
 
@@ -74,11 +74,11 @@ Follow the steps below manage Roles for a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (3).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (2) (2) (30).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team you want to manage _Roles and Access Controls_ for
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (2) (1).png>)
+![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3) (1) (1) (1) (10).png>)
 
 3\. Click on **Roles** from the horizontal menu and you will have the option to <mark style="color:red;">`edit`</mark> or <mark style="color:red;">`delete`</mark> the Roles and Access Controls via the <mark style="color:red;">`More Option`</mark>
 
@@ -102,11 +102,11 @@ Follow the steps below to create a Custom Role for a Team:
 
 1. Click on **Settings** in the sidebar
 
-![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (10) (5).png>)
+![](<../.gitbook/assets/add\_and\_delete\_users\_1 (1) (1) (1) (2) (2) (24).png>)
 
 2\. Click on **Teams** from the secondary navigation menu and select the Team for which you want to add the **Custom Role**
 
-![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (1) (1) (3).png>)
+![](<../.gitbook/assets/add\_and\_delete\_teams\_1 (3) (1) (1) (1) (11).png>)
 
 3\. Click on **Roles** from the horizontal menu and scroll down to the bottom of the page
 

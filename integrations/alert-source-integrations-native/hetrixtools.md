@@ -9,6 +9,7 @@ summary: Send alerts to Squadcast from HetrixTools
 sidebar: mydoc_sidebar
 permalink: docs/hetrixtools
 folder: mydoc
+description: Send alerts to Squadcast from HetrixTools
 ---
 
 # HetrixTools
@@ -58,8 +59,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 That is it, you are good to go! Now, whenever HetrixTools fires an alert, an incident will be created in Squadcast for it.
 
 \{{site.data.alerts.blue-note\}} **FAQ:**\
-\
-
+\\
 
 Q: If an alert gets resolved in HetrixTools, does HetrixTools send auto-resolve signals to Squadcast?\
 \

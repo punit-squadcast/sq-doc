@@ -9,6 +9,7 @@ summary: Create incidents in Squadcast from Slack
 sidebar: mydoc_sidebar
 permalink: docs/slack-as-an-alert-source
 folder: mydoc
+description: Create incidents in Squadcast from Slack
 ---
 
 # Slack
@@ -82,5 +83,3 @@ The incident has now been created successfully.
 The **Squadcast Bot must be called into the channel** where you will want to take any of the above actions to create an incident.
 
 #### How to Video
-
-&#x20;

@@ -9,6 +9,7 @@ summary: Send alerts to Squadcast from Grafana
 sidebar: mydoc_sidebar
 permalink: docs/grafana
 folder: mydoc
+description: Send alerts to Squadcast from Grafana
 ---
 
 # Grafana
@@ -60,8 +61,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 **(5)** Under `Notification Settings`, check **Default** to send all alert data to Squadcast. You can uncheck this if you want only specific Grafana Panels to send alerts to Squadcast. [Move over to this section of our documentation to set up alerting for Specific Grafana Panels](grafana/#setup-alerting-for-specific-grafana-panels).
 
 {% hint style="info" %}
-**Sending Grafana Images into Squadcast**\
-
+**Sending Grafana Images into Squadcast**\\
 
 * If you'd like to include images to your incident, check **Include Image** and you should see it as a part of your incident description in Squadcast.
 * The Image URL must be public or accessible from your computer for it to be visible on Squadcast.
@@ -96,8 +96,7 @@ If you would like to enable **Auto-Resolve** in Squadcast, then make sure the **
 {% hint style="info" %}
 **Pre-requisite**
 
-Squadcast should be added as a Notification Channel in your Grafana account. [Follow steps 1-5 here](grafana/#in-grafana-create-a-squadcast-webhook-as-a-notification-channel) and ensure the following:\
-
+Squadcast should be added as a Notification Channel in your Grafana account. [Follow steps 1-5 here](grafana/#in-grafana-create-a-squadcast-webhook-as-a-notification-channel) and ensure the following:\\
 
 * **Default** is unchecked to allow only specific alerts of your choosing
 * **Include image** is checked if you want to add images to your Squadcast incidents

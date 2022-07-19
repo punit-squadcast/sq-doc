@@ -9,6 +9,7 @@ summary: Send notifications to Squadcast from Threat Stack
 sidebar: mydoc_sidebar
 permalink: docs/threat-stack
 folder: mydoc
+description: Send notifications to Squadcast from Threat Stack
 ---
 
 # Threat Stack
@@ -52,8 +53,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 ![](../../.gitbook/assets/threat\_stack\_4.png)
 
 \{{site.data.alerts.blue-note\}} **Pro Tip:**\
-\
-
+\\
 
 While choosing an option from the **Alert Severity** dropdown, in order to ensure all alerts reach Squadcast and you do not miss out on any by mistake, choose the option **Fire Webhook for all alerts**. This will ensure all alerts are reaching Squadcast.\
 \
@@ -63,8 +63,7 @@ That is it, you are good to go! Based on the "Alert Severity" value chosen while
 
 {% hint style="info" %}
 **Things to Remember:**\
-\
-
+\\
 
 1. **Webhook Concurrency Limit**\
    The Threat Stack Webhook API batches alerts by severity for an organization. The Webhook API pushes the batched alerts to the customer's webhook endpoint every 10 seconds.\
@@ -80,8 +79,7 @@ You can check out [Threat Stack's documentation](https://apidocs.threatstack.com
 {% endhint %}
 
 \{{site.data.alerts.blue-note\}} **FAQ:**\
-\
-
+\\
 
 Q: Does this integration support auto-resolution of incidents in Squadcast?\
 \

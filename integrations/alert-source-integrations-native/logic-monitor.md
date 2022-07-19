@@ -6,6 +6,7 @@ summary: Send alerts to Squadcast from LogicMonitor
 sidebar: mydoc_sidebar
 permalink: docs/logic-monitor
 folder: mydoc
+description: Send alerts to Squadcast from LogicMonitor
 ---
 
 # LogicMonitor
@@ -127,8 +128,7 @@ Find more details on how each of these parameters for **Alert Rules** can be con
 That is it, you are now good to go! Whenever an alert is triggered in LogicMonitor, an incident will be created automatically in Squadcast.
 
 \{{site.data.alerts.blue-note\}} **FAQ:**\
-\
-
+\\
 
 Q: If an alert gets resolved in LogicMonitor, does LogicMonitor send auto-resolve signals to Squadcast?\
 \

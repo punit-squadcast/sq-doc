@@ -6,6 +6,7 @@ summary: Send alerts to Squadcast from Hyperping
 sidebar: mydoc_sidebar
 permalink: docs/hyperping
 folder: mydoc
+description: Send alerts to Squadcast from Hyperping
 ---
 
 # Hyperping

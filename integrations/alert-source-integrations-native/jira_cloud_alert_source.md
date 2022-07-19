@@ -9,6 +9,7 @@ summary: Get alerts from Jira Cloud into Squadcast
 sidebar: mydoc_sidebar
 permalink: docs/jira-cloud-alert-source
 folder: mydoc
+description: Get alerts from Jira Cloud into Squadcast
 ---
 
 # Jira Cloud Alert Source
@@ -64,8 +65,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 
 {% hint style="info" %}
 **Note**\
-\
-
+\\
 
 Enable only the highlighted **Issue related events** as shown in the screenshot above. Squadcast will ignore any other Issue event type.
 {% endhint %}

@@ -9,6 +9,7 @@ summary: Get alerts from Instana into Squadcast
 sidebar: mydoc_sidebar
 permalink: docs/instana
 folder: mydoc
+description: Get alerts from Instana into Squadcast
 ---
 
 # Instana
@@ -38,8 +39,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 ### Create a Squadcast Webhook in Instana
 
 \{{site.data.alerts.blue-note\}} **Pre-Requisites:**\
-\
-
+\\
 
 1\. You need have Instana agent setup on your host. Refer [Agent Setup](https://docs.instana.io/quick\_start/agent\_setup/).\
 2\. You need to have Alerting configured in Instana as per your requirements. Refer [Alerting](https://docs.instana.io/quick\_start/alerting/)

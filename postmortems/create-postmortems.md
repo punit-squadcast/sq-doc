@@ -1,6 +1,14 @@
+---
+description: >-
+  Postmortems are a way to summarize the resolution for an incident once it is
+  resolved
+---
+
 # Create Postmortems
 
-Postmortems are a way to summarize the resolution for an incident once it is resolved
+{% embed url="https://www.youtube.com/watch?v=Y-vY2iCoyTU" %}
+
+
 
 Postmortems are a way to summarize the resolution for an incident once it is resolved. It is also a way for you to create a knowledge-base of failures and fixes that can be shared across your team to help build a culture of shared learning and learning from failures.
 
@@ -11,25 +19,35 @@ In this documentation, we’ll be going through how to create Postmortems.
 * Ensure that the users of the Team have the right Roles (with the right permissions associated with the Postmortem entity) to be able to create and manage Postmortems
 * The Postmortem feature is enabled for an incident only after it has been **resolved**. Hence, an incident first needs to be **resolved**
 
+![](../.gitbook/assets/postmortem\_new\_2.png)
+
 #### Creating a Postmortem <a href="#creating-a-postmortem" id="creating-a-postmortem"></a>
 
 To create a Postmortem for a **resolved incident**:
 
 **(1)** Navigate to the **Incident Details** page for the incident and click on **Start Postmortem**
 
+![](<../.gitbook/assets/postmortem\_6 (1).png>)
+
 **(2)** You can select one of the **Postmortem Templates** from the drop-down
 
 The **Postmortem Title** is auto-populated with your Incident Name as default. You can edit it, and start documenting the Postmortem.
 
-**Note**: The `incident-variables` will get auto-populated as per the data available for that particular incident. Remaining details need to be manually filled by the user by **Editing** the Postmortem.
+**Note**: The <mark style="color:red;">`incident variables`</mark> will get auto-populate as per the data available for that particular incident. The remaining details need to be manually filled by the user by **Editing** the Postmortem.
+
+![](../.gitbook/assets/postmortem\_create.png)
 
 **(3)** Apart from the Markdown body in a Postmortem, you can also create a **check-list of follow-ups** that can be used to keep track of further actions that need to be done for that incident
+
+![](../.gitbook/assets/postmortem\_followup.png)
 
 **(4)** Click on **Create** to save the Postmortem
 
 **(5)** Once a Postmortem is created, any member of the Team with the right permissions can view and manage the Postmortem
 
-**Note:** Once the Postmortem is created (and updated), it can be downloaded offline in either `Markdown (MD)` or `PDF` format.
+**Note:** Once the Postmortem is created (and updated), it can be downloaded offline in either <mark style="color:red;">`Markdown (MD)`</mark> or <mark style="color:red;">`PDF`</mark> format.
+
+![](../.gitbook/assets/postmortem\_download.png)
 
 #### Adding Attachments <a href="#adding-attachments" id="adding-attachments"></a>
 
@@ -57,10 +75,14 @@ The supported file types are:
 
 #### Updating a Postmortem <a href="#updating-a-postmortem" id="updating-a-postmortem"></a>
 
-We understand that conducting Postmortems and documenting it is an iterative process in some cases. In Squadcast, once a Postmortem is created, users with the right permissions can update the Postmortems as well.
+We understand that conducting Postmortems and documenting them is an iterative process in some cases. In Squadcast, once a Postmortem is created, users with the right permissions can update the Postmortems as well.
 
 There are 2 ways to do this:
 
 **(1)** For an incident, head over to its **Incident Details** page and click on **Update Postmortem**. Switch to the **Edit** mode. Then, make the necessary modifications and click on **Update**
 
-**(2)** Head over to **Postmortems** from the navigation on the left, scroll to the applicable Postmortem in the list. Click on the **Edit** icon, make the necessary changes and click on **Update**
+![](../.gitbook/assets/postmortem\_new\_3.png)
+
+**(2)** Head over to **Postmortems** from the navigation on the left, and scroll to the applicable Postmortem in the list. Click on the **Edit** icon, make the necessary changes and click on **Update**
+
+![](../.gitbook/assets/postmortem\_edit.png)

@@ -9,6 +9,7 @@ summary: Send events to Squadcast from Zabbix
 sidebar: mydoc_sidebar
 permalink: docs/zabbix-integration-guide
 folder: mydoc
+description: Send events to Squadcast from Zabbix
 ---
 
 # Zabbix
@@ -54,8 +55,7 @@ chmod +x sq-zabbix.py
 ```
 
 \{{site.data.alerts.red-note\}} **Important**\
-\
-
+\\
 
 The Squadcast script for Zabbix requires Python 3 to be installed on the machine running Zabbix. Any other version of Python (other than Python 3) will not support this script.
 
@@ -134,19 +134,17 @@ url:{TRIGGER.URL}
 That's it, our Zabbix integration is now good to go! Whenever Zabbix fires an alert, an incident is created in Squadcast for the same.
 
 \{{site.data.alerts.blue-note\}} **FAQ:**\
-\
-
+\\
 
 Q: If an alert gets resolved in Zabbix, does Zabbix send auto-resolve signals to Squadcast?\
 \
 A: Yes, Zabbix sends alert auto-resolve signals to Squadcast, thus supporting auto-resolution of incidents in Squadcast.
 
 \{{site.data.alerts.blue-note\}} **Important**\
-\
-
+\\
 
 The user whose **media** is configured to send alerts to Squadcast must belong to a **user-group** having read permission on the **Host Group** which needs to be monitored by Squadcast inorder to send the alerts.
 
 ### How-to: Zabbix Integration
 
-&#x20;.btttn:hover{box-shadow: 0 10px 20px 0 rgba(15,97,221,.25); transform: translate(0,-2px);}Ready to try Squadcast?[Start Now For Free!](https://app.squadcast.com/register) [Schedule a Demo](https://calendly.com/renuka-squadcast/30min)
+.btttn:hover{box-shadow: 0 10px 20px 0 rgba(15,97,221,.25); transform: translate(0,-2px);}Ready to try Squadcast?[Start Now For Free!](https://app.squadcast.com/register) [Schedule a Demo](https://calendly.com/renuka-squadcast/30min)

@@ -6,6 +6,7 @@ summary: Send notifications to Squadcast from Progress WhatsUp Gold
 sidebar: mydoc_sidebar
 permalink: docs/progress-whatsup-gold
 folder: mydoc
+description: Send notifications to Squadcast from Progress WhatsUp Gold
 ---
 
 # Progress WhatsUp Gold
@@ -309,8 +310,7 @@ Repeat the same for all the _Devices_ that you wish to receive alerts for its do
 That is it, you are good to go! Everytime there is an alert generated in WhatsUp Gold, an incident for the same will be created in Squadcast!
 
 \{{site.data.alerts.blue-note\}} **FAQ:**\
-\
-
+\\
 
 Q: Does this integration support auto-resolution of incidents in Squadcast?\
 \

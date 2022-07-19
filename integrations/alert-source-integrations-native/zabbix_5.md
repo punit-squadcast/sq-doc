@@ -9,6 +9,7 @@ summary: Route alerts from Zabbix 5.0 into Squadcast
 sidebar: mydoc_sidebar
 permalink: docs/zabbix-5
 folder: mydoc
+description: Send events to Squadcast from Zabbix 5
 ---
 
 # Zabbix 5.0
@@ -226,11 +227,9 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 ```
 
 \{{site.data.alerts.blue-note\}} **Note**\
-\
+\\
 
-
-If you use a proxy at your end:\
-
+If you use a proxy at your end:\\
 
 * Uncomment lines 74 through 77 and add your proxy URL inside the value tag and you are good to go.
 
@@ -251,8 +250,7 @@ You should be able to view the _Parameters_ and _Script_, similar to the screens
 ![](../../.gitbook/assets/zabbix-5\_6.png)
 
 \{{site.data.alerts.blue-note\}} **Note**\
-\
-
+\\
 
 HTTPProxy parameter and value will be listed here if you uncommented the same in the script previously.
 
@@ -299,8 +297,7 @@ HTTPProxy parameter and value will be listed here if you uncommented the same in
 That's it, Your Zabbix 5.0 integration is now good to go! Whenever an alert is fired from Zabbix 5.0, an incident for the same will be created in Squadcast.
 
 \{{site.data.alerts.blue-note\}} **FAQ:**\
-\
-
+\\
 
 Q: If an alert gets resolved in Zabbix 5.0, does Zabbix 5.0 send auto-resolve signals to Squadcast?\
 \

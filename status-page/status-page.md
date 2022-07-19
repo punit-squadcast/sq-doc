@@ -1,6 +1,12 @@
+---
+description: >-
+  Let your customers know how your Services are doing, without them having to
+  ask you about it
+---
+
 # Status Page
 
-Let your customers know how your Services are doing, without them having to ask you about it
+{% embed url="https://www.youtube.com/watch?feature=youtu.be&v=7NaXeGa4CX4" %}
 
 ### What is a Status Page? <a href="#what-is-a-status-page" id="what-is-a-status-page"></a>
 
@@ -8,15 +14,17 @@ One of the core principles of SRE is _Transparency_ and Status Pages help you co
 
 Squadcast’s Status Page can be used to configure and display Services and dependent Services along with their real-time statuses updated directly, all from within the platform.
 
+![](../.gitbook/assets/statuspage\_1.png)
+
 ### Working of a Status Page <a href="#working-of-a-status-page" id="working-of-a-status-page"></a>
 
-Whenever the displayed Service has an open incident (an incident in the `Triggered` or `Acknowledged` state), its status automatically changes to the status equivalent of _Degraded (Bad)_. When the incident gets resolved, the status of the displayed Service goes back to being _Operational (Good)_ or its equivalent status. When Services undergo maintenance, the status of those Services are changed to _Under Maintenance_.
+Whenever the displayed Service has an open incident (an incident in the <mark style="color:red;">`Triggered`</mark> or <mark style="color:red;">`Acknowledged`</mark> state), its status automatically changes to the status equivalent of _Degraded (Bad)_. When the incident gets resolved, the status of the displayed Service goes back to being _Operational (Good)_ or its equivalent status. When Services undergo maintenance, the status of those Services are changed to _Under Maintenance_.
 
-For an incident, you can choose to post updates of its status directly from its [Incident Details](https://support.squadcast.com/docs/incident-details) page using the [Update Status Page](broken-reference) option.
+For an incident, you can choose to post updates of its status directly from its [Incident Details](../incidents-page/incidents-details.md) page using the [Update Status Page ](status-page.md)option.
 
-You can also display dependent Services in the Status Page. First, configure the [dependencies between your Services](https://support.squadcast.com/docs/service-dependency-based-deduplication#adding-a-service-dependency) and then, add them to the Status Page.
+You can also display dependent Services in the Status Page. First, configure the [dependencies between your Services](../services/alert-deduplication-rules/service-dependency-based-deduplication.md) and then, add them to the Status Page.
 
-You can configure the [visual themes](broken-reference) and the [terminologies](broken-reference) for Operational (Good) and Degraded (Bad).
+You can configure the [visual themes](status-page.md#changing-the-colour-theme) and the [terminologies](status-page.md#configuring-service-status) for Operational (Good) and Degraded (Bad).
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
@@ -29,14 +37,20 @@ Ensure that the right Team is selected from the team picker at the top of the sc
 
 **(1)** Navigate to **Status Page** from the sidebar
 
+![](../.gitbook/assets/statuspage\_1\_new.png)
+
 **(2)** Click on the **Add Status Page** button
+
+![](../.gitbook/assets/statuspage\_2\_new.png)
 
 **(3 a)** **Page Configuration**
 
 * Give your Status Page a **Name**
 * Enter the **Page Hostname** (eg: status.yourcompany.com or www.yourcompanystatus.com) where you want to host the Status Page
-* Copy the `CNAME` information
+* Copy the <mark style="color:red;">`CNAME`</mark> information
 * Click on **Save & Next** button
+
+![](../.gitbook/assets/statuspage\_3\_new.png)
 
 **(3 b)** **Service Configuration**
 
@@ -44,80 +58,133 @@ Ensure that the right Team is selected from the team picker at the top of the sc
 * You can also enable the checkbox **Select all services** to display your entire list of Services in your Team on the Status Page
 * Click on **Save & Create** to create the Status Page
 
+![](../.gitbook/assets/statuspage\_4\_new.png)
+
 **Note:** If the selected Service is dependent on other Services, then its dependent Services will also automatically be displayed in the Status Page.
+
+![](../.gitbook/assets/statuspage\_5\_new.png)
 
 ### Setting CNAME record <a href="#setting-cname-record" id="setting-cname-record"></a>
 
-When you try to view your Status Page by clicking on the Status Page or by visiting the `Page Hostname`, it will not be visible.
+When you try to view your Status Page by clicking on the Status Page or by visiting the <mark style="color:red;">`Page`</mark>` ```` `<mark style="color:red;">`Hostname`</mark>, it will not be visible.
 
-You would have to first add a CNAME record in your DNS Provider for the Page Hostname and point it to `status.squadcast.io`.
+![](../.gitbook/assets/statuspage\_7.png)
 
-**Note**: This step is necessary for you to complete irrespective of whether you are looking to have a [Public Status Page or a Private Status Page](broken-reference).
+You would have to first add a CNAME record in your DNS Provider for the Page Hostname and point it to <mark style="color:red;">`status.squadcast.io`</mark>.
+
+**Note**: This step is necessary for you to complete irrespective of whether you are looking to have a [Public Status Page or a Private Status Page](status-page.md).
+
+{% hint style="info" %}
+**Note: CAA Records Setup**
+
+All our Status Pages are served via `https` and we use a certificate generated by Letsencrypt, so if you had setup CAA record, please add `letsencrypt.org` to the CAA record list, if not added already. This will prevent certificate issues for your Status Page.
+{% endhint %}
 
 Once, the CNAME record has been added successfully, you can view the Status Page by clicking on its name from the **Status Page** tab.
 
+![](../.gitbook/assets/statuspage\_6\_new.png)
+
 You will be able to view your Status Page like shown in the image below.
+
+![](../.gitbook/assets/statuspage\_8\_new.png)
 
 ### Customizing your Status Page <a href="#customizing-your-status-page" id="customizing-your-status-page"></a>
 
 You can upload a _Logo_ and change the default _System Status_ texts by clicking on **Edit** and selecting **Header**.
 
+![](<../.gitbook/assets/statuspage\_9 (1).png>)
+
 Here, you can upload a logo for your Status Page and provide custom text for your Status Page. When all your displayed Services are healthy - Good Status (eg: Operational, All good!, etc.) and for when even one of your displayed Services have an incident - Bad Status (eg: Degraded, Oops.., Something is wrong, etc). There is another status, indicating when a Service is under maintenance - Under Maintenance Status.
 
+![](../.gitbook/assets/statuspage\_logo.png)
+
 This _status_ will update the Status Page’s overall _status_ in the _header_ section accordingly.
+
+![](<../.gitbook/assets/statuspage\_11 (1).png>)
 
 #### Configuring Service Status <a href="#configuring-service-status" id="configuring-service-status"></a>
 
 You can also configure the Service Status _text_ and the _representation colours_ by clicking on **Edit** and selecting **Service Status**.
 
-Here, you can customize the _text to be displayed for the `Service Status`_ on the right, and you can edit the _representation colours_ on the left by clicking on the `colour` option. You can also enter your own choice of colour by providing the HEX value for that colour.
+Here, you can customize the _text to be displayed for the <mark style="color:red;">`Service Status`</mark>_ on the right, and you can edit the _representation colours_ on the left by clicking on the <mark style="color:red;">`colour`</mark> option. You can also enter your own choice of colour by providing the HEX value for that colour.
+
+![](../.gitbook/assets/statuspage\_color.png)
 
 **Note**: You can see the changes reflecting in your screen by refreshing the screen.
+
+![](../.gitbook/assets/statuspage\_13.png)
 
 #### Changing the colour theme <a href="#changing-the-colour-theme" id="changing-the-colour-theme"></a>
 
 You can edit the _colour theme_ of your Status Page by clicking on **Edit** and selecting **Theme**.
 
-Then you can pick the colour of your choice from the visual colour picker or provide the colour values in either `HEX`, `RGBA` or `HSLA` formats, and then click the **Save** button.
+![](../.gitbook/assets/statuspage\_9.png)
 
-You can see the changes reflecting as shown below.
+Then you can pick the colour of your choice from the visual colour picker or provide the colour values in either <mark style="color:red;">`HEX`</mark>, <mark style="color:red;">`RGBA`</mark> or <mark style="color:red;">`HSLA`</mark> formats, and then click the **Save** button.
+
+![](../.gitbook/assets/statuspage\_14.png)
+
+You can see the changes reflected as shown below.
+
+![](../.gitbook/assets/statuspage\_15.png)
 
 ### Types of Status Page <a href="#types-of-status-page" id="types-of-status-page"></a>
 
 #### Public Status Page <a href="#public-status-page" id="public-status-page"></a>
 
-Now that you are done with all the customizations, it’s time to make the Status Page `public`, so all your customers/stakeholders/members of other Teams in your Organization/end users can view it.
+Now that you are done with all the customizations, it’s time to make the Status Page <mark style="color:red;">`public`</mark>, so all your customers/stakeholders/members of other Teams in your Organization/end users can view it.
 
-To make a Status Page `public`, go to **Edit** and check the **Make Public** check box as shown below.
+To make a Status Page <mark style="color:red;">`public`</mark>, go to **Edit** and check the **Make Public** check box as shown below.
+
+![](../.gitbook/assets/statuspage\_16.png)
 
 Now, anyone can publicly view the status page using the Public URL (Hostname URL), in this case, https://status.poniesareaweso.me.
 
+![](../.gitbook/assets/statuspage\_17.png)
+
 #### Private Status Page <a href="#private-status-page" id="private-status-page"></a>
 
-If you do not check the **Make Public** box in the **Edit** dropdown, your Status Page will be `Private` to the **members of your Team only**.
+If you do not check the **Make Public** box in the **Edit** dropdown, your Status Page will be <mark style="color:red;">`Private`</mark> to the **members of your Team only**.
+
+![](../.gitbook/assets/statuspage\_29\_new.png)
 
 **Note:**
 
 * To access a Private Status Page, you can either click on the **Name** of the Status Page or click on the **Hostname URL** for the Status Page and view the Status Page.
+
+![](../.gitbook/assets/statuspage\_32\_new.png)
+
 * You can also share the Squadcast URL (indicated by the green box) of the Private Status Page with members of your Team to easily access the Status Page (with an added user login step, if they are not already logged in to Squadcast)
 
 Whenever there is an incident for a displayed Service, that status of the Service will be marked as Degraded/Bad. You can post updates to the Status Page for the incident with **different statuses**.
 
-For a first update, you can add a status such as `Acknowledged`, `Investigating` and add relevant information in the **Description**.
+For a first update, you can add a status such as <mark style="color:red;">`Acknowledged`</mark>, <mark style="color:red;">`Investigating`</mark> and add relevant information in the **Description**.
 
 ### Posting Incident Updates to your Status Page <a href="#posting-incident-updates-to-your-status-page" id="posting-incident-updates-to-your-status-page"></a>
 
 Whenever there is an incident for a displayed Service, that status of the Service will be marked as Degraded/Bad. You can post updates to the Status Page for the incident with **different statuses**.
 
-For a first update, you can add a status such as `Acknowledged`, `Investigating` and add relevant information in the **Description**.
+For a first update, you can add a status such as <mark style="color:red;">`Acknowledged`</mark>, <mark style="color:red;">`Investigating`</mark> and add relevant information in the **Description**.
 
-As the incident state progresses, you can continue to post updates for its status like `Identified`, `Fix deployed`, `Resolved`, etc., and accompany it with relevant **Description**.
+As the incident state progresses, you can continue to post updates for its status like <mark style="color:red;">`Identified`</mark>, <mark style="color:red;">`Fix deployed`</mark>, <mark style="color:red;">`Resolved`</mark>, etc., and accompany it with relevant **Description**.
 
-In order to do this, go to the [Incident Details page](https://support.squadcast.com/docs/incident-details) for the incident. Click on the three dots on the top right of the incident and click on **Update Status Page**.
+In order to do this, go to the [Incident Details page](../incidents-page/incidents-details.md) for the incident. Click on the three dots on the top right of the incident and click on **Update Status Page**.
+
+![](../.gitbook/assets/statuspage\_19\_new.png)
 
 In the **Update Status Page** modal, enter the **Custom Status** and **Custom Description**, select the Status Page to which you want to post the update and click on the **Update** button.
 
+{% hint style="info" %}
+**Note: Markdown supported**
+
+The **Custom Description** field in the **Update Status Page** modal supports `Markdown` formatting.
+{% endhint %}
+
+![](../.gitbook/assets/statuspage\_20.png) ![](../.gitbook/assets/statuspage\_21.png) ![](../.gitbook/assets/statuspage\_22.png)
+
 These updates will be reflected in the selected Status Page under **Incident History**.
+
+![](../.gitbook/assets/statuspage\_23.png)
 
 #### Adding Attachments <a href="#adding-attachments" id="adding-attachments"></a>
 
@@ -149,13 +216,23 @@ You can edit the message updates posted on the Status Page.
 
 **(1)** Navigate to the **Status Page** from the sidebar
 
+![](<../.gitbook/assets/statuspage\_1\_new (1).png>)
+
 **(2)** Click on the **Status Page** you want to update
+
+![](../.gitbook/assets/statuspage\_newheader.png)
 
 You will find the icons to edit or delete a message to the right of the message posted.
 
 **(3)** Click on the **Edit** icon to edit the update. Make the necessary changes and click on the **Save** button
 
+![](<../.gitbook/assets/statuspage\_save (2).png>)
+
+![](../.gitbook/assets/edit\_icon.png)
+
 The edited message will be reflected under the Incident History.
+
+![](../.gitbook/assets/statuspage\_incidenthistory.png)
 
 #### Delete Status Page Message <a href="#delete-status-page-message" id="delete-status-page-message"></a>
 
@@ -163,17 +240,29 @@ You can delete the message updates previously posted on the Status Page.
 
 **(1)** Click on the **Delete** icon to delete the message
 
+![](../.gitbook/assets/delete\_icon.png)
+
 **(2)** Click on the **Delete** button again to confirm
+
+![](../.gitbook/assets/confirm\_delete.png)
 
 These updates will be reflected under the Incident History. The deleted message will be displayed as _‘This update was deleted’_.
 
+![](../.gitbook/assets/statuspage\_incident.png)
+
 Here is how the updated status messages look in the public Status Page.
+
+![](../.gitbook/assets/statuspage\_final.png)
 
 ### Enable Subscriptions to your Status Page <a href="#enable-subscriptions-to-your-status-page" id="enable-subscriptions-to-your-status-page"></a>
 
 To enable subscriptions to your Status Page, go to **Edit**, click on **Subscriptions** and check the **Enable Subscriptions** checkbox. **Subscribe** option will now show up on your public Status Page. You can have your end users **subscribe** for incident update notifications from the Status Page.
 
+![](../.gitbook/assets/statuspage\_24.png)
+
 You can select the **modes of subscription** you want to enable for your Status Page. You can select either or both the available options. Additionally, you can select the type of notifications that get sent to your subscribers, **Incident Updates**, **Maintenance**, or both.
+
+![](../.gitbook/assets/statuspage\_notifications.png)
 
 The available modes are:
 
@@ -183,9 +272,13 @@ You can add a suitable text on the sender’s email address text box from which 
 
 On the Status Page itself, you will now notice a placeholder to enter Email addresses like shown below. A _confirmation/verification_ Email is sent to the added Email address. Post the confirmation/verification completion, incident update notifications will be sent out.
 
+![](../.gitbook/assets/statuspage\_31\_new.png)
+
 **2. Webhook:**
 
 You can subscribe to receive incident update notifications via Webhooks as well. You can also enter an email address which gets notified when the endpoint fails.
+
+![](../.gitbook/assets/statuspage\_25.png)
 
 The payload format of the Webhook is as follows:
 
@@ -214,7 +307,7 @@ The payload format of the Webhook is as follows:
 
 **1. I am looking to have a public Status Page, I have most likely configured everything, yet when I access the Hostname URL, the Status Page does not load. Am I missing anything?**
 
-Please ensure that you have made your Status Page `Public`. Without [enabling this checkbox](broken-reference), your Status Page would be private and hence, not accessible via the Hostname URL.
+Please ensure that you have made your Status Page <mark style="color:red;">`Public`</mark>. Without [enabling this checkbox](status-page.md), your Status Page would be private and hence, not accessible via the Hostname URL.
 
 **2. I have confirmed that my Status Page is made Public and have added the CNAME record which is pointing to status.squadcast.io, yet I am unable to access the Status Page at the said Page Hostname**
 
@@ -227,15 +320,17 @@ If neither is applicable to you, kindly reach out to us for further assistance.
 
 **3. Even after making our Status Page public, when we try accessing the Hostname URL, we are redirected to Squadcast. What can we do to fix this?**
 
-If your Public Status Page is being redirected to your Squadcast account even after making it `Public`, please clear your application cache and try again. You may also additionally want to try accessing the Hostname URL from a private browsing window or another browser as well. Should this also not work, do reach out to us for further assistance.
+If your Public Status Page is being redirected to your Squadcast account even after making it <mark style="color:red;">`Public`</mark>, please clear your application cache and try again. You may also additionally want to try accessing the Hostname URL from a private browsing window or another browser as well. Should this also not work, do reach out to [us](mailto:support@squadcast.com) for further assistance.
 
-**4. I have added a CNAME record, configured the DNS settings as per Squadcast’s steps. Yet, I receive the error “Too many redirects” while accessing the Status Page. What could be possibly causing this?**
+**4. I have added a CNAME record, and configured the DNS settings as per Squadcast’s steps. Yet, I receive the error “Too many redirects” while accessing the Status Page. What could be possibly causing this?**
 
-This is possibly to do with the DNS changes (addition of CNAME record) that you recently made at your DNS Provider’s end (GoDaddy, CloudFlare, DigitalOcean, etc.). Please allow sometime (this might take upto 48 hours in extreme cases) for the DNS changes to fully propagate and take effect before you can access your public Status Page via the Hostname URL. Should this also not work, do reach out to us for further assistance.
+This is possibly to do with the DNS changes (addition of CNAME record) that you recently made at your DNS Provider’s end (GoDaddy, CloudFlare, DigitalOcean, etc.). Please allow some timeup to (this might take upto 48 hours in extreme cases) for the DNS changes to fully propagate and take effect before you can access your public Status Page via the Hostname URL. Should this also not work, do reach out to [us](mailto:support@squadcast.com) for further assistance.
 
 **5. Accessing a Private Status Page versus a Public Status Page**
 
 **Private Status Page URL** A Private Status Page’s URL can be shared with the team members who have access to Squadcast (added as users of the Squadcast account). Please note that it is not the custom URL (depicted in the red box) that is entered in the page configuration. It is the URL of the page in the app itself (depicted in the green box). The custom URL is valid only for public viewers of the Status Page, that is if you choose to make the Status Page public.
+
+![](../.gitbook/assets/statuspage\_18.png)
 
 **6. I have certain production Services running and I want to control the status of the Service displayed on my Status Page. Everytime the production Service has an incident, I do not want the status of that Service on my Status Page to be degraded. Is there a way for me to achieve this?**
 
@@ -243,16 +338,19 @@ Absolutely, we understand that you may have certain non-critical incidents also 
 
 * For each such Service of yours, create a duplicate Service to be displayed on the Status Page. This Service’s sole purpose is to appear on the Status Page, so you need not have to integrate this Service with your monitoring tools or route any alerts to it.
 * Choose to display this duplicate Service on your Status Page instead of your original production Service. Give it an Alias.
-* Every time your production Service has a severe incident/outage, you can create an incident manually for the duplicate Service and post incident updates to your Status Page for _this_ incident.
-* What this also means is, when you create the incident for this duplicate Service, its status on the Status Page will be degraded, representing the actual state at your end.
-* Once your outage/incident for the production Service is `resolved`, you can go ahead and resolve the incident that you previously created and post the incident update to your Status Page for the same.
+* Every time your production Service has a severe incident/outage, you can create an incident manually for the duplicate Service and post-incident updates to your Status Page for _this_ incident.
+* What this also means is, that when you create the incident for this duplicate Service, its status on the Status Page will be degraded, representing the actual state at your end.
+* Once your outage/incident for the production Service is <mark style="color:red;">`resolved`</mark>, you can go ahead and resolve the incident that you previously created and post the incident update to your Status Page for the same.
 
 **7. Can I receive notifications for Status Page Updates in Slack or Microsoft Teams?**
 
-* [Enable Subscriptions](broken-reference) for your Status Page
-* Obtain the **Email address** of the [Slack](https://slack.com/intl/en-in/help/articles/206819278-Send-emails-to-Slack#create-a-channel-email) or [MS Teams](https://support.microsoft.com/en-us/office/send-an-email-to-a-channel-in-teams-d91db004-d9d7-4a47-82e6-fb1b16dfd51e#bkmk\_send) channel where you would like to receive the notifications for Status Page updates
+* [Enable Subscriptions](status-page.md) for your Status Page
+* Obtain the **Email address** of the [Slack](../chatops/slack.md) or [MS Teams](../chatops/ms-teams.md) channel where you would like to receive the notifications for Status Page updates
 * Add all such Email addresses under **Subscriptions** -> **Email** and click on **Subscribe**
-* If there is an option to do so, ensure that you have added the SMTP Endpoint for Squadcast - `incidents.squadcast.com`
+
+![](../.gitbook/assets/statuspage\_27\_new.png)
+
+* If there is an option to do so, ensure that you have added the SMTP Endpoint for Squadcast - <mark style="color:red;">`incidents.squadcast.com`</mark>
 
 With this, every time there is an update posted to the Status Page for an incident, a notification for the same would appear in the Slack or MS Teams channel as well.
 
@@ -264,15 +362,19 @@ We currently do not have Public APIs for creating, managing subscriptions or upd
 
 The Email placeholder you see here is for Webhook usage confirmation/verification, not to receive incident update notifications via Email subscriptions. This Email address needs to be accessible and one must be able to verify the Email sent to this Email address in order to receive incident update notifications via the Webhook.
 
+![](../.gitbook/assets/statuspage\_28\_new.png)
+
 **10. I have added a Webhook under Subscribe option and when I click on Subscribe, it throws an error - “Webhook URL returned: 400”. Why is this happening?**
 
-We send out the [payloads in a particular format](broken-reference) to the added Webhook, and most likely, the payload format we send is not being accepted by the 3rd party platform. This is why you see a `Webhook URL returned: 400` error appear on the screen. In such cases, please check to see if the 3rd party platform can receive incident update notifications in the form of an Email or if you can modify the accepted payload format on their platform.
+We send out the [payloads in a particular format](status-page.md) to the added Webhook, and most likely, the payload format we send is not being accepted by the 3rd party platform. This is why you see a <mark style="color:red;">`Webhook URL returned: 400`</mark> error appears on the screen. In such cases, please check to see if the 3rd party platform can receive incident update notifications in the form of an Email or if you can modify the accepted payload format on their platform.
 
 Yes, it is recommended that you use an image with dimensions _1300x250_ for best results.
 
 **12. Will the status of my displayed dependent Services be updated independently of the status of the parent Service?**
 
-Yes, that is correct. Only the Services that have an open incident (incident in `Triggered` or `Acknowledged` states) will be depicted as `Degraded` or its equivalent.
+Yes, that is correct. Only the Services that have an open incident (an incident in <mark style="color:red;">`Triggered`</mark> or <mark style="color:red;">`Acknowledged`</mark> states) will be depicted as <mark style="color:red;">`Degraded`</mark> or it's equivalent.
+
+![](<../.gitbook/assets/statuspage\_30\_new (1).png>)
 
 **13. What is the Incident History retention/data display period by default?**
 
@@ -284,7 +386,7 @@ Yes, you can edit previously posted incident updates to the Status Page.
 
 **15. I want to display more information for my incident, for example, time according to my local timezone or the Incident Details. Is this possible?**
 
-Yes, absolutely! You can add any information you want to provide maximum context of the ongoing issue to your end users within the **Custom Description** placeholder that supports `Markdown` formatting as well.
+Yes, absolutely! You can add any information you want to provide maximum context of the ongoing issue to your end users within the **Custom Description** placeholder that supports <mark style="color:red;">`Markdown`</mark> formatting as well.
 
 **16. How many Status Pages can I add in my current plan? Can I add both Private and Public Status Pages?**
 

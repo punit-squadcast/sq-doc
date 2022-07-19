@@ -6,6 +6,7 @@ summary: Send alerts to Squadcast from Grafana 8
 sidebar: mydoc_sidebar
 permalink: docs/grafana-8
 folder: mydoc
+description: Send alerts to Squadcast from Grafana 8
 ---
 
 # Grafana 8

@@ -14,7 +14,7 @@ Users are anyone from your team who are on the Squadcast platform. You can acces
 
 Users have various roles within the platform:
 
-### **Role: Account Owner**
+#### **Role: Account Owner** <a href="#role_account_owner" id="role_account_owner"></a>
 
 An Account Owner has the ability to:
 
@@ -28,7 +28,7 @@ An Account Owner has the ability to:
 8. Add/edit/delete postmortem templates
 9. Change the account owner or delete the account
 
-### **Role: Admin**
+#### **Role: Admin** <a href="#role_admin" id="role_admin"></a>
 
 An Admin can:
 
@@ -43,7 +43,7 @@ An Admin can:
 
 Admins cannot change or delete the Account Owner and do not have access to billing information.
 
-### **Role: User**
+#### **Role: User**
 
 A user can:
 
@@ -52,7 +52,7 @@ A user can:
 3. Create/edit/delete services
 4. Create/edit/update/delete Status Page
 
-### **Role: Stakeholder**
+#### **Role: Stakeholder**
 
 A stakeholder can:
 
@@ -69,7 +69,7 @@ Alert Forwarding is used to forward one’s alerts to another on-call user for a
 
 ### My Profile <a href="#my-profile" id="my-profile"></a>
 
-**My profile** holds the name and contact information such as phone number, SMS number, email address that is associated with a user’s profile. My profile page shows the squads, schedules and escalation policies that the user is a part of along with the details of his MTTA, MTTR for that particular organization.
+****[**My profile**](../manage-users/manage-your-profile.md) holds the name and contact information such as phone number, SMS number, email address that is associated with a user’s profile. My profile page shows the squads, schedules and escalation policies that the user is a part of along with the details of his MTTA, MTTR for that particular organization.
 
 You can access other users’ profiles by clicking on the **User** icon against their name from the **Users** page on the navigation sidebar.
 
@@ -77,7 +77,7 @@ Note: You will only be able to set your notification rules - rules for how you w
 
 ### Notification Rules <a href="#notification-rules" id="notification-rules"></a>
 
-**Notification rules** are rules that determine how an individual user is notified of an incident assigned to them. You can set up rules to notify you on any of the following notification channels:
+****[**Notification rules**](../manage-users/notification-rules.md) are rules that determine how an individual user is notified of an incident assigned to them. You can set up rules to notify you on any of the following notification channels:
 
 1. Phone Call
 2. SMS
@@ -88,7 +88,7 @@ You can set up a rule to be notified immediately after an incident trigger or at
 
 ### Dashboard <a href="#dashboard" id="dashboard"></a>
 
-The **dashboard page** is the first screen that appears when you log in to your Squadcast account. You can access it from the first option on the navigation sidebar.
+The **Dashboard page** is the first screen that appears when you log in to your Squadcast account. You can access it from the first option on the navigation sidebar.
 
 The dashboard page has two sections: Summary Section: The top of the page holds the incident summary where you will be able to see the number of incidents distributed by their state.
 
@@ -105,7 +105,7 @@ The dashboard functionalities:
 
 ### Alert <a href="#alert" id="alert"></a>
 
-An alert is an incoming JSON sent to Squadcast from any alerting tool. Alerts are sent into Squadcast through [**alert source integrations**](https://www.squadcast.com/integrations) that you can find here. Alerts can be of different types - informational, warnings or actionable. You will also be able to send in alerts through our **API** or **Email integration**.
+An Alert is an incoming JSON sent to Squadcast from any alerting tool. Alerts are sent into Squadcast through [**alert source integrations**](https://www.squadcast.com/integrations) that you can find here. Alerts can be of different types - informational, warnings or actionable. You will also be able to send in alerts through our [**API**](../integrations/incident-webhook-incident-webhook-api.md) or [**Email Integration**](../integrations/alert-source-integrations-native/email.md).
 
 ### Incident <a href="#incident" id="incident"></a>
 
@@ -152,11 +152,11 @@ Note: The MTTR is calculated as a separate metric for every organization that yo
 
 ### Squad <a href="#squad" id="squad"></a>
 
-**Squad** is a group/ team of users configured on the platform. Typically, squads are created to represent your current on-call organization or team structure (ex: backend squad, frontend squad or website monitoring squad, payment portal squad). Squads can be added to escalation policies. When an incident is assigned to a squad, the first one in the squad to acknowledge will be the incident owner and the **Assigned to** information for the incident will change to that user’s name. You can access squads from the navigation sidebar.
+****[**Squad**](../manage-teams/squads.md) is a group/ team of users configured on the platform. Typically, squads are created to represent your current on-call organization or team structure (ex: backend squad, frontend squad or website monitoring squad, payment portal squad). Squads can be added to escalation policies. When an incident is assigned to a squad, the first one in the squad to acknowledge will be the incident owner and the **Assigned to** information for the incident will change to that user’s name. You can access squads from the navigation sidebar.
 
 ### Escalation Policies <a href="#escalation-policies" id="escalation-policies"></a>
 
-An **escalation policy** is the chain of escalations that determine who should be notified first, second and so on, when an incident is triggered. Escalation policies are attached to a specific service. The same escalation policy can be attached to multiple services. You can access escalation policies from the navigation sidebar.
+An [**Escalation Policy**](../escalation-policies/create-and-manage-escalation-policies.md) is the chain of escalations that determine who should be notified first, second and so on, when an incident is triggered. Escalation policies are attached to a specific service. The same escalation policy can be attached to multiple services. You can access escalation policies from the navigation sidebar.
 
 Escalation policies can have users, multiple users, squads, and schedules.
 
@@ -177,16 +177,16 @@ If the incident still remains in the triggered state after the notifications hav
 
 ### Services <a href="#services" id="services"></a>
 
-**Services** are at the core of Squadcast. A service represents an application or component that is crucial for your product or service.\
-Services are created with an alert source integration through which incidents are triggered. Services also holds the configuration engine that determines the suppression, tagging and routing rules for incidents triggered for that service. You can also set a service on Maintenance mode to disable incidents and notifications for a period of time that your service will be under maintenance.
+****[**Services**](../services/adding-a-service.md) are at the core of Squadcast. A service represents an application or component that is crucial for your product or service.\
+Services are created with an alert source integration through which incidents are triggered. Services also hold the configuration engine that determines the suppression, tagging and routing rules for incidents triggered for that service. You can also set service on Maintenance mode to disable incidents and notifications for a period of time that your service will be under maintenance.
 
 ### Alert Source Integrations <a href="#alert-source-integrations" id="alert-source-integrations"></a>
 
-An alert source integration is used to integrate with any monitoring, logging or tracing tool. Alert source integrations can be configured for services. You can also choose to send in alerts for a service using the API or email integrations. View our list of alert source integrations [**here**](https://www.squadcast.com/integrations). Feel free to write to **\[email protected]** if you need an integration you don’t see in our list.
+An Alert Source Integration is used to integrate with any monitoring, logging or tracing tool. Alert source integrations can be configured for services. You can also choose to send in alerts for a service using the API or email integrations. View our list of alert source integrations [**here**](https://www.squadcast.com/integrations). Feel free to write to [**support@squadcast.com**](mailto:support@squadcast.com) if you need an integration you don’t see in our list.
 
 ### Service Levels <a href="#service-levels" id="service-levels"></a>
 
-**Service levels** are attached to services and connect to the SLO dashboard. Service Levels are Service Level Objectives that you define for each service and can be configured for a service from the service page. Today, the configuration is made through our open source SDK, DEX. DEX SDK is available in Golang and NodeJS.
+**Service Levels** are attached to services and connect to the SLO dashboard. Service Levels are Service Level Objectives that you define for each service and can be configured for a service from the service page. Today, the configuration is made through our open source SDK, DEX. DEX SDK is available in Golang and NodeJS.
 
 You can add multiple Service Level Indicators that make up the Service Level Objective for a service. Today you can choose from Latency, Memory and Status Code for Service Level Indicators.
 
@@ -196,7 +196,7 @@ You can add multiple Service Level Indicators that make up the Service Level Obj
 
 ### Service Level Indicator (SLI) <a href="#service-level-indicator-sli" id="service-level-indicator-sli"></a>
 
-**Service Level Indicators** (SLIs) are metrics that can be monitored and can act as quantifiable indicators of the quality of the service you provide to your customers. They are a direct measurement of a service’s behavior and are typically documented in service level agreements (SLAs), as well as in service level objectives (SLOs). Some examples of SLIs are latency, availability, error rate and system throughput. Today, the platform allows for 3 SLIs - Latency, Memory and Status Code but we’re working on a new version that will allow you to pull in any metrics from tools of your choice and also allow you to add custom SLIs.
+****[**Service Level Indicators**](../slo-tracker/slo-basics.md) (SLIs) are metrics that can be monitored and can act as quantifiable indicators of the quality of the service you provide to your customers. They are a direct measurement of a service’s behaviour and are typically documented in service level agreements (SLAs), as well as in-service level objectives (SLOs). Some examples of SLIs are latency, availability, error rate and system throughput. Today, the platform allows for 3 SLIs - Latency, Memory and Status Code but we’re working on a new version that will allow you to pull in any metrics from tools of your choice and also allow you to add custom SLIs.
 
 ### Service Level Objective (SLO) <a href="#service-level-objective-slo" id="service-level-objective-slo"></a>
 
@@ -222,21 +222,21 @@ So if an SLO for a service is indicated as an Availability of 99.5%, then this s
 
 ### SLO Summary <a href="#slo-summary" id="slo-summary"></a>
 
-The **SLO summary** is a visual representation of your services’ health. Note that only the services for which service levels are configured will show up on the SLO dashboard.
+The [**SLO summary**](../slo-tracker/slo-basics.md) is a visual representation of your services’ health. Note that only the services for which service levels are configured will show up on the SLO dashboard.
 
 ### Maintenance Mode <a href="#maintenance-mode" id="maintenance-mode"></a>
 
-**Maintenance mode** is used to temporarily disable notifications for a service for a set period of time. incidents triggered when a service is on maintenance mode will automatically go into the **suppressed** state. No notifications will be sent when a service is under maintenance.
+****[**Maintenance Mode**](../services/maintenance-mode.md) is used to temporarily disable notifications for a service for a set period of time. incidents triggered when a service is on maintenance mode will automatically go into the **suppressed** state. No notifications will be sent when a service is under maintenance.
 
 You can add multiple maintenance windows or schedule a recurring maintenance windows.
 
 ### Tags <a href="#tags" id="tags"></a>
 
-**Incident tags** are used to add more context to your incident and helps classify incidents. You can configure tags from **Tagging Rules** associated with a service. You can choose to configures rules with an incident JSON to automatically add tags when incidents are triggered. To know more about how to configure this, **click here**. You can add as many tags and map them with relevant information to add more context to the incident.
+****[**Incident Tags**](../services/event-tagging.md) are used to add more context to your incident and helps classify incidents. You can configure tags from **Tagging Rules** associated with a service. You can choose to configures rules with an incident JSON to automatically add tags when incidents are triggered. To know more about how to configure this, [**click here**](../services/event-tagging.md). You can add as many tags and map them with relevant information to add more context to the incident.
 
 ### Routing Rules <a href="#routing-rules" id="routing-rules"></a>
 
-**Alert routing** allows you to configure rules to ensure that alerts are routed to the right responder with the help of event tags attached to each alert.Routing is a part of the rules engine associated with each service. You can access **routing rules** from a service’s options dropdown.
+****[**Alert Routing**](../services/alert-routing.md) allows you to configure rules to ensure that alerts are routed to the right responder with the help of event tags attached to each alert.Routing is a part of the rules engine associated with each service. You can access **routing rules** from a service’s options dropdown.
 
 Note that this rule will override the escalation policy attached to the service. This is typically used in cases where severities are configured via tags and each severity type is to be handle by a different level of on-call user.
 
@@ -267,33 +267,33 @@ Rotation layers are used to create a fallback layer for when there are gaps in a
 ### Extensions (Integrations) <a href="#extensions-integrations" id="extensions-integrations"></a>
 
 Extensions are deeper integrations with tools where actions can be taken from within the platform to reflect on the tool as well. Within Squadcast, this is called **Integrations** and can be found on the navigation sidebar.\
-Typically, extensions augment your incident management process by connecting with other tools where actions are required. Typically, ITSM, Communication, Web conferencing, Version Control, CI/CD, SSO tools would act as extensions.
+Typically, extensions augment your incident management process by connecting with other tools where actions are required. Typically, ITSM, Communication, Web conferencing, Version Control, CI/CD, and SSO tools would act as extensions.
 
 ### Incident Page <a href="#incident-page" id="incident-page"></a>
 
 The incident page holds all the details associated with an incident. Each incident will open into an incident page. The page holds 3 main sections:
 
-* **Incident details** - Top of the page
-* **Incident Notes** - Below the incident details section
-* **Incident Timeline** - Right vertical section of the page
+* ****[**Incident Details**](../incidents-page/incidents-details.md) - Top of the page
+* ****[**Incident Notes**](../incidents-page/incident-notes.md) - Below the incident details section
+* ****[**Incident Timeline**](../incidents-page/incident-activity-timeline.md) - Right vertical section of the page
 
-The **Incident details** give you context of the incident by holding details such as - the name, description, impacted service, alert source and tag(s) on the top of the page. The page also holds all the actions you can take on the incident:
+The [**Incident Details**](../incidents-page/incidents-details.md) give you the context of the incident by holding details such as - the name, description, impacted service, alert source and tag(s) on the top of the page. The page also holds all the actions you can take on the incident:
 
 * Acknowledge
 * Resolve
 * More Actions
 
-Right below is the **Incident Notes**, a chat interface where you can call in other users for help to collaboratively resolve an incident.
+Right below is the [**Incident Notes**](../incidents-page/incident-notes.md), a chat interface where you can call in other users for help to collaboratively resolve an incident.
 
-The section on the right is the **incident timeline**, that holds all the activity associated with the incident resolution. This is an automated, realtime data chain that can be downloaded in PDF and MD formats.
+The section on the right is the [**Incident Timeline**](../incidents-page/incident-activity-timeline.md), which holds all the activity associated with the incident resolution. This is an automated, real-time data chain that can be downloaded in PDF and MD formats.
 
 ### Incident Notes <a href="#incident-notes" id="incident-notes"></a>
 
-**Incident Notes** is an incident specific chat room where you can call in your peers and collaboratively resolve an incident. Every person involved in the chat will also receive mobile push notifications if he is not online. You will also be able to sync your slack channel to ensure that any message on slack is on Squadcast and vice versa. This can also be used when an SME or additional support is needed for some inputs during the resolution process but needn’t be an active part of the entire incident resolution. You can add and remove users from the room once their participation comes to an end.
+****[**Incident Notes**](../incidents-page/incident-notes.md) is an incident-specific chat room where you can call in your peers and collaboratively resolve an incident. Every person involved in the chat will also receive mobile push notifications if he is not online. You will also be able to sync your slack channel to ensure that any message on slack is on Squadcast and vice versa. This can also be used when an SME or additional support is needed for some inputs during the resolution process but needn’t be an active part of the entire incident resolution. You can add and remove users from the room once their participation comes to an end.
 
 ### Incident Timeline <a href="#incident-timeline" id="incident-timeline"></a>
 
-You can access the **Incident Timeline** by visiting the Incident Details page in the web app and the timeline will be displayed on the right-hand side of the page. The Incident Timeline will display the timeline of the incident in reverse chronological order as to when the incident was first Triggered and Assigned, who Acknowledged it or Re-assigned and who resolved them and when. The incident timeline can be exported in PD and MD formats.
+You can access the [**Incident Timeline**](../incidents-page/incident-activity-timeline.md) by visiting the Incident Details page in the web app and the timeline will be displayed on the right-hand side of the page. The Incident Timeline will display the timeline of the incident in reverse chronological order as to when the incident was first Triggered and Assigned, who Acknowledged it or Re-assigned it and who resolved them and when. The incident timeline can be exported in PD and MD formats.
 
 ### Squadcast Actions <a href="#squadcast-actions" id="squadcast-actions"></a>
 
@@ -301,37 +301,37 @@ You can access the **Incident Timeline** by visiting the Incident Details page i
 
 Today the platform has the following Actions:
 
-1. **Circle CI**
-2. **Squadcast Runbooks**
-3. **JIRA Cloud**
-4. **JIRA Server (on premise)**
+1. ****[**Circle CI**](../integrations/extensions/circleci.md)****
+2. ****[**Squadcast Runbooks**](../runbooks/runbooks.md)****
+3. ****[**JIRA Cloud**](../integrations/extensions/jira-cloud.md)****
+4. ****[**JIRA Server (on premise)**](../integrations/extensions/jira-server-on-premise.md)****
 
 Some simple examples of actions are rebuilding your project, rolling back to the previous build, rebooting a server. You can choose to build a repository of any actions, even more complex ones to take action from Squadcast.
 
 ### Circle CI Actions <a href="#circle-ci-actions" id="circle-ci-actions"></a>
 
-Squadcast supports actions such as Rebuilding [**CircleCI**](https://support.squadcast.com/docs/circleci-integration) projects directly from the incident page by clicking the **More Actions** button. The link to the project status will be added to the timeline and you should be able to click on the link to view the status from Squadcast.
+Squadcast supports actions such as Rebuilding [**CircleCI**](https://support.squadcast.com/docs/circleci-integration) projects directly from the incident page by clicking the **More Actions** button. The link for the project status will be added to the timeline and you should be able to click on the link to view the status from Squadcast.
 
 ### Squadcast Runbooks <a href="#squadcast-runbooks" id="squadcast-runbooks"></a>
 
-**Squadcast Runbooks** are executable scripts that you can create and store within the platform to execute when repetitive incidents are triggered. You can execute Squadcast Runbooks from the **More Actions** button on the . incident page and resolve your incidents quickly and bring down your MTTR significantly. The link to the status of the script execution will be added to the timeline and you should be able to see the status of the same within Squadcast.
+****[**Squadcast Runbooks**](../runbooks/runbooks.md) are executable scripts that you can create and store within the platform to execute when repetitive incidents are triggered. You can execute Squadcast Runbooks from the **More Actions** button on the . incident page and resolve your incidents quickly and bring down your MTTR significantly. The link to the status of the script execution will be added to the timeline and you should be able to see the status of the same within Squadcast.
 
 ### JIRA Cloud & Server <a href="#jira-cloud--server" id="jira-cloud--server"></a>
 
-The **JIRA Cloud** and **JIRA Server** Actions allow you to create tickets in JIRA with the incidents from Squadcast and sync status bidirectionally. You can access this by clicking on the **More Actions** button from the incident page. This is especially helpful if you have some tasks for longer term remediation of a particular incident or project.
+The [**JIRA Cloud**](../integrations/extensions/jira-cloud.md) and [**JIRA Server**](../integrations/extensions/jira-server-on-premise.md) Actions allow you to create tickets in JIRA with the incidents from Squadcast and sync status bidirectionally. You can access this by clicking on the **More Actions** button from the incident page. This is especially helpful if you have some tasks for longer-term remediation of a particular incident or project.
 
 ### Postmortem <a href="#postmortem" id="postmortem"></a>
 
-An **Incident postmortem** is a post-incident review of all the activity pertaining to resolving the incident. Typically, an incident postmortem should contain details of the incident, impacted service, alert source, dependant services, timeline of resolution activity, users involved, corrective & remediation actions and lessons learned.
+An [**Incident Postmortem**](../postmortems/create-postmortems.md) is a post-incident review of all the activity pertaining to resolving the incident. Typically, an incident postmortem should contain details of the incident, impacted service, alert source, dependant services, timeline of resolution activity, users involved, corrective & remediation actions and lessons learned.
 
 You can create an incident postmortem from within an incident page once the incident is resolved from the options icon on the right corner of the incident details section. You can choose from several popularly used postmortem templates or have your admin/ account owner create one for your organization.
 
 ### Status Page <a href="#status-page" id="status-page"></a>
 
-**Status Page** helps you communicate the status of your services to your customers or internal teams at all times as opposed to you getting to know the status of your service though support tickets. You can access Status Page from the navigation sidebar.
+****[**Status Page**](../status-page/status-page.md) helps you communicate the status of your services to your customers or internal teams at all times as opposed to you getting to know the status of your service through support tickets. You can access Status Page from the navigation sidebar.
 
 Status Pages can either be public (accessible by everyone) or private (accessible by just your team on Squadcast) on Squadcast. You can also add a subscription option for your public status page so customers are automatically informed of any updates on the Status Page.
 
 ### Analytics <a href="#analytics" id="analytics"></a>
 
-The **Analytics page** helps you see how your organisation has performed in a given time period by providing you the hard numbers in easy to understand graphs and charts. You will be able to view the SLO dashboard, number of incidents by the state, MTTA and MTTR analysis. You can also filter reports based on the impacted service and the organization for which the incidents were triggered.
+The [**Analytics page**](../analytics/analytics.md) helps you see how your organisation has performed in a given time period by providing you the hard numbers in easy to understand graphs and charts. You will be able to view the SLO dashboard, number of incidents by the state, MTTA and MTTR analysis. You can also filter reports based on the impacted service and the organization for which the incidents were triggered.

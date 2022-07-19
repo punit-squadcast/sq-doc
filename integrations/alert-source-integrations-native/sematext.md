@@ -9,6 +9,7 @@ summary: Send alerts to Squadcast from Sematext
 sidebar: mydoc_sidebar
 permalink: docs/sematext
 folder: mydoc
+description: Send alerts to Squadcast from Sematext
 ---
 
 # Sematext
@@ -56,8 +57,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 That's it! Your Sematext integration is now good to go.
 
 \{{site.data.alerts.blue-note\}} **FAQ:**\
-\
-
+\\
 
 Q: If an alert gets resolved in Sematext, does it send auto-resolve signals to Squadcast?\
 \

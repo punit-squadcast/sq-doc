@@ -9,6 +9,7 @@ keywords: null
 summary: Get alerts from Elastic into Squadcast (using Watcher Alerting)
 last_updated: null
 folder: mydoc
+description: Get alerts from Elastic into Squadcast (using Watcher Alerting)
 ---
 
 # Elastic
@@ -48,8 +49,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 Now given the configurable nature of how Watcher alerting works in Elastic, we can generate our own custom alerts for almost anything we are monitoring in Elastic. Also, the payload JSON to be sent is defined by the user himself.
 
 \{{site.data.alerts.blue-note\}} **Note:**\
-\
-
+\\
 
 * In this document, we'll go through setting up a watcher for monitoring the **Heath of the Elastic Cluster** as a sample criteria for triggering alerts.
 * We have assumed that the elasticsearch server is running at http://localhost:9200

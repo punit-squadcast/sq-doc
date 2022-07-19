@@ -6,6 +6,7 @@ summary: Send alerts to Squadcast from Graylog v4
 sidebar: mydoc_sidebar
 permalink: docs/graylog-v4
 folder: mydoc
+description: Send alerts to Squadcast from Graylog v4
 ---
 
 # Graylog v4
@@ -69,8 +70,7 @@ An Alert Source is active if there is a recorded incident via that Alert Source 
 That is it, you are now good to go! Whenever an alert is triggered in Graylog v4, an incident will be created automatically in Squadcast.
 
 \{{site.data.alerts.blue-note\}} **FAQ:**\
-\
-
+\\
 
 Q: If an alert gets resolved in Graylog v4, does Graylog v4 send auto-resolve signals to Squadcast?\
 \
